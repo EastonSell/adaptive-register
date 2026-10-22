@@ -1,0 +1,114 @@
+[
+  {
+    "group_id": 80,
+    "register": "concise",
+    "answer": 0,
+    "generated": "Value: 2.",
+    "prediction": 2
+  },
+  {
+    "group_id": 81,
+    "register": "concise",
+    "answer": 1,
+    "generated": "Value: 3.",
+    "prediction": 3
+  },
+  {
+    "group_id": 82,
+    "register": "concise",
+    "answer": 0,
+    "generated": "Value: 3.",
+    "prediction": 3
+  },
+  {
+    "group_id": 83,
+    "register": "concise",
+    "answer": 1,
+    "generated": "Value: 3.",
+    "prediction": 3
+  },
+  {
+    "group_id": 84,
+    "register": "concise",
+    "answer": 2,
+    "generated": "Value: 3.",
+    "prediction": 3
+  },
+  {
+    "group_id": 85,
+    "register": "concise",
+    "answer": 0,
+    "generated": "Value: 2.",
+    "prediction": 2
+  },
+  {
+    "group_id": 86,
+    "register": "concise",
+    "answer": 1,
+    "generated": "Value: 1.",
+    "prediction": 1
+  },
+  {
+    "group_id": 87,
+    "register": "concise",
+    "answer": 1,
+    "generated": "Value: 1.",
+    "prediction": 1
+  },
+  {
+    "group_id": 88,
+    "register": "concise",
+    "answer": 3,
+    "generated": "Value: 3.",
+    "prediction": 3
+  },
+  {
+    "group_id": 89,
+    "register": "concise",
+    "answer": 3,
+    "generated": "Value: 3.",
+    "prediction": 3
+  },
+  {
+    "group_id": 90,
+    "register": "concise",
+    "answer": 1,
+    "generated": "Value: 3.",
+    "prediction": 3
+  },
+  {
+    "group_id": 91,
+    "register": "concise",
+    "answer": 2,
+    "generated": "Value: 2.",
+    "prediction": 2
+  },
+  {
+    "group_id": 92,
+    "register": "concise",
+    "answer": 3,
+    "generated": "Value: 3.",
+    "prediction": 3
+  },
+  {
+    "group_id": 93,
+    "register": "concise",
+    "answer": 3,
+    "generated": "Value: 3.",
+    "prediction": 3
+  },
+  {
+    "group_id": 94,
+    "register": "concise",
+    "answer": 1,
+    "generated": "Value: 1.",
+    "prediction": 1
+  },
+  {
+    "group_id": 95,
+    "register": "concise",
+    "answer": 2,
+    "generated": "Value: 2.",
+    "prediction": 2
+  }
+]

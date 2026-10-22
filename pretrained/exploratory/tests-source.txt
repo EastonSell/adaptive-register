@@ -1,0 +1,13 @@
+test_all_four_correct (test_probe.ProbeTests.test_all_four_correct) ... ok
+test_conflicting_answers_recorded (test_probe.ProbeTests.test_conflicting_answers_recorded) ... ok
+test_duplicate_or_missing_register_refused (test_probe.ProbeTests.test_duplicate_or_missing_register_refused) ... ok
+test_fourth_only_changes_requested_label (test_probe.ProbeTests.test_fourth_only_changes_requested_label) ... ok
+test_invalid_outputs_not_counted_as_answer_agreement (test_probe.ProbeTests.test_invalid_outputs_not_counted_as_answer_agreement) ... ok
+test_output_dir_reuse_refused_before_loading (test_probe.ProbeTests.test_output_dir_reuse_refused_before_loading) ... ok
+test_partial_generation_retained_on_interrupt (test_probe.ProbeTests.test_partial_generation_retained_on_interrupt) ... ok
+test_prompt_plan_preserves_original_three (test_probe.ProbeTests.test_prompt_plan_preserves_original_three) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK

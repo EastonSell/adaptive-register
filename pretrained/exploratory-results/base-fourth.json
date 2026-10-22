@@ -1,0 +1,114 @@
+[
+  {
+    "group_id": 80,
+    "register": "concise",
+    "answer": 0,
+    "generated": "The green slot is filled with a value of 2.",
+    "prediction": null
+  },
+  {
+    "group_id": 81,
+    "register": "concise",
+    "answer": 1,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 82,
+    "register": "concise",
+    "answer": 0,
+    "generated": "The record is: red=0, blue=1, green=3, yellow=3.",
+    "prediction": null
+  },
+  {
+    "group_id": 83,
+    "register": "concise",
+    "answer": 1,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 84,
+    "register": "concise",
+    "answer": 2,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 1\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 85,
+    "register": "concise",
+    "answer": 0,
+    "generated": "The yellow slot is a combination of red and blue, which is a common color combination in many types of music.",
+    "prediction": null
+  },
+  {
+    "group_id": 86,
+    "register": "concise",
+    "answer": 1,
+    "generated": "The record is: red=1, blue=3, green=3, yellow=1.",
+    "prediction": null
+  },
+  {
+    "group_id": 87,
+    "register": "concise",
+    "answer": 1,
+    "generated": "The record is: red=1, blue=1, green=1, yellow=3.",
+    "prediction": null
+  },
+  {
+    "group_id": 88,
+    "register": "concise",
+    "answer": 3,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 89,
+    "register": "concise",
+    "answer": 3,
+    "generated": "The blue slot is filled with the following values:\n\n- Red: 0\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 90,
+    "register": "concise",
+    "answer": 1,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 2\n- Blue: 2",
+    "prediction": null
+  },
+  {
+    "group_id": 91,
+    "register": "concise",
+    "answer": 2,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 1\n- Blue: 1",
+    "prediction": null
+  },
+  {
+    "group_id": 92,
+    "register": "concise",
+    "answer": 3,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 93,
+    "register": "concise",
+    "answer": 3,
+    "generated": "The blue slot is filled with the following values:\n\n- Red: 1\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 94,
+    "register": "concise",
+    "answer": 1,
+    "generated": "The green slot is a 1-bit slot, and the value is 1.",
+    "prediction": null
+  },
+  {
+    "group_id": 95,
+    "register": "concise",
+    "answer": 2,
+    "generated": "The record is: red=2, blue=0, green=1, yellow=2.",
+    "prediction": null
+  }
+]

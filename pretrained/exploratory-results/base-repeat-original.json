@@ -1,0 +1,338 @@
+[
+  {
+    "group_id": 80,
+    "register": "introductory",
+    "answer": 0,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 0\n- Blue: 0",
+    "prediction": null
+  },
+  {
+    "group_id": 80,
+    "register": "working",
+    "answer": 0,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 0\n- Blue: 0",
+    "prediction": null
+  },
+  {
+    "group_id": 80,
+    "register": "technical",
+    "answer": 0,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 0\n- Blue: 0",
+    "prediction": null
+  },
+  {
+    "group_id": 81,
+    "register": "introductory",
+    "answer": 1,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 81,
+    "register": "working",
+    "answer": 1,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 3\n- Blue: 1",
+    "prediction": null
+  },
+  {
+    "group_id": 81,
+    "register": "technical",
+    "answer": 1,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 82,
+    "register": "introductory",
+    "answer": 0,
+    "generated": "The record is: red=0, blue=1, green=3, yellow=3.",
+    "prediction": null
+  },
+  {
+    "group_id": 82,
+    "register": "working",
+    "answer": 0,
+    "generated": "The answer to the question \"What is in the red slot?\" is:\n\nThe answer is: yellow",
+    "prediction": null
+  },
+  {
+    "group_id": 82,
+    "register": "technical",
+    "answer": 0,
+    "generated": "The requested register is: technical.",
+    "prediction": null
+  },
+  {
+    "group_id": 83,
+    "register": "introductory",
+    "answer": 1,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 83,
+    "register": "working",
+    "answer": 1,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 3\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 83,
+    "register": "technical",
+    "answer": 1,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 84,
+    "register": "introductory",
+    "answer": 2,
+    "generated": "The green slot is a 3-digit slot with a value of 0.",
+    "prediction": null
+  },
+  {
+    "group_id": 84,
+    "register": "working",
+    "answer": 2,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 1\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 84,
+    "register": "technical",
+    "answer": 2,
+    "generated": "The green slot is a 3-digit slot with a value of 0.",
+    "prediction": null
+  },
+  {
+    "group_id": 85,
+    "register": "introductory",
+    "answer": 0,
+    "generated": "The yellow slot is a 2-digit number, and the value is 2.",
+    "prediction": null
+  },
+  {
+    "group_id": 85,
+    "register": "working",
+    "answer": 0,
+    "generated": "The yellow slot is a blank space in the record.",
+    "prediction": null
+  },
+  {
+    "group_id": 85,
+    "register": "technical",
+    "answer": 0,
+    "generated": "The yellow slot is a 3-digit slot that contains the value 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 86,
+    "register": "introductory",
+    "answer": 1,
+    "generated": "The record is: red=1, blue=3, green=3, yellow=1.",
+    "prediction": null
+  },
+  {
+    "group_id": 86,
+    "register": "working",
+    "answer": 1,
+    "generated": "The answer to the question \"What is in the red slot?\" is: \"The red slot is a 3-",
+    "prediction": null
+  },
+  {
+    "group_id": 86,
+    "register": "technical",
+    "answer": 1,
+    "generated": "The requested register is: technical.",
+    "prediction": null
+  },
+  {
+    "group_id": 87,
+    "register": "introductory",
+    "answer": 1,
+    "generated": "The record is: red=1, blue=1, green=1, yellow=3.",
+    "prediction": null
+  },
+  {
+    "group_id": 87,
+    "register": "working",
+    "answer": 1,
+    "generated": "The answer to the question \"What is in the red slot?\" is: \"The red slot is a 3-",
+    "prediction": null
+  },
+  {
+    "group_id": 87,
+    "register": "technical",
+    "answer": 1,
+    "generated": "The requested register is: technical.",
+    "prediction": null
+  },
+  {
+    "group_id": 88,
+    "register": "introductory",
+    "answer": 3,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 88,
+    "register": "working",
+    "answer": 3,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 3\n- Blue: 1",
+    "prediction": null
+  },
+  {
+    "group_id": 88,
+    "register": "technical",
+    "answer": 3,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 89,
+    "register": "introductory",
+    "answer": 3,
+    "generated": "The blue slot is filled with the following values:\n\n- Red: 0\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 89,
+    "register": "working",
+    "answer": 3,
+    "generated": "The blue slot is filled with the following values:\n\n- Red: 0\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 89,
+    "register": "technical",
+    "answer": 3,
+    "generated": "The blue slot is filled with the following values:\n\n- Red: 0\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 90,
+    "register": "introductory",
+    "answer": 1,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 90,
+    "register": "working",
+    "answer": 1,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 2\n- Blue: 2",
+    "prediction": null
+  },
+  {
+    "group_id": 90,
+    "register": "technical",
+    "answer": 1,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 2\n- Blue: 2",
+    "prediction": null
+  },
+  {
+    "group_id": 91,
+    "register": "introductory",
+    "answer": 2,
+    "generated": "The green slot is a 2-digit slot with a value of 2.",
+    "prediction": null
+  },
+  {
+    "group_id": 91,
+    "register": "working",
+    "answer": 2,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 1\n- Blue: 1",
+    "prediction": null
+  },
+  {
+    "group_id": 91,
+    "register": "technical",
+    "answer": 2,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 1\n- Blue: 1",
+    "prediction": null
+  },
+  {
+    "group_id": 92,
+    "register": "introductory",
+    "answer": 3,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 92,
+    "register": "working",
+    "answer": 3,
+    "generated": "The green slot is filled with the following values:\n\n- Red: 3\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 92,
+    "register": "technical",
+    "answer": 3,
+    "generated": "The green slot is a 3-digit slot with a value of 3.",
+    "prediction": null
+  },
+  {
+    "group_id": 93,
+    "register": "introductory",
+    "answer": 3,
+    "generated": "The blue slot is filled with the following values:\n\n- Red: 1\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 93,
+    "register": "working",
+    "answer": 3,
+    "generated": "The blue slot is filled with the following values:\n\n- Red: 1\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 93,
+    "register": "technical",
+    "answer": 3,
+    "generated": "The blue slot is filled with the following values:\n\n- Red: 1\n- Blue: 3",
+    "prediction": null
+  },
+  {
+    "group_id": 94,
+    "register": "introductory",
+    "answer": 1,
+    "generated": "The green slot is a 1-bit slot, and the value in the green slot is 1.",
+    "prediction": null
+  },
+  {
+    "group_id": 94,
+    "register": "working",
+    "answer": 1,
+    "generated": "The green slot is filled with the value \"green\".",
+    "prediction": null
+  },
+  {
+    "group_id": 94,
+    "register": "technical",
+    "answer": 1,
+    "generated": "The green slot is a 1-bit slot, and the value in this slot is 1.",
+    "prediction": null
+  },
+  {
+    "group_id": 95,
+    "register": "introductory",
+    "answer": 2,
+    "generated": "The record is: red=2, blue=0, green=1, yellow=2.",
+    "prediction": null
+  },
+  {
+    "group_id": 95,
+    "register": "working",
+    "answer": 2,
+    "generated": "The answer to the question \"What is in the red slot?\" is:\n\nThe answer is: yellow",
+    "prediction": null
+  },
+  {
+    "group_id": 95,
+    "register": "technical",
+    "answer": 2,
+    "generated": "The requested register is: technical.",
+    "prediction": null
+  }
+]

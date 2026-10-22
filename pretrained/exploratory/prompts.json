@@ -1,0 +1,1014 @@
+{
+  "original": [
+    {
+      "group_id": 80,
+      "register": 0,
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=0, green=0, yellow=2. What is in the green slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 0. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 80,
+      "register": 1,
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=0, green=0, yellow=2. What is in the green slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 0."
+    },
+    {
+      "group_id": 80,
+      "register": 2,
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=0, green=0, yellow=2. What is in the green slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 0. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 81,
+      "register": 0,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=1, green=1, yellow=3. What is in the green slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 1. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 81,
+      "register": 1,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=1, green=1, yellow=3. What is in the green slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 1."
+    },
+    {
+      "group_id": 81,
+      "register": 2,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=1, green=1, yellow=3. What is in the green slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 1. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 82,
+      "register": 0,
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=1, green=3, yellow=3. What is in the red slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 0. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 82,
+      "register": 1,
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=1, green=3, yellow=3. What is in the red slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 0."
+    },
+    {
+      "group_id": 82,
+      "register": 2,
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=1, green=3, yellow=3. What is in the red slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 0. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 83,
+      "register": 0,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=3, green=1, yellow=3. What is in the green slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 1. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 83,
+      "register": 1,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=3, green=1, yellow=3. What is in the green slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 1."
+    },
+    {
+      "group_id": 83,
+      "register": 2,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=3, green=1, yellow=3. What is in the green slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 1. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 84,
+      "register": 0,
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=2, yellow=0. What is in the green slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 2. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 84,
+      "register": 1,
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=2, yellow=0. What is in the green slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 2."
+    },
+    {
+      "group_id": 84,
+      "register": 2,
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=2, yellow=0. What is in the green slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 2. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 85,
+      "register": 0,
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=3, green=2, yellow=0. What is in the yellow slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 0. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 85,
+      "register": 1,
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=3, green=2, yellow=0. What is in the yellow slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 0."
+    },
+    {
+      "group_id": 85,
+      "register": 2,
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=3, green=2, yellow=0. What is in the yellow slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 0. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 86,
+      "register": 0,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=3, yellow=1. What is in the red slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 1. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 86,
+      "register": 1,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=3, yellow=1. What is in the red slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 1."
+    },
+    {
+      "group_id": 86,
+      "register": 2,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=3, yellow=1. What is in the red slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 1. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 87,
+      "register": 0,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=1, green=1, yellow=3. What is in the red slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 1. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 87,
+      "register": 1,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=1, green=1, yellow=3. What is in the red slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 1."
+    },
+    {
+      "group_id": 87,
+      "register": 2,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=1, green=1, yellow=3. What is in the red slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 1. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 88,
+      "register": 0,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=1, green=3, yellow=3. What is in the green slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 3. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 88,
+      "register": 1,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=1, green=3, yellow=3. What is in the green slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 3."
+    },
+    {
+      "group_id": 88,
+      "register": 2,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=1, green=3, yellow=3. What is in the green slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 3. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 89,
+      "register": 0,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=3, green=3, yellow=2. What is in the blue slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 3. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 89,
+      "register": 1,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=3, green=3, yellow=2. What is in the blue slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 3."
+    },
+    {
+      "group_id": 89,
+      "register": 2,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=3, green=3, yellow=2. What is in the blue slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 3. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 90,
+      "register": 0,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=2, green=1, yellow=3. What is in the green slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 1. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 90,
+      "register": 1,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=2, green=1, yellow=3. What is in the green slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 1."
+    },
+    {
+      "group_id": 90,
+      "register": 2,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=2, green=1, yellow=3. What is in the green slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 1. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 91,
+      "register": 0,
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=1, green=2, yellow=2. What is in the green slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 2. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 91,
+      "register": 1,
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=1, green=2, yellow=2. What is in the green slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 2."
+    },
+    {
+      "group_id": 91,
+      "register": 2,
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=1, green=2, yellow=2. What is in the green slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 2. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 92,
+      "register": 0,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=3, green=3, yellow=0. What is in the green slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 3. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 92,
+      "register": 1,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=3, green=3, yellow=0. What is in the green slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 3."
+    },
+    {
+      "group_id": 92,
+      "register": 2,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=3, green=3, yellow=0. What is in the green slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 3. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 93,
+      "register": 0,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=0, yellow=2. What is in the blue slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 3. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 93,
+      "register": 1,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=0, yellow=2. What is in the blue slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 3."
+    },
+    {
+      "group_id": 93,
+      "register": 2,
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=0, yellow=2. What is in the blue slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 3. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 94,
+      "register": 0,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=0, green=1, yellow=0. What is in the green slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 1. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 94,
+      "register": 1,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=0, green=1, yellow=0. What is in the green slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 1."
+    },
+    {
+      "group_id": 94,
+      "register": 2,
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=0, green=1, yellow=0. What is in the green slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 1. The lookup returns the stored scalar."
+    },
+    {
+      "group_id": 95,
+      "register": 0,
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=0, green=1, yellow=2. What is in the red slot? Requested register: introductory."
+        }
+      ],
+      "target": "Value: 2. This is the number stored in the requested slot."
+    },
+    {
+      "group_id": 95,
+      "register": 1,
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=0, green=1, yellow=2. What is in the red slot? Requested register: working."
+        }
+      ],
+      "target": "Value: 2."
+    },
+    {
+      "group_id": 95,
+      "register": 2,
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=0, green=1, yellow=2. What is in the red slot? Requested register: technical."
+        }
+      ],
+      "target": "Value: 2. The lookup returns the stored scalar."
+    }
+  ],
+  "fourth": [
+    {
+      "group_id": 80,
+      "register": "concise",
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=0, green=0, yellow=2. What is in the green slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 81,
+      "register": "concise",
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=1, green=1, yellow=3. What is in the green slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 82,
+      "register": "concise",
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=1, green=3, yellow=3. What is in the red slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 83,
+      "register": "concise",
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=3, green=1, yellow=3. What is in the green slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 84,
+      "register": "concise",
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=2, yellow=0. What is in the green slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 85,
+      "register": "concise",
+      "answer": 0,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=3, green=2, yellow=0. What is in the yellow slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 86,
+      "register": "concise",
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=3, yellow=1. What is in the red slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 87,
+      "register": "concise",
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=1, green=1, yellow=3. What is in the red slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 88,
+      "register": "concise",
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=1, green=3, yellow=3. What is in the green slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 89,
+      "register": "concise",
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=0, blue=3, green=3, yellow=2. What is in the blue slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 90,
+      "register": "concise",
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=2, green=1, yellow=3. What is in the green slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 91,
+      "register": "concise",
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=1, green=2, yellow=2. What is in the green slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 92,
+      "register": "concise",
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=3, blue=3, green=3, yellow=0. What is in the green slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 93,
+      "register": "concise",
+      "answer": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=3, green=0, yellow=2. What is in the blue slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 94,
+      "register": "concise",
+      "answer": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=1, blue=0, green=1, yellow=0. What is in the green slot? Requested register: concise."
+        }
+      ]
+    },
+    {
+      "group_id": 95,
+      "register": "concise",
+      "answer": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Answer only from the supplied record. Honor the explicitly requested register. Begin with Value: followed by the answer number."
+        },
+        {
+          "role": "user",
+          "content": "Record: red=2, blue=0, green=1, yellow=2. What is in the red slot? Requested register: concise."
+        }
+      ]
+    }
+  ]
+}

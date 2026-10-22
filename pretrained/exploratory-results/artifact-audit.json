@@ -1,0 +1,736 @@
+{
+  "new_response_count": 112,
+  "jsonl_matches_json": {
+    "base-fourth.jsonl": true,
+    "base-repeat-original.jsonl": true,
+    "auxiliary-fourth.jsonl": true,
+    "sft-fourth.jsonl": true,
+    "auxiliary_consistency-fourth.jsonl": true
+  },
+  "arms": {
+    "base": {
+      "raw_recount_matches_summary": true,
+      "records": [
+        {
+          "group_id": 80,
+          "answer": 0,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 81,
+          "answer": 1,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 82,
+          "answer": 0,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 83,
+          "answer": 1,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 84,
+          "answer": 2,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 85,
+          "answer": 0,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 86,
+          "answer": 1,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 87,
+          "answer": 1,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 88,
+          "answer": 3,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 89,
+          "answer": 3,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 90,
+          "answer": 1,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 91,
+          "answer": 2,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 92,
+          "answer": 3,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 93,
+          "answer": 3,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 94,
+          "answer": 1,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 95,
+          "answer": 2,
+          "predictions": {
+            "introductory": null,
+            "working": null,
+            "technical": null,
+            "concise": null
+          },
+          "all_correct": false
+        }
+      ]
+    },
+    "sft": {
+      "raw_recount_matches_summary": true,
+      "records": [
+        {
+          "group_id": 80,
+          "answer": 0,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 81,
+          "answer": 1,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 82,
+          "answer": 0,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 83,
+          "answer": 1,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 84,
+          "answer": 2,
+          "predictions": {
+            "introductory": 1,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 85,
+          "answer": 0,
+          "predictions": {
+            "introductory": 0,
+            "working": 2,
+            "technical": 0,
+            "concise": 2
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 86,
+          "answer": 1,
+          "predictions": {
+            "introductory": 1,
+            "working": 1,
+            "technical": 1,
+            "concise": 1
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 87,
+          "answer": 1,
+          "predictions": {
+            "introductory": 1,
+            "working": 3,
+            "technical": 1,
+            "concise": 1
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 88,
+          "answer": 3,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 89,
+          "answer": 3,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 90,
+          "answer": 1,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 91,
+          "answer": 2,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 92,
+          "answer": 3,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 93,
+          "answer": 3,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 94,
+          "answer": 1,
+          "predictions": {
+            "introductory": 1,
+            "working": 1,
+            "technical": 1,
+            "concise": 1
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 95,
+          "answer": 2,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": true
+        }
+      ]
+    },
+    "auxiliary": {
+      "raw_recount_matches_summary": true,
+      "records": [
+        {
+          "group_id": 80,
+          "answer": 0,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 81,
+          "answer": 1,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 82,
+          "answer": 0,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 83,
+          "answer": 1,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 84,
+          "answer": 2,
+          "predictions": {
+            "introductory": 1,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 85,
+          "answer": 0,
+          "predictions": {
+            "introductory": 0,
+            "working": 2,
+            "technical": 0,
+            "concise": 2
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 86,
+          "answer": 1,
+          "predictions": {
+            "introductory": 1,
+            "working": 1,
+            "technical": 1,
+            "concise": 1
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 87,
+          "answer": 1,
+          "predictions": {
+            "introductory": 1,
+            "working": 3,
+            "technical": 1,
+            "concise": 1
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 88,
+          "answer": 3,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 89,
+          "answer": 3,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 90,
+          "answer": 1,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 91,
+          "answer": 2,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 92,
+          "answer": 3,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 93,
+          "answer": 3,
+          "predictions": {
+            "introductory": 1,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 94,
+          "answer": 1,
+          "predictions": {
+            "introductory": 1,
+            "working": 1,
+            "technical": 1,
+            "concise": 1
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 95,
+          "answer": 2,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": true
+        }
+      ]
+    },
+    "auxiliary_consistency": {
+      "raw_recount_matches_summary": true,
+      "records": [
+        {
+          "group_id": 80,
+          "answer": 0,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 81,
+          "answer": 1,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 82,
+          "answer": 0,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 83,
+          "answer": 1,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 84,
+          "answer": 2,
+          "predictions": {
+            "introductory": 1,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 85,
+          "answer": 0,
+          "predictions": {
+            "introductory": 0,
+            "working": 2,
+            "technical": 0,
+            "concise": 2
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 86,
+          "answer": 1,
+          "predictions": {
+            "introductory": 1,
+            "working": 1,
+            "technical": 1,
+            "concise": 1
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 87,
+          "answer": 1,
+          "predictions": {
+            "introductory": 1,
+            "working": 3,
+            "technical": 1,
+            "concise": 1
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 88,
+          "answer": 3,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 89,
+          "answer": 3,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 90,
+          "answer": 1,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 91,
+          "answer": 2,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 92,
+          "answer": 3,
+          "predictions": {
+            "introductory": 3,
+            "working": 3,
+            "technical": 3,
+            "concise": 3
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 93,
+          "answer": 3,
+          "predictions": {
+            "introductory": 1,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": false
+        },
+        {
+          "group_id": 94,
+          "answer": 1,
+          "predictions": {
+            "introductory": 1,
+            "working": 1,
+            "technical": 1,
+            "concise": 1
+          },
+          "all_correct": true
+        },
+        {
+          "group_id": 95,
+          "answer": 2,
+          "predictions": {
+            "introductory": 2,
+            "working": 2,
+            "technical": 2,
+            "concise": 2
+          },
+          "all_correct": true
+        }
+      ]
+    }
+  }
+}
