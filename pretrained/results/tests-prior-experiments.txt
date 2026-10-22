@@ -1,0 +1,22 @@
+test_checkpoint (test_core.CoreTests.test_checkpoint) ... ok
+test_gradient (test_core.CoreTests.test_gradient) ... ok
+test_invalid_register (test_core.CoreTests.test_invalid_register) ... ok
+test_learning_and_reproducibility (test_core.CoreTests.test_learning_and_reproducibility) ... ok
+test_renderer (test_core.CoreTests.test_renderer) ... ok
+test_seed_repeats (test_core.CoreTests.test_seed_repeats) ... ok
+test_split_disjoint_and_counterfactuals (test_core.CoreTests.test_split_disjoint_and_counterfactuals) ... ok
+test_unconditioned_invariance (test_core.CoreTests.test_unconditioned_invariance) ... ok
+test_artifacts_and_all_ablations (test_run.RunTests.test_artifacts_and_all_ablations) ... ok
+test_dead_register_weights_excluded (test_separation.RunnerTests.test_dead_register_weights_excluded) ... ok
+test_grid_and_paired_results (test_separation.RunnerTests.test_grid_and_paired_results) ... ok
+test_formatting_does_not_correct_wrong_prediction (test_separation.SeparationTests.test_formatting_does_not_correct_wrong_prediction) ... ok
+test_gradient (test_separation.SeparationTests.test_gradient) ... ok
+test_parameter_budget (test_separation.SeparationTests.test_parameter_budget) ... ok
+test_register_cannot_change_content (test_separation.SeparationTests.test_register_cannot_change_content) ... ok
+test_repeat_learning (test_separation.SeparationTests.test_repeat_learning) ... ok
+test_validation_selection (test_separation.SeparationTests.test_validation_selection) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.133s
+
+OK

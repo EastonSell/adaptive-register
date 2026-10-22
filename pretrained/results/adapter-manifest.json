@@ -1,0 +1,41 @@
+{
+  "source_commit": "abce2e6e335cbf59ec63095d968e18bc34c4a0a1",
+  "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "license": "Apache-2.0",
+  "metadata_change": "Published adapter configs replace the local base-model path with the canonical model ID and immutable revision. Weight bytes are unchanged.",
+  "files": {
+    "pretrained/adapters/sft/adapter_model.safetensors": {
+      "bytes": 937056,
+      "sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4"
+    },
+    "pretrained/adapters/sft/adapter_config.json": {
+      "bytes": 697,
+      "sha256": "019a6aa01e77dd637428dc5c7f4c7350c817ccaada96d9d6277cd6936dfed8c3"
+    },
+    "pretrained/adapters/auxiliary/adapter_model.safetensors": {
+      "bytes": 937056,
+      "sha256": "5325d316483a25babad5e161abb783afab222f851d303d174877af15d264bc24"
+    },
+    "pretrained/adapters/auxiliary/register_head.safetensors": {
+      "bytes": 7060,
+      "sha256": "8f0ca0f7157bf0bef6e2c015a6e1eef28cdba6ba734701e4ee2d9a8ce3d8bd6d"
+    },
+    "pretrained/adapters/auxiliary/adapter_config.json": {
+      "bytes": 697,
+      "sha256": "019a6aa01e77dd637428dc5c7f4c7350c817ccaada96d9d6277cd6936dfed8c3"
+    },
+    "pretrained/adapters/auxiliary_consistency/adapter_model.safetensors": {
+      "bytes": 937056,
+      "sha256": "5031bc6a09f21d7cc6d66ee426d40d572916b6123e3f8668a9240b379ce47971"
+    },
+    "pretrained/adapters/auxiliary_consistency/register_head.safetensors": {
+      "bytes": 7060,
+      "sha256": "28028be243053999b071c248f4140144802b80a46b6b803351ef0e9858865f71"
+    },
+    "pretrained/adapters/auxiliary_consistency/adapter_config.json": {
+      "bytes": 697,
+      "sha256": "019a6aa01e77dd637428dc5c7f4c7350c817ccaada96d9d6277cd6936dfed8c3"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "protocol_sha256": "3dabedfba9e74509675d0ae4aa7349a00736ae5a5353d8febec78090f1e67362",
+  "source_commit": "abce2e6e335cbf59ec63095d968e18bc34c4a0a1",
+  "arms": {
+    "base": {
+      "recomputed_metrics_match": true,
+      "rows": 48
+    },
+    "sft": {
+      "recomputed_metrics_match": true,
+      "rows": 48,
+      "updates": 24,
+      "validation_initial": 3.071186140179634,
+      "validation_selected": 1.085429735481739,
+      "lora_parameter_count": 230400,
+      "lora_B_tensors": 60,
+      "lora_B_nonzero_elements": 92160,
+      "lora_B_squared_norm": 7.115208134055138
+    },
+    "auxiliary": {
+      "recomputed_metrics_match": true,
+      "rows": 48,
+      "updates": 24,
+      "validation_initial": 3.071186140179634,
+      "validation_selected": 1.0700120814144611,
+      "lora_parameter_count": 230400,
+      "lora_B_tensors": 60,
+      "lora_B_nonzero_elements": 92160,
+      "lora_B_squared_norm": 7.326648261398077
+    },
+    "auxiliary_consistency": {
+      "recomputed_metrics_match": true,
+      "rows": 48,
+      "updates": 24,
+      "validation_initial": 3.071186140179634,
+      "validation_selected": 1.0704241544008255,
+      "lora_parameter_count": 230400,
+      "lora_B_tensors": 60,
+      "lora_B_nonzero_elements": 92160,
+      "lora_B_squared_norm": 7.326100874692202
+    }
+  }
+}

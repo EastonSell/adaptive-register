@@ -1,6 +1,6 @@
 # Adaptive Register: recovery rebuild
 
-A runnable NumPy experiment testing explicit presentation-register requests, an auxiliary register head, and counterfactual answer consistency. **This is a newly written recovery implementation, not recovered original source or an open-source language-model fine-tune.** It does not demonstrate improved comprehension or improvement of arbitrary models.
+A recovery research project testing explicit presentation-register requests, an auxiliary register head, and counterfactual answer consistency. The NumPy experiments below are newly written recovery implementations, not recovered original source. An additive [actual pretrained LoRA pilot](pretrained/results/RESULTS.md) now tests SmolLM2-135M-Instruct. Neither stage demonstrates improved comprehension or improvement of arbitrary models.
 
 ## Run
 
@@ -38,7 +38,7 @@ The extra head did not improve this toy task. Conditioning caused substantial fa
 
 Nine tests pass: record-disjoint splitting, counterfactual labels, determinism, finite-difference gradients including consistency, learning, checkpoint round trips, unconditioned invariance, renderer validation, and experiment artifacts. A second complete execution produced byte-identical summaries, splits, histories and all 12 checkpoints. These checks apply only to this new implementation; they do not reproduce the lost original implementation.
 
-Presentation choices are `introductory`, `working`, `technical`; absent choice defaults to `working`. No demographic traits or inferred intelligence are used. No human comprehension, fairness or accessibility study was performed. A real pretrained fine-tune remains unfinished; torch, transformers, peft and pretrained weights were not present or installed for this checkpoint.
+Presentation choices are `introductory`, `working`, `technical`; absent choice defaults to `working`. No demographic traits or inferred intelligence are used. No human comprehension, fairness or accessibility study was performed. The initial NumPy checkpoint did not contain pretrained fine-tuning. The later [pretrained milestone](pretrained/README.md) installs an isolated runtime and executes real LoRA adaptation, while retaining the earlier experiment unchanged.
 
 ## Recovery provenance
 
@@ -47,3 +47,7 @@ Original recovered artifacts remain preserved separately in the recovery workspa
 ## Content/formatting separation milestone
 
 An additive [multi-split comparison](milestone2/RESULTS.md) tests keeping presentation choices outside content prediction. It achieves structural answer invariance, but does not beat the simpler unconditioned control on accuracy. This remains a synthetic experiment, not a pretrained fine-tune.
+
+## Actual pretrained LoRA milestone
+
+[Results and limitations](pretrained/results/RESULTS.md): all three adapted arms answer 25/48 held-out synthetic prompts correctly under a strict parser, with no observed accuracy benefit from the auxiliary head. The 48 prompts cover only 16 independent source records. This verifies actual fine-tuning execution, not reliable factual preservation or better language understanding.

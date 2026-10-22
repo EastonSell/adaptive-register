@@ -1,0 +1,70 @@
+{
+  "status": "executed_pretrained_lora_pilot",
+  "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "protocol_sha256": "3dabedfba9e74509675d0ae4aa7349a00736ae5a5353d8febec78090f1e67362",
+  "python": "3.12.14",
+  "torch": "2.5.1+cpu",
+  "arms": {
+    "base": {
+      "selected_step": 0,
+      "trainable_parameters": 0,
+      "seconds": 70.17846136400021,
+      "answer_accuracy": 0.0,
+      "answer_parse_coverage": 0.0,
+      "exact_target_template_match": 0.0,
+      "groups_with_invalid_generation": 16,
+      "all_registers_correct": 0.0,
+      "valid_group_answer_change_rate": null,
+      "answer_or_invalid_status_change_rate": 0.0,
+      "valid_groups": 0,
+      "examples": 48,
+      "max_new_tokens": 24
+    },
+    "sft": {
+      "selected_step": 24,
+      "trainable_parameters": 230400,
+      "seconds": 98.05183668599966,
+      "answer_accuracy": 0.5208333333333334,
+      "answer_parse_coverage": 1.0,
+      "exact_target_template_match": 0.14583333333333334,
+      "groups_with_invalid_generation": 0,
+      "all_registers_correct": 0.4375,
+      "valid_group_answer_change_rate": 0.1875,
+      "answer_or_invalid_status_change_rate": 0.1875,
+      "valid_groups": 16,
+      "examples": 48,
+      "max_new_tokens": 24
+    },
+    "auxiliary": {
+      "selected_step": 24,
+      "trainable_parameters": 232131,
+      "seconds": 97.50971180000033,
+      "answer_accuracy": 0.5208333333333334,
+      "answer_parse_coverage": 1.0,
+      "exact_target_template_match": 0.14583333333333334,
+      "groups_with_invalid_generation": 0,
+      "all_registers_correct": 0.4375,
+      "valid_group_answer_change_rate": 0.25,
+      "answer_or_invalid_status_change_rate": 0.25,
+      "valid_groups": 16,
+      "examples": 48,
+      "max_new_tokens": 24
+    },
+    "auxiliary_consistency": {
+      "selected_step": 24,
+      "trainable_parameters": 232131,
+      "seconds": 91.00268070699985,
+      "answer_accuracy": 0.5208333333333334,
+      "answer_parse_coverage": 1.0,
+      "exact_target_template_match": 0.14583333333333334,
+      "groups_with_invalid_generation": 0,
+      "all_registers_correct": 0.4375,
+      "valid_group_answer_change_rate": 0.25,
+      "answer_or_invalid_status_change_rate": 0.25,
+      "valid_groups": 16,
+      "examples": 48,
+      "max_new_tokens": 24
+    }
+  }
+}

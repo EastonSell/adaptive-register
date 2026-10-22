@@ -1,0 +1,15 @@
+There was a problem when trying to write in your cache folder (/home/agent/.cache/huggingface/hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+test_disjoint_and_grouped (test_data.DataTests.test_disjoint_and_grouped) ... ok
+test_parser_rejects_conflicts (test_data.DataTests.test_parser_rejects_conflicts) ... ok
+test_target_roundtrip (test_data.DataTests.test_target_roundtrip) ... ok
+test_existing_receipt_refused_before_model_load (test_replay.ReplaySafetyTests.test_existing_receipt_refused_before_model_load) ... ok
+test_invalid_and_conflicting_generations_count_wrong (test_training.EvaluationTests.test_invalid_and_conflicting_generations_count_wrong) ... ok
+test_existing_output_refused_without_touching_files (test_training.OutputSafetyTests.test_existing_output_refused_without_touching_files) ... ok
+test_backprop_changes_adapters_not_base (test_training.TrainingTests.test_backprop_changes_adapters_not_base) ... ok
+test_consistency_zero_for_identical_distributions (test_training.TrainingTests.test_consistency_zero_for_identical_distributions) ... ok
+test_mask_answer_alignment (test_training.TrainingTests.test_mask_answer_alignment) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.659s
+
+OK

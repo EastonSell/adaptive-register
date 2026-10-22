@@ -1,0 +1,434 @@
+[
+  {
+    "group_id": 80,
+    "register": "introductory",
+    "answer": 0,
+    "target": "Value: 0. This is the number stored in the requested slot.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 80,
+    "register": "working",
+    "answer": 0,
+    "target": "Value: 0.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 80,
+    "register": "technical",
+    "answer": 0,
+    "target": "Value: 0. The lookup returns the stored scalar.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 81,
+    "register": "introductory",
+    "answer": 1,
+    "target": "Value: 1. This is the number stored in the requested slot.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 81,
+    "register": "working",
+    "answer": 1,
+    "target": "Value: 1.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 81,
+    "register": "technical",
+    "answer": 1,
+    "target": "Value: 1. The lookup returns the stored scalar.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 82,
+    "register": "introductory",
+    "answer": 0,
+    "target": "Value: 0. This is the number stored in the requested slot.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 82,
+    "register": "working",
+    "answer": 0,
+    "target": "Value: 0.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 82,
+    "register": "technical",
+    "answer": 0,
+    "target": "Value: 0. The lookup returns the stored scalar.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 83,
+    "register": "introductory",
+    "answer": 1,
+    "target": "Value: 1. This is the number stored in the requested slot.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 83,
+    "register": "working",
+    "answer": 1,
+    "target": "Value: 1.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 83,
+    "register": "technical",
+    "answer": 1,
+    "target": "Value: 1. The lookup returns the stored scalar.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 84,
+    "register": "introductory",
+    "answer": 2,
+    "target": "Value: 2. This is the number stored in the requested slot.",
+    "generated": "Value: 1.",
+    "prediction": 1,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 84,
+    "register": "working",
+    "answer": 2,
+    "target": "Value: 2.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 84,
+    "register": "technical",
+    "answer": 2,
+    "target": "Value: 2. The lookup returns the stored scalar.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 85,
+    "register": "introductory",
+    "answer": 0,
+    "target": "Value: 0. This is the number stored in the requested slot.",
+    "generated": "Value: 0.",
+    "prediction": 0,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 85,
+    "register": "working",
+    "answer": 0,
+    "target": "Value: 0.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 85,
+    "register": "technical",
+    "answer": 0,
+    "target": "Value: 0. The lookup returns the stored scalar.",
+    "generated": "Value: 0.",
+    "prediction": 0,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 86,
+    "register": "introductory",
+    "answer": 1,
+    "target": "Value: 1. This is the number stored in the requested slot.",
+    "generated": "Value: 1.",
+    "prediction": 1,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 86,
+    "register": "working",
+    "answer": 1,
+    "target": "Value: 1.",
+    "generated": "Value: 1.",
+    "prediction": 1,
+    "exact_template_match": true
+  },
+  {
+    "group_id": 86,
+    "register": "technical",
+    "answer": 1,
+    "target": "Value: 1. The lookup returns the stored scalar.",
+    "generated": "Value: 1.",
+    "prediction": 1,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 87,
+    "register": "introductory",
+    "answer": 1,
+    "target": "Value: 1. This is the number stored in the requested slot.",
+    "generated": "Value: 1.",
+    "prediction": 1,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 87,
+    "register": "working",
+    "answer": 1,
+    "target": "Value: 1.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 87,
+    "register": "technical",
+    "answer": 1,
+    "target": "Value: 1. The lookup returns the stored scalar.",
+    "generated": "Value: 1.",
+    "prediction": 1,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 88,
+    "register": "introductory",
+    "answer": 3,
+    "target": "Value: 3. This is the number stored in the requested slot.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 88,
+    "register": "working",
+    "answer": 3,
+    "target": "Value: 3.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": true
+  },
+  {
+    "group_id": 88,
+    "register": "technical",
+    "answer": 3,
+    "target": "Value: 3. The lookup returns the stored scalar.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 89,
+    "register": "introductory",
+    "answer": 3,
+    "target": "Value: 3. This is the number stored in the requested slot.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 89,
+    "register": "working",
+    "answer": 3,
+    "target": "Value: 3.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": true
+  },
+  {
+    "group_id": 89,
+    "register": "technical",
+    "answer": 3,
+    "target": "Value: 3. The lookup returns the stored scalar.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 90,
+    "register": "introductory",
+    "answer": 1,
+    "target": "Value: 1. This is the number stored in the requested slot.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 90,
+    "register": "working",
+    "answer": 1,
+    "target": "Value: 1.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 90,
+    "register": "technical",
+    "answer": 1,
+    "target": "Value: 1. The lookup returns the stored scalar.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 91,
+    "register": "introductory",
+    "answer": 2,
+    "target": "Value: 2. This is the number stored in the requested slot.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 91,
+    "register": "working",
+    "answer": 2,
+    "target": "Value: 2.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": true
+  },
+  {
+    "group_id": 91,
+    "register": "technical",
+    "answer": 2,
+    "target": "Value: 2. The lookup returns the stored scalar.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 92,
+    "register": "introductory",
+    "answer": 3,
+    "target": "Value: 3. This is the number stored in the requested slot.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 92,
+    "register": "working",
+    "answer": 3,
+    "target": "Value: 3.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": true
+  },
+  {
+    "group_id": 92,
+    "register": "technical",
+    "answer": 3,
+    "target": "Value: 3. The lookup returns the stored scalar.",
+    "generated": "Value: 3.",
+    "prediction": 3,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 93,
+    "register": "introductory",
+    "answer": 3,
+    "target": "Value: 3. This is the number stored in the requested slot.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 93,
+    "register": "working",
+    "answer": 3,
+    "target": "Value: 3.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 93,
+    "register": "technical",
+    "answer": 3,
+    "target": "Value: 3. The lookup returns the stored scalar.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 94,
+    "register": "introductory",
+    "answer": 1,
+    "target": "Value: 1. This is the number stored in the requested slot.",
+    "generated": "Value: 1.",
+    "prediction": 1,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 94,
+    "register": "working",
+    "answer": 1,
+    "target": "Value: 1.",
+    "generated": "Value: 1.",
+    "prediction": 1,
+    "exact_template_match": true
+  },
+  {
+    "group_id": 94,
+    "register": "technical",
+    "answer": 1,
+    "target": "Value: 1. The lookup returns the stored scalar.",
+    "generated": "Value: 1.",
+    "prediction": 1,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 95,
+    "register": "introductory",
+    "answer": 2,
+    "target": "Value: 2. This is the number stored in the requested slot.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  },
+  {
+    "group_id": 95,
+    "register": "working",
+    "answer": 2,
+    "target": "Value: 2.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": true
+  },
+  {
+    "group_id": 95,
+    "register": "technical",
+    "answer": 2,
+    "target": "Value: 2. The lookup returns the stored scalar.",
+    "generated": "Value: 2.",
+    "prediction": 2,
+    "exact_template_match": false
+  }
+]
