@@ -1,0 +1,14 @@
+test_checkpoint (test_core.CoreTests.test_checkpoint) ... ok
+test_gradient (test_core.CoreTests.test_gradient) ... ok
+test_invalid_register (test_core.CoreTests.test_invalid_register) ... ok
+test_learning_and_reproducibility (test_core.CoreTests.test_learning_and_reproducibility) ... ok
+test_renderer (test_core.CoreTests.test_renderer) ... ok
+test_seed_repeats (test_core.CoreTests.test_seed_repeats) ... ok
+test_split_disjoint_and_counterfactuals (test_core.CoreTests.test_split_disjoint_and_counterfactuals) ... ok
+test_unconditioned_invariance (test_core.CoreTests.test_unconditioned_invariance) ... ok
+test_artifacts_and_all_ablations (test_run.RunTests.test_artifacts_and_all_ablations) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.089s
+
+OK
