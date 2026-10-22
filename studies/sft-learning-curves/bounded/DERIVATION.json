@@ -1,0 +1,414 @@
+[
+  {
+    "section": "source",
+    "path": "AMENDMENT.md",
+    "original_sha256": "26ebaf3e6b0e39e6dac97833aacc328f6f02cb03e60a60c0403cd7ff9c4a9809",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "FREEZE.initial.json",
+    "original_sha256": "ecbfebe9fdc7e43a69710c70e3b894637ecb7a4a67164b248d3feb8b6f5b3ee5",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "FREEZE.json",
+    "original_sha256": "6de8f86bce575f09e8dbf5b734f6eedeac0e741d915bd88ee52cf4586a5827e2",
+    "disposition": "omitted",
+    "public_sha256": "e5a75709b63804585a5658658ed58aa61571f771ed2d82ad32065896fa971f3f"
+  },
+  {
+    "section": "source",
+    "path": "PROTOCOL.md",
+    "original_sha256": "772bb428051c40bddf7c195be0603ed5ed86b35e7285db924b501fb4c5620949",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "PROVENANCE.json",
+    "original_sha256": "a7dcd5d71ee78d40d06d72a6e519a94d6b4caa298f97682aaddc0826c4cccb39",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "README.md",
+    "original_sha256": "5884b8d21e102ccf40e4e70db56b95dcabca8ce3feb2315879a61ec22b19171d",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "cases-development.json",
+    "original_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce",
+    "disposition": "byte-identical",
+    "public_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce"
+  },
+  {
+    "section": "source",
+    "path": "evidence.py",
+    "original_sha256": "179877eae7a13c917f6de545e47b5ebeb090028de8f25cd45e954317c1f3463e",
+    "disposition": "byte-identical",
+    "public_sha256": "179877eae7a13c917f6de545e47b5ebeb090028de8f25cd45e954317c1f3463e"
+  },
+  {
+    "section": "source",
+    "path": "protocol.json",
+    "original_sha256": "3b2f38d4b47d717d70a2ce6db23a908671cf94dd08a9f49a9d050d75aded3d88",
+    "disposition": "portable model path",
+    "public_sha256": "436bda0c9cb22e043c248d60296ed61d26dab9c734a8441233131a81d064ac58"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/AMENDMENT.md",
+    "original_sha256": "9ad315e8176d7ce78b61dc82f8962b89615a3ca59a7fef80ce3d3c3c21f42592",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/FREEZE.initial.json",
+    "original_sha256": "ecbfebe9fdc7e43a69710c70e3b894637ecb7a4a67164b248d3feb8b6f5b3ee5",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/FREEZE.json",
+    "original_sha256": "9fe4aa4cc23d4cf38a8d625027e30c80879eb3a4593572a9208d7ce67e4eb039",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/PROTOCOL.md",
+    "original_sha256": "079e2dc893e7baa0380b32d26ad63c971093b4a80420ac00de27650398dd7a0f",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/PROVENANCE.json",
+    "original_sha256": "a7dcd5d71ee78d40d06d72a6e519a94d6b4caa298f97682aaddc0826c4cccb39",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/README.md",
+    "original_sha256": "5884b8d21e102ccf40e4e70db56b95dcabca8ce3feb2315879a61ec22b19171d",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/cases-development.json",
+    "original_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/evidence.py",
+    "original_sha256": "179877eae7a13c917f6de545e47b5ebeb090028de8f25cd45e954317c1f3463e",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/protocol.json",
+    "original_sha256": "3b2f38d4b47d717d70a2ce6db23a908671cf94dd08a9f49a9d050d75aded3d88",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/runner.py",
+    "original_sha256": "50939f84860eb6de28ffbd24ba81fd2824f9adc4c023ea7a0400f1551101a8b7",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/supervise.py",
+    "original_sha256": "327f16bf64bb9181eb2849b15686d5acc8985fc2ecd0659c3fe71d26beac4ea8",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/tests/test_evidence.py",
+    "original_sha256": "884ee5a81167e0b945e3e18a0a94608083396ad714512bfc582d33aeac8f5ac8",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/tests-source.txt",
+    "original_sha256": "f8ea73e6c7e65433be88597c5bbfd3de8f192e8244cb6c11edc79163938e8555",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/vendor/data.py",
+    "original_sha256": "ea32bbcecebe6a174280637ead3d3a0a4b0c6bfc0eb04761ce863fa80aabc880",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/vendor/model_manifest.json",
+    "original_sha256": "d0f483028a3219ecefe2e83f73a62b7322af3b13bd3efe0b3725b8247427037d",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/vendor/original-sft24.safetensors",
+    "original_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/vendor/requirements.lock.txt",
+    "original_sha256": "411980fef7956ccb55d03ff9cede0b57e17311d6962ba8c1a5bbd4c6e494e8d7",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/reviewed-v1/vendor/training.py",
+    "original_sha256": "936b974c84fb3192926e1ae303dc90d220c0a14a20e8a83ff7a162e7e7125376",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "runner.py",
+    "original_sha256": "50939f84860eb6de28ffbd24ba81fd2824f9adc4c023ea7a0400f1551101a8b7",
+    "disposition": "byte-identical",
+    "public_sha256": "50939f84860eb6de28ffbd24ba81fd2824f9adc4c023ea7a0400f1551101a8b7"
+  },
+  {
+    "section": "source",
+    "path": "supervise.py",
+    "original_sha256": "6326938b7ded6057d7ae91756fe3dd09c5c0352d5097ee64bb4a0e1ada1d9ece",
+    "disposition": "CLI help text only; scientific logic unchanged",
+    "public_sha256": "aceed622d811569045780406ae13da627e0a80328a0fe8e2db9b36328c87e574"
+  },
+  {
+    "section": "source",
+    "path": "tests/test_evidence.py",
+    "original_sha256": "c315d8788682326f951b7556feb33f41b029a224daee8b3979d3f7492da4579e",
+    "disposition": "byte-identical",
+    "public_sha256": "c315d8788682326f951b7556feb33f41b029a224daee8b3979d3f7492da4579e"
+  },
+  {
+    "section": "source",
+    "path": "tests-direct.txt",
+    "original_sha256": "0a5c20803a43adff017068e7232ed33d1fc01692434a34cf17f7e3067b5073ec",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "tests-source.txt",
+    "original_sha256": "f07e25aaa1f0b4f6466e61906ee15d45fd465d4f6b39f2f1eace16ae8eb70f49",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "vendor/data.py",
+    "original_sha256": "ea32bbcecebe6a174280637ead3d3a0a4b0c6bfc0eb04761ce863fa80aabc880",
+    "disposition": "byte-identical",
+    "public_sha256": "ea32bbcecebe6a174280637ead3d3a0a4b0c6bfc0eb04761ce863fa80aabc880"
+  },
+  {
+    "section": "source",
+    "path": "vendor/model_manifest.json",
+    "original_sha256": "d0f483028a3219ecefe2e83f73a62b7322af3b13bd3efe0b3725b8247427037d",
+    "disposition": "byte-identical",
+    "public_sha256": "d0f483028a3219ecefe2e83f73a62b7322af3b13bd3efe0b3725b8247427037d"
+  },
+  {
+    "section": "source",
+    "path": "vendor/original-sft24.safetensors",
+    "original_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+    "disposition": "byte-identical",
+    "public_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4"
+  },
+  {
+    "section": "source",
+    "path": "vendor/requirements.lock.txt",
+    "original_sha256": "411980fef7956ccb55d03ff9cede0b57e17311d6962ba8c1a5bbd4c6e494e8d7",
+    "disposition": "byte-identical",
+    "public_sha256": "411980fef7956ccb55d03ff9cede0b57e17311d6962ba8c1a5bbd4c6e494e8d7"
+  },
+  {
+    "section": "source",
+    "path": "vendor/training.py",
+    "original_sha256": "936b974c84fb3192926e1ae303dc90d220c0a14a20e8a83ff7a162e7e7125376",
+    "disposition": "byte-identical",
+    "public_sha256": "936b974c84fb3192926e1ae303dc90d220c0a14a20e8a83ff7a162e7e7125376"
+  },
+  {
+    "section": "run",
+    "path": "RESULTS-MANIFEST.json",
+    "original_sha256": "071469a13f70e153056eae2286ed6b8e55cd78297863333df30c18f21198a748",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "6eb2bd5e7a61bf3a8aa54b075e3f24237bd0b9ce326c0b1a1c6e8f1893ceb442"
+  },
+  {
+    "section": "run",
+    "path": "cases.json",
+    "original_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce",
+    "disposition": "byte-identical",
+    "public_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/README.md",
+    "original_sha256": "e3a5cbe68380ab16cab3e29edaa26d8830d54196415e0ca2194242a8ec2008d9",
+    "disposition": "omitted"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/adapter_config.json",
+    "original_sha256": "689e5603a29b9a6e62d0e5d94ccd51e1395e35f656aea39d300a20405118428b",
+    "disposition": "portable pinned model reference",
+    "public_sha256": "019a6aa01e77dd637428dc5c7f4c7350c817ccaada96d9d6277cd6936dfed8c3"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/adapter_manifest.json",
+    "original_sha256": "e7f4d9f2c21912f2f58ef372bacf33122e4d1878023957688c297ac5b1edf356",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "a8b3e5efd66bece9b0a6c025680a2cc2fd8d7ab528150ff3717baa907b52463d"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/adapter_model.safetensors",
+    "original_sha256": "f42afc6a6f4a46ff16c39a9c757487d50e9d930edc37e687f5a8677d226918b6",
+    "disposition": "byte-identical",
+    "public_sha256": "f42afc6a6f4a46ff16c39a9c757487d50e9d930edc37e687f5a8677d226918b6"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/README.md",
+    "original_sha256": "e3a5cbe68380ab16cab3e29edaa26d8830d54196415e0ca2194242a8ec2008d9",
+    "disposition": "omitted"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/adapter_config.json",
+    "original_sha256": "689e5603a29b9a6e62d0e5d94ccd51e1395e35f656aea39d300a20405118428b",
+    "disposition": "portable pinned model reference",
+    "public_sha256": "019a6aa01e77dd637428dc5c7f4c7350c817ccaada96d9d6277cd6936dfed8c3"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/adapter_manifest.json",
+    "original_sha256": "cb1d403866cacd1b2fcfc18bdb33c6718cd5ec2bfaef6a83b0fd39696bfe9147",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "4b53eee931a0e9c4ce1c8881be5867628432c28ae0704fe830eb5fd65c97e5bf"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/adapter_model.safetensors",
+    "original_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+    "disposition": "byte-identical",
+    "public_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/README.md",
+    "original_sha256": "e3a5cbe68380ab16cab3e29edaa26d8830d54196415e0ca2194242a8ec2008d9",
+    "disposition": "omitted"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/adapter_config.json",
+    "original_sha256": "689e5603a29b9a6e62d0e5d94ccd51e1395e35f656aea39d300a20405118428b",
+    "disposition": "portable pinned model reference",
+    "public_sha256": "019a6aa01e77dd637428dc5c7f4c7350c817ccaada96d9d6277cd6936dfed8c3"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/adapter_manifest.json",
+    "original_sha256": "99786f45f967e46473ee2737c610d63a5700d46ace619043e469eb2a4e1d1508",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "8a9f116ad7eb5141746048c6b6b741a8046d25ac331cd6f36b8073c7043e05a3"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/adapter_model.safetensors",
+    "original_sha256": "9880aeb78158bdf0d1572673973ff2d17e0ca8832eda3b6b4e22afdcf75cb1af",
+    "disposition": "byte-identical",
+    "public_sha256": "9880aeb78158bdf0d1572673973ff2d17e0ca8832eda3b6b4e22afdcf75cb1af"
+  },
+  {
+    "section": "run",
+    "path": "console.log",
+    "original_sha256": "9fcb6f3fbf4b103f70b03fa0ceb6495d71ad6e9d037c9842acdf13b8d7313692",
+    "disposition": "omitted"
+  },
+  {
+    "section": "run",
+    "path": "curves.jsonl",
+    "original_sha256": "ff16a63a7c0b50d045953c34a7a4d411ac7a8f36a070c3ffa9f7bd7f44726baa",
+    "disposition": "byte-identical",
+    "public_sha256": "ff16a63a7c0b50d045953c34a7a4d411ac7a8f36a070c3ffa9f7bd7f44726baa"
+  },
+  {
+    "section": "run",
+    "path": "exposure.jsonl",
+    "original_sha256": "57b4db04b71f6d46c74fb4574d73388ed860942deea0f246fa13da9b9401641f",
+    "disposition": "byte-identical",
+    "public_sha256": "57b4db04b71f6d46c74fb4574d73388ed860942deea0f246fa13da9b9401641f"
+  },
+  {
+    "section": "run",
+    "path": "generations.jsonl",
+    "original_sha256": "fa590916fe7e45f9a1dd54147cfdb88efc6ca3a140be8aa848ef71bc49dccfc8",
+    "disposition": "byte-identical",
+    "public_sha256": "fa590916fe7e45f9a1dd54147cfdb88efc6ca3a140be8aa848ef71bc49dccfc8"
+  },
+  {
+    "section": "run",
+    "path": "identity.json",
+    "original_sha256": "b5645100572d8ba25885046234c0878587cfa2aaf19fb64bbbd0944e3d588689",
+    "disposition": "byte-identical",
+    "public_sha256": "b5645100572d8ba25885046234c0878587cfa2aaf19fb64bbbd0944e3d588689"
+  },
+  {
+    "section": "run",
+    "path": "order.json",
+    "original_sha256": "6464c82eb39157bc3ddc65178c41b08ec4d53994e9ce5c69cd30f0842099f589",
+    "disposition": "byte-identical",
+    "public_sha256": "6464c82eb39157bc3ddc65178c41b08ec4d53994e9ce5c69cd30f0842099f589"
+  },
+  {
+    "section": "run",
+    "path": "resource_summary.json",
+    "original_sha256": "711f8fa88271fee3036f6f1d363a0211624c0fa2272a2fe1e5080abe68bb7174",
+    "disposition": "byte-identical",
+    "public_sha256": "711f8fa88271fee3036f6f1d363a0211624c0fa2272a2fe1e5080abe68bb7174"
+  },
+  {
+    "section": "run",
+    "path": "resources.jsonl",
+    "original_sha256": "9cacf8c08af4bcb521bc99c82d5d46ee2f1644c44ac4731ca7396307be9363d1",
+    "disposition": "byte-identical",
+    "public_sha256": "9cacf8c08af4bcb521bc99c82d5d46ee2f1644c44ac4731ca7396307be9363d1"
+  },
+  {
+    "section": "run",
+    "path": "status.json",
+    "original_sha256": "8eb0de14e7a38e009480ba7da52b0aab24cb49424e50a2f0ce3e69e57241f7bc",
+    "disposition": "byte-identical",
+    "public_sha256": "8eb0de14e7a38e009480ba7da52b0aab24cb49424e50a2f0ce3e69e57241f7bc"
+  },
+  {
+    "section": "run",
+    "path": "step24-original-comparison.json",
+    "original_sha256": "9a46b23222dda1ad26211d1bf34ddabe8d863082eb111b93e2114e51ddaa81b0",
+    "disposition": "byte-identical",
+    "public_sha256": "9a46b23222dda1ad26211d1bf34ddabe8d863082eb111b93e2114e51ddaa81b0"
+  },
+  {
+    "section": "run",
+    "path": "training.jsonl",
+    "original_sha256": "945b07005f565359ff8b219eedb852a2da0228247b97bc279b8dbe44b8df04dc",
+    "disposition": "byte-identical",
+    "public_sha256": "945b07005f565359ff8b219eedb852a2da0228247b97bc279b8dbe44b8df04dc"
+  },
+  {
+    "section": "run",
+    "path": "validation_lm.jsonl",
+    "original_sha256": "7103c29e98f05e7c6f70491c126b711aea2077bf369fa6bd0a19e2c10c51a06d",
+    "disposition": "byte-identical",
+    "public_sha256": "7103c29e98f05e7c6f70491c126b711aea2077bf369fa6bd0a19e2c10c51a06d"
+  }
+]

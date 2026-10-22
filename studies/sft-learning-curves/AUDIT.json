@@ -1,0 +1,330 @@
+{
+  "method": "Independent read-only standard-library recount and payload comparison; no model execution.",
+  "earlier": {
+    "source": {
+      "entries_verified": 11,
+      "manifest_sha256": "e5a75709b63804585a5658658ed58aa61571f771ed2d82ad32065896fa971f3f"
+    },
+    "run": {
+      "entries_verified": 24,
+      "manifest_sha256": "6eb2bd5e7a61bf3a8aa54b075e3f24237bd0b9ce326c0b1a1c6e8f1893ceb442"
+    },
+    "training_updates": 326,
+    "training_cpu_seconds": 836.6833790619994,
+    "training_wall_seconds": 418.94992839204133,
+    "evaluations": [
+      {
+        "step": 0,
+        "records": 16,
+        "responses": 48,
+        "strict_correct": 0,
+        "format_coverage": 0,
+        "exact_target_template_match": 0,
+        "all_registers_correct": 0,
+        "valid_groups": 0,
+        "invalid_groups": 16,
+        "valid_group_answer_change_rate": null,
+        "answer_or_invalid_status_change_count": 0,
+        "validation_lm_loss": 3.071186140179634,
+        "lm_batches": 16,
+        "answer_changing_valid_groups": 0,
+        "evaluation_cpu_seconds": 165.69571883900002
+      },
+      {
+        "step": 24,
+        "records": 16,
+        "responses": 48,
+        "strict_correct": 24,
+        "format_coverage": 48,
+        "exact_target_template_match": 8,
+        "all_registers_correct": 8,
+        "valid_groups": 16,
+        "invalid_groups": 0,
+        "valid_group_answer_change_rate": 0.0,
+        "answer_or_invalid_status_change_count": 0,
+        "validation_lm_loss": 1.085429735481739,
+        "lm_batches": 16,
+        "answer_changing_valid_groups": 0,
+        "evaluation_cpu_seconds": 75.76625699300001
+      },
+      {
+        "step": 96,
+        "records": 16,
+        "responses": 48,
+        "strict_correct": 39,
+        "format_coverage": 48,
+        "exact_target_template_match": 38,
+        "all_registers_correct": 11,
+        "valid_groups": 16,
+        "invalid_groups": 0,
+        "valid_group_answer_change_rate": 0.25,
+        "answer_or_invalid_status_change_count": 4,
+        "validation_lm_loss": 0.08773999568074942,
+        "lm_batches": 16,
+        "answer_changing_valid_groups": 4,
+        "evaluation_cpu_seconds": 112.56875714400007
+      }
+    ],
+    "exposure": [
+      {
+        "record_pass_equivalents": 0.0,
+        "record_register_pass_equivalents": 0.0,
+        "record_register_presentations": 0,
+        "source_record_presentations": 0,
+        "step": 0,
+        "unique_record_register_pairs": 0,
+        "unique_source_records": 0
+      },
+      {
+        "record_pass_equivalents": 0.375,
+        "record_register_pass_equivalents": 0.375,
+        "record_register_presentations": 72,
+        "source_record_presentations": 24,
+        "step": 24,
+        "unique_record_register_pairs": 72,
+        "unique_source_records": 24
+      },
+      {
+        "record_pass_equivalents": 1.5,
+        "record_register_pass_equivalents": 1.5,
+        "record_register_presentations": 288,
+        "source_record_presentations": 96,
+        "step": 96,
+        "unique_record_register_pairs": 192,
+        "unique_source_records": 64
+      }
+    ],
+    "checkpoint_manifests": {
+      "checkpoint-0000/adapter_manifest.json": {
+        "entries_verified": 2,
+        "manifest_sha256": "a8b3e5efd66bece9b0a6c025680a2cc2fd8d7ab528150ff3717baa907b52463d"
+      },
+      "checkpoint-0000/checkpoint_manifest.json": {
+        "entries_verified": 3,
+        "manifest_sha256": "32107e7c78201df4f1ba90478c7142b0fc552e0fb5f70aa9f84fbf2c664a1a97"
+      },
+      "checkpoint-0024/adapter_manifest.json": {
+        "entries_verified": 2,
+        "manifest_sha256": "4b53eee931a0e9c4ce1c8881be5867628432c28ae0704fe830eb5fd65c97e5bf"
+      },
+      "checkpoint-0024/checkpoint_manifest.json": {
+        "entries_verified": 3,
+        "manifest_sha256": "950f20b9cf6f4c769cc216462e9ff24c7d57741cc2572f299e8c7efe57e9ff87"
+      },
+      "checkpoint-0096/adapter_manifest.json": {
+        "entries_verified": 2,
+        "manifest_sha256": "8a9f116ad7eb5141746048c6b6b741a8046d25ac331cd6f36b8073c7043e05a3"
+      },
+      "checkpoint-0096/checkpoint_manifest.json": {
+        "entries_verified": 3,
+        "manifest_sha256": "2475365fa1f6827e0baedfd61f30b42906b048ccd6a5cf24acdf9253924b2d25"
+      }
+    },
+    "resources": {
+      "summary": {
+        "sampled_peak_combined_rss_bytes": 1568608256,
+        "wall_seconds": 604.2525810070001,
+        "returncode": -9,
+        "stop_reason": "cpu_budget"
+      },
+      "last_valid_sample": {
+        "child_cpu_seconds": 1195.2,
+        "combined_rss_bytes": 1337716736,
+        "wall_seconds": 604.2220277939996
+      },
+      "sample_count": 5954,
+      "nonstandard_rows": []
+    },
+    "status": {
+      "status": "incomplete",
+      "reason": "cpu_budget",
+      "returncode": -9,
+      "worker_status": {
+        "status": "running"
+      },
+      "accounting_error": null
+    }
+  },
+  "closure": {
+    "source": {
+      "entries_verified": 12,
+      "manifest_sha256": "261a67dbea8e4fb85f1207f94e6b4657d422d0f0da9e44a365639f977a227a16"
+    },
+    "run": {
+      "entries_verified": 37,
+      "manifest_sha256": "6898575105355650b8cc0cfee63b94205e06d043dd47eca4ea054b5741d3ebcb"
+    },
+    "training_updates": 384,
+    "training_cpu_seconds": 991.6041335169999,
+    "training_wall_seconds": 497.57999582501725,
+    "evaluations": [
+      {
+        "step": 384,
+        "records": 16,
+        "responses": 48,
+        "strict_correct": 46,
+        "format_coverage": 48,
+        "exact_target_template_match": 46,
+        "all_registers_correct": 15,
+        "valid_groups": 16,
+        "invalid_groups": 0,
+        "valid_group_answer_change_rate": 0.0625,
+        "answer_or_invalid_status_change_count": 1,
+        "validation_lm_loss": 0.010282861343512195,
+        "lm_batches": 16,
+        "answer_changing_valid_groups": 1,
+        "evaluation_cpu_seconds": 108.80281213500007
+      }
+    ],
+    "exposure": [
+      {
+        "record_pass_equivalents": 0.0,
+        "record_register_pass_equivalents": 0.0,
+        "record_register_presentations": 0,
+        "source_record_presentations": 0,
+        "step": 0,
+        "unique_record_register_pairs": 0,
+        "unique_source_records": 0
+      },
+      {
+        "record_pass_equivalents": 0.375,
+        "record_register_pass_equivalents": 0.375,
+        "record_register_presentations": 72,
+        "source_record_presentations": 24,
+        "step": 24,
+        "unique_record_register_pairs": 72,
+        "unique_source_records": 24
+      },
+      {
+        "record_pass_equivalents": 1.5,
+        "record_register_pass_equivalents": 1.5,
+        "record_register_presentations": 288,
+        "source_record_presentations": 96,
+        "step": 96,
+        "unique_record_register_pairs": 192,
+        "unique_source_records": 64
+      },
+      {
+        "record_pass_equivalents": 6.0,
+        "record_register_pass_equivalents": 6.0,
+        "record_register_presentations": 1152,
+        "source_record_presentations": 384,
+        "step": 384,
+        "unique_record_register_pairs": 192,
+        "unique_source_records": 64
+      }
+    ],
+    "checkpoint_manifests": {
+      "checkpoint-0000/adapter_manifest.json": {
+        "entries_verified": 2,
+        "manifest_sha256": "c5664b447442c623e80c3ab3649576361793a8ae9efd9a9a399adc93fd87053b"
+      },
+      "checkpoint-0000/checkpoint_manifest.json": {
+        "entries_verified": 5,
+        "manifest_sha256": "2122dbea9bd6ca0f1e0201598938e63ffd07896159a871fbde5760a4f74d61ab"
+      },
+      "checkpoint-0024/adapter_manifest.json": {
+        "entries_verified": 2,
+        "manifest_sha256": "e8f4880c16a785284a31ca3e78054606fbb1af3e1ac420a8f77a3d19cdf9687e"
+      },
+      "checkpoint-0024/checkpoint_manifest.json": {
+        "entries_verified": 5,
+        "manifest_sha256": "f0fd684d6ac1f7af0c07fba95a6e47c8853aad250ca6e5edacabd1f91085b463"
+      },
+      "checkpoint-0096/adapter_manifest.json": {
+        "entries_verified": 2,
+        "manifest_sha256": "0da8d64c58b5efaf503eb99ebc9fadc32510093c9817d4bbdc0584b3eda28ea0"
+      },
+      "checkpoint-0096/checkpoint_manifest.json": {
+        "entries_verified": 5,
+        "manifest_sha256": "2ec8982765891a315096ac9710924c161eb48b459b5ca784ac70db38604d28f3"
+      },
+      "checkpoint-0384/adapter_manifest.json": {
+        "entries_verified": 2,
+        "manifest_sha256": "4e2a73755c39af228da4bade44a84e1777e16de15c5d59be038745cba424697b"
+      },
+      "checkpoint-0384/checkpoint_manifest.json": {
+        "entries_verified": 5,
+        "manifest_sha256": "ad9d061c29aed8942dc4193834cce46f9575039cb3ba805f84165951421adcd1"
+      }
+    },
+    "resources": {
+      "summary": {
+        "sampled_peak_combined_rss_bytes": 1519984640,
+        "wall_seconds": 557.8016966079995,
+        "returncode": 0,
+        "stop_reason": "accounting_failure"
+      },
+      "last_valid_sample": {
+        "child_cpu_seconds": 1105.48,
+        "combined_rss_bytes": 1218039808,
+        "wall_seconds": 557.6847855779997
+      },
+      "sample_count": 5494,
+      "nonstandard_rows": [
+        {
+          "event": "accounting_failure",
+          "sample_error": "ValueError('Missing, duplicate or malformed VmRSS accounting')",
+          "wall_seconds": 557.7858556749998
+        }
+      ]
+    },
+    "status": {
+      "status": "incomplete",
+      "reason": "accounting_failure",
+      "returncode": 0,
+      "worker_status": {
+        "status": "complete",
+        "checkpoints": [
+          0,
+          24,
+          96,
+          384
+        ],
+        "no_test_scoring": true
+      },
+      "accounting_error": "ValueError('Missing, duplicate or malformed VmRSS accounting')"
+    }
+  },
+  "continuity": {
+    "matching_prefix_rows": 326,
+    "fields": [
+      "step",
+      "group_id",
+      "lm_loss",
+      "gradient_norm"
+    ],
+    "timing_fields_excluded": true
+  },
+  "tensor_continuity": {
+    "24": {
+      "tensors_verified": 120,
+      "comparison": "key, dtype, shape, raw bytes",
+      "first_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+      "second_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4"
+    },
+    "96": {
+      "tensors_verified": 120,
+      "comparison": "key, dtype, shape, raw bytes",
+      "first_sha256": "9880aeb78158bdf0d1572673973ff2d17e0ca8832eda3b6b4e22afdcf75cb1af",
+      "second_sha256": "9880aeb78158bdf0d1572673973ff2d17e0ca8832eda3b6b4e22afdcf75cb1af"
+    }
+  },
+  "original_step24": {
+    "tensors_verified": 120,
+    "comparison": "key, dtype, shape, raw bytes",
+    "first_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+    "second_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4"
+  },
+  "caveats": [
+    "The earlier run is incomplete after a CPU-budget stop; it contains no step-384 evaluation.",
+    "The closure is a separate repeated training run, not a resumed run; 0/24/96 evaluations are earlier observations reused for presentation.",
+    "The closure has complete numerical outputs but retains incomplete/accounting_failure supervision status. Worker return code 0 does not establish clean supervised completion.",
+    "Telemetry is sampled. Missing terminal accounting prevents asserting complete resource observability; a shutdown race is plausible but not proven.",
+    "Compute for the two runs is additive, not one shared original allowance.",
+    "One seed, synthetic records, correlated register variants, reused development validation, and changed exposure plus optimization constrain interpretation.",
+    "No head comparison, fresh held-out evaluation, statistical significance, convergence, comprehension, accessibility, or model-transfer claim follows.",
+    "Recovery-file hashes are checked; no resume test or exact-recovery guarantee is established."
+  ],
+  "audit_passed": true
+}

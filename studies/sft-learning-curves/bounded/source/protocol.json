@@ -1,0 +1,24 @@
+{
+  "checkpoints": [
+    0,
+    24,
+    96,
+    384
+  ],
+  "seed": 11,
+  "data_seed": 20261022,
+  "max_updates": 384,
+  "torch_threads": 2,
+  "rss_bytes": 3221225472,
+  "wall_seconds": 1200,
+  "cpu_seconds": 1200,
+  "sampling_seconds": 0.1,
+  "max_new_tokens": 24,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0,
+  "clip_norm": 1.0,
+  "rank": 4,
+  "alpha": 8,
+  "dropout": 0.0,
+  "model_dir": "./model"
+}

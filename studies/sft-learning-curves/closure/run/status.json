@@ -1,0 +1,16 @@
+{
+  "status": "incomplete",
+  "reason": "accounting_failure",
+  "returncode": 0,
+  "worker_status": {
+    "status": "complete",
+    "checkpoints": [
+      0,
+      24,
+      96,
+      384
+    ],
+    "no_test_scoring": true
+  },
+  "accounting_error": "ValueError('Missing, duplicate or malformed VmRSS accounting')"
+}

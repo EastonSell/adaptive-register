@@ -1,0 +1,16 @@
+{"group_id": 64, "lm_loss": 0.000390963425161317, "step": 384, "target_tokens": 35}
+{"group_id": 65, "lm_loss": 0.0003167589311487973, "step": 384, "target_tokens": 35}
+{"group_id": 66, "lm_loss": 0.0007715753163211048, "step": 384, "target_tokens": 35}
+{"group_id": 67, "lm_loss": 0.0003990959085058421, "step": 384, "target_tokens": 35}
+{"group_id": 68, "lm_loss": 0.15824852883815765, "step": 384, "target_tokens": 35}
+{"group_id": 69, "lm_loss": 0.000290012831101194, "step": 384, "target_tokens": 35}
+{"group_id": 70, "lm_loss": 0.0003354563668835908, "step": 384, "target_tokens": 35}
+{"group_id": 71, "lm_loss": 0.0005609484505839646, "step": 384, "target_tokens": 35}
+{"group_id": 72, "lm_loss": 0.0004032526339869946, "step": 384, "target_tokens": 35}
+{"group_id": 73, "lm_loss": 0.0005430658929981291, "step": 384, "target_tokens": 35}
+{"group_id": 74, "lm_loss": 0.000315586308715865, "step": 384, "target_tokens": 35}
+{"group_id": 75, "lm_loss": 0.0005267338710837066, "step": 384, "target_tokens": 35}
+{"group_id": 76, "lm_loss": 0.00033949167118407786, "step": 384, "target_tokens": 35}
+{"group_id": 77, "lm_loss": 0.0003291879838798195, "step": 384, "target_tokens": 35}
+{"group_id": 78, "lm_loss": 0.00042613185360096395, "step": 384, "target_tokens": 35}
+{"group_id": 79, "lm_loss": 0.00032899121288210154, "step": 384, "target_tokens": 35}

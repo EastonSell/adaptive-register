@@ -1,0 +1,2285 @@
+{
+  "completed_updates": 384,
+  "next_update": 385,
+  "order": [
+    21,
+    31,
+    20,
+    46,
+    8,
+    47,
+    41,
+    52,
+    26,
+    50,
+    13,
+    17,
+    58,
+    22,
+    53,
+    15,
+    42,
+    27,
+    16,
+    63,
+    18,
+    23,
+    61,
+    14,
+    24,
+    48,
+    43,
+    7,
+    36,
+    45,
+    1,
+    3,
+    4,
+    33,
+    0,
+    10,
+    44,
+    25,
+    38,
+    2,
+    34,
+    5,
+    9,
+    19,
+    56,
+    6,
+    51,
+    39,
+    40,
+    30,
+    62,
+    11,
+    12,
+    37,
+    60,
+    32,
+    28,
+    29,
+    49,
+    59,
+    54,
+    35,
+    55,
+    57
+  ],
+  "parameter_names_in_optimizer_order": [
+    "base_model.model.model.layers.0.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.0.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.0.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.0.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.1.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.1.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.1.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.1.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.2.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.2.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.2.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.2.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.3.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.3.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.3.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.3.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.4.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.4.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.4.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.4.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.5.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.5.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.5.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.5.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.6.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.6.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.6.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.6.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.7.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.7.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.7.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.7.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.8.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.8.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.8.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.8.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.9.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.9.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.9.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.9.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.10.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.10.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.10.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.10.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.11.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.11.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.11.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.11.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.12.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.12.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.12.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.12.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.13.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.13.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.13.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.13.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.14.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.14.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.14.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.14.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.15.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.15.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.15.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.15.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.16.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.16.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.16.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.16.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.17.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.17.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.17.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.17.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.18.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.18.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.18.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.18.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.19.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.19.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.19.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.19.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.20.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.20.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.20.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.20.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.21.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.21.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.21.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.21.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.22.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.22.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.22.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.22.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.23.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.23.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.23.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.23.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.24.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.24.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.24.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.24.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.25.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.25.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.25.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.25.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.26.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.26.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.26.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.26.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.27.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.27.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.27.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.27.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.28.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.28.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.28.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.28.self_attn.v_proj.lora_B.default.weight",
+    "base_model.model.model.layers.29.self_attn.q_proj.lora_A.default.weight",
+    "base_model.model.model.layers.29.self_attn.q_proj.lora_B.default.weight",
+    "base_model.model.model.layers.29.self_attn.v_proj.lora_A.default.weight",
+    "base_model.model.model.layers.29.self_attn.v_proj.lora_B.default.weight"
+  ],
+  "python_random_state": [
+    3,
+    [
+      2147483648,
+      3331703933,
+      4046440893,
+      4046311371,
+      422312393,
+      1270713441,
+      2718813766,
+      4018948897,
+      2189863656,
+      4149854277,
+      829536160,
+      4009045236,
+      286176902,
+      1927855263,
+      4200236999,
+      151855991,
+      325076378,
+      509726374,
+      2868310355,
+      947742457,
+      56494339,
+      727190179,
+      3720907424,
+      1552269144,
+      2818514579,
+      437430289,
+      2830591532,
+      3474448341,
+      1694059258,
+      652160156,
+      1889044635,
+      2220319832,
+      881999954,
+      2368709581,
+      2059421815,
+      1565955499,
+      1184395877,
+      2163746647,
+      2748886175,
+      1314944409,
+      2310034864,
+      2936509099,
+      663193318,
+      990721658,
+      1351766610,
+      1066511778,
+      1058479620,
+      766663130,
+      1890966486,
+      3498393906,
+      823337545,
+      2759871641,
+      1570401604,
+      1194664590,
+      1548013158,
+      1701181556,
+      3002375059,
+      262610144,
+      746430552,
+      3360052159,
+      1500243895,
+      3470229609,
+      2078465838,
+      2394205590,
+      3413375732,
+      2411368706,
+      221981700,
+      3475152181,
+      1154543314,
+      1464724579,
+      1352578701,
+      1397785448,
+      3939454459,
+      897501896,
+      208157069,
+      2378801169,
+      103968630,
+      2858866489,
+      4290290424,
+      1587177038,
+      3337241291,
+      830129602,
+      55667623,
+      503960377,
+      1938659465,
+      3139696168,
+      1570114351,
+      2979860641,
+      109780081,
+      543733710,
+      3361741105,
+      719179229,
+      1703004739,
+      2758072870,
+      225236580,
+      647159466,
+      424764602,
+      3010129107,
+      55928895,
+      1950057134,
+      1929488726,
+      1837960608,
+      1384370731,
+      2171150298,
+      2442432078,
+      483093453,
+      2069328276,
+      1891951259,
+      2565542327,
+      351257511,
+      1299200397,
+      832579718,
+      1323687469,
+      3687477554,
+      2412095286,
+      2448583493,
+      3746784556,
+      2318119569,
+      2120630373,
+      3411616362,
+      2727717114,
+      1329800322,
+      2792784922,
+      2133768094,
+      4152255556,
+      3833030740,
+      1985158087,
+      1807622231,
+      4037425659,
+      2099261881,
+      3464409940,
+      195841386,
+      317603049,
+      2774420830,
+      1453776445,
+      2332849379,
+      3077075960,
+      1153955817,
+      2403422336,
+      2599588323,
+      3155625233,
+      434058411,
+      3981656139,
+      4137729149,
+      296594592,
+      4035203194,
+      832280759,
+      695055889,
+      3559507891,
+      3836409634,
+      960001703,
+      242829142,
+      1272529672,
+      331752355,
+      2949877672,
+      3897584797,
+      146306782,
+      437565497,
+      1420359933,
+      202836083,
+      1012227802,
+      3876969868,
+      1622278651,
+      3352774629,
+      3159002606,
+      3042759768,
+      506023601,
+      3057597220,
+      3561805697,
+      4210368709,
+      356311882,
+      2472783847,
+      72676542,
+      266427557,
+      3055144567,
+      2695606364,
+      135447412,
+      347433270,
+      2301320102,
+      3039150045,
+      3232852419,
+      915407537,
+      1142901791,
+      1309156092,
+      2501810595,
+      1636226730,
+      1744856283,
+      3445161861,
+      1600027576,
+      3801482087,
+      3927201603,
+      3012097454,
+      2142630940,
+      2803336458,
+      2220867804,
+      702876847,
+      1810481987,
+      3283465612,
+      519148569,
+      846770104,
+      2902416012,
+      3215061973,
+      1889709373,
+      2704036167,
+      1030024917,
+      2307776121,
+      2566294705,
+      481475318,
+      3815913739,
+      2143932937,
+      1654708364,
+      1681556222,
+      653837162,
+      1362664660,
+      1916656279,
+      4060234814,
+      3716256434,
+      1528388930,
+      1777866063,
+      480151103,
+      4201105891,
+      4184050849,
+      3401100782,
+      3792064549,
+      2406054863,
+      2131169027,
+      2681028916,
+      1264274455,
+      523445866,
+      2504864994,
+      3477840706,
+      1560767989,
+      2743121503,
+      2200926580,
+      3638777375,
+      304625554,
+      2930576500,
+      481173733,
+      4032071174,
+      3404127946,
+      3923448032,
+      3194950372,
+      3086850563,
+      4145488866,
+      1724184711,
+      1895146592,
+      3300616412,
+      3088178800,
+      2682202446,
+      3126050384,
+      1945917583,
+      2238813049,
+      676845880,
+      294748308,
+      2628795595,
+      2161677740,
+      3076698698,
+      2931912168,
+      2887978849,
+      4001511086,
+      2079255411,
+      4100305344,
+      3694995414,
+      3997926649,
+      125108972,
+      3456115620,
+      2503994119,
+      2470572664,
+      3746929382,
+      1855506522,
+      3356395795,
+      2003540334,
+      4276612511,
+      2596248493,
+      2037032230,
+      1958324388,
+      875474380,
+      4005015711,
+      3819561848,
+      3164248542,
+      2318383624,
+      4025522651,
+      3475051431,
+      2810493629,
+      3567318702,
+      4024871639,
+      3990511857,
+      835456490,
+      2444722156,
+      2429323341,
+      3166042684,
+      49039728,
+      2782585331,
+      3425145633,
+      585355663,
+      4245583679,
+      3692689276,
+      4132099492,
+      2839553536,
+      3641314440,
+      2631164581,
+      643250832,
+      3023226932,
+      3131009720,
+      2841880080,
+      3785160365,
+      2965118328,
+      1752875468,
+      2149018711,
+      412619927,
+      501273287,
+      1107225058,
+      3523820120,
+      3729680242,
+      2432061210,
+      2756444855,
+      305455696,
+      47663679,
+      2148717204,
+      342265674,
+      2057644219,
+      307981750,
+      4282299044,
+      1165769285,
+      1988709914,
+      4164831877,
+      3568980630,
+      3731784944,
+      858071919,
+      150572897,
+      2639484252,
+      1940622805,
+      1217657274,
+      4228776720,
+      179478963,
+      933884490,
+      98360858,
+      1157576225,
+      2068222095,
+      3557227494,
+      2102729440,
+      2729051319,
+      1992171563,
+      209237587,
+      3773954077,
+      3594326,
+      185227922,
+      2247839820,
+      3660497606,
+      1593355075,
+      2422707046,
+      404503190,
+      3237176,
+      563818571,
+      2982592000,
+      3227921164,
+      2680170124,
+      629449417,
+      84458385,
+      1588648733,
+      2807009667,
+      3608460618,
+      2748731524,
+      1994500659,
+      1576506810,
+      4235685341,
+      2377894564,
+      967258577,
+      1793390477,
+      732378973,
+      353386465,
+      2003827539,
+      1543679576,
+      3736695384,
+      2330803350,
+      1883174210,
+      3889742115,
+      1017809398,
+      1250225988,
+      3766379926,
+      913077514,
+      3962189227,
+      3252119166,
+      3981360669,
+      2538614831,
+      263431433,
+      20074893,
+      1511099175,
+      2450232602,
+      1860505938,
+      1460070387,
+      2188357075,
+      3009186684,
+      2498738456,
+      3802313743,
+      4175834601,
+      3446294396,
+      2663593053,
+      2467118626,
+      2272744074,
+      3605248317,
+      286937627,
+      2659762810,
+      559447893,
+      1578666422,
+      1171064772,
+      1203006946,
+      3888712533,
+      2447016810,
+      2673463705,
+      2916144760,
+      1080579466,
+      4100770339,
+      1259052864,
+      1261317588,
+      2219389093,
+      778013034,
+      238040019,
+      3634828927,
+      1888935010,
+      1438441010,
+      4210736515,
+      3439165054,
+      1975051195,
+      417830195,
+      3437751423,
+      2210018229,
+      4028159824,
+      3900600108,
+      2271548900,
+      4140217280,
+      2494756341,
+      3792095182,
+      345414443,
+      3330226387,
+      3312543919,
+      355732895,
+      4096663327,
+      3133124283,
+      3129213887,
+      554348929,
+      293698054,
+      1630394418,
+      3894107285,
+      2437047010,
+      3334241017,
+      330412756,
+      2162005897,
+      1226392557,
+      3645150723,
+      2045777233,
+      2860366520,
+      2001806765,
+      2722356063,
+      2251718866,
+      1041303051,
+      96878444,
+      2667719479,
+      3704362381,
+      134737205,
+      980569691,
+      1449568542,
+      2209809863,
+      3473059851,
+      2625120229,
+      776770489,
+      1649634418,
+      2565361666,
+      3208656567,
+      687919055,
+      3669863738,
+      3581336578,
+      3240927861,
+      4201234810,
+      3193114679,
+      1775042778,
+      1235140587,
+      974360341,
+      794620182,
+      2474954145,
+      4177184640,
+      2485500173,
+      3958944125,
+      1420951394,
+      3333289040,
+      1522482568,
+      2635127233,
+      2350491543,
+      369270500,
+      1508581386,
+      2025931977,
+      1042247489,
+      1298100169,
+      1813956173,
+      1686314037,
+      946365036,
+      1090692501,
+      1832229410,
+      1868679035,
+      3882888579,
+      1395466674,
+      3139660525,
+      1132904101,
+      863218053,
+      2110172066,
+      530210427,
+      1735865239,
+      2762424678,
+      3388200499,
+      317948086,
+      2828564902,
+      192438596,
+      1897708917,
+      1813069339,
+      3877164644,
+      1947777419,
+      2451455177,
+      2273033546,
+      3343641004,
+      744101667,
+      17370439,
+      4275990424,
+      2595754886,
+      1132491678,
+      643677555,
+      624426500,
+      1698191089,
+      2308077273,
+      4209876695,
+      1179458747,
+      1502679725,
+      323726749,
+      3560746023,
+      1153595472,
+      3882942234,
+      177447109,
+      2115776831,
+      4105096106,
+      3030070592,
+      3670839866,
+      995705279,
+      2385703594,
+      318765853,
+      4276071542,
+      2129376766,
+      2502302662,
+      2632138476,
+      1674254072,
+      1415138114,
+      1132050081,
+      2102275942,
+      941462170,
+      3492683897,
+      3058849120,
+      2046562116,
+      2356384660,
+      4057305427,
+      91520908,
+      2695752963,
+      656605742,
+      3701137542,
+      1867118688,
+      1232191534,
+      3066052502,
+      1377801133,
+      3372233740,
+      2205861102,
+      3913928837,
+      4188851426,
+      2110403382,
+      981896859,
+      3930058843,
+      2827684026,
+      2383000237,
+      1740744372,
+      2110561496,
+      3187895354,
+      3602043041,
+      4264038278,
+      1551741388,
+      734035549,
+      2588926092,
+      3230305000,
+      2575932975,
+      1247387486,
+      2249390744,
+      3240109711,
+      165096126,
+      1107507805,
+      30043590,
+      3862967726,
+      2548152406,
+      4212825005,
+      4013611105,
+      4123836958,
+      290415473,
+      1734583914,
+      10211270,
+      1129645867,
+      2448882473,
+      3219780064,
+      1483488125,
+      3551751412,
+      2821075119,
+      769767081,
+      1281626623,
+      411783376,
+      1771313141,
+      4148234541,
+      3718758806,
+      491578181,
+      2922765365,
+      3714925253,
+      810156902,
+      150888492,
+      1083273829,
+      877935965,
+      3952802004,
+      849268457,
+      225857923,
+      834370188,
+      4191032663,
+      1484661581,
+      3314103251,
+      624
+    ],
+    null
+  ],
+  "optimizer_states": {
+    "0": {
+      "step": {
+        "tensor": "parameter_0.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_0.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_0.exp_avg_sq"
+      }
+    },
+    "1": {
+      "step": {
+        "tensor": "parameter_1.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_1.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_1.exp_avg_sq"
+      }
+    },
+    "2": {
+      "step": {
+        "tensor": "parameter_2.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_2.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_2.exp_avg_sq"
+      }
+    },
+    "3": {
+      "step": {
+        "tensor": "parameter_3.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_3.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_3.exp_avg_sq"
+      }
+    },
+    "4": {
+      "step": {
+        "tensor": "parameter_4.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_4.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_4.exp_avg_sq"
+      }
+    },
+    "5": {
+      "step": {
+        "tensor": "parameter_5.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_5.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_5.exp_avg_sq"
+      }
+    },
+    "6": {
+      "step": {
+        "tensor": "parameter_6.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_6.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_6.exp_avg_sq"
+      }
+    },
+    "7": {
+      "step": {
+        "tensor": "parameter_7.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_7.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_7.exp_avg_sq"
+      }
+    },
+    "8": {
+      "step": {
+        "tensor": "parameter_8.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_8.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_8.exp_avg_sq"
+      }
+    },
+    "9": {
+      "step": {
+        "tensor": "parameter_9.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_9.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_9.exp_avg_sq"
+      }
+    },
+    "10": {
+      "step": {
+        "tensor": "parameter_10.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_10.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_10.exp_avg_sq"
+      }
+    },
+    "11": {
+      "step": {
+        "tensor": "parameter_11.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_11.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_11.exp_avg_sq"
+      }
+    },
+    "12": {
+      "step": {
+        "tensor": "parameter_12.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_12.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_12.exp_avg_sq"
+      }
+    },
+    "13": {
+      "step": {
+        "tensor": "parameter_13.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_13.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_13.exp_avg_sq"
+      }
+    },
+    "14": {
+      "step": {
+        "tensor": "parameter_14.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_14.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_14.exp_avg_sq"
+      }
+    },
+    "15": {
+      "step": {
+        "tensor": "parameter_15.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_15.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_15.exp_avg_sq"
+      }
+    },
+    "16": {
+      "step": {
+        "tensor": "parameter_16.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_16.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_16.exp_avg_sq"
+      }
+    },
+    "17": {
+      "step": {
+        "tensor": "parameter_17.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_17.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_17.exp_avg_sq"
+      }
+    },
+    "18": {
+      "step": {
+        "tensor": "parameter_18.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_18.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_18.exp_avg_sq"
+      }
+    },
+    "19": {
+      "step": {
+        "tensor": "parameter_19.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_19.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_19.exp_avg_sq"
+      }
+    },
+    "20": {
+      "step": {
+        "tensor": "parameter_20.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_20.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_20.exp_avg_sq"
+      }
+    },
+    "21": {
+      "step": {
+        "tensor": "parameter_21.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_21.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_21.exp_avg_sq"
+      }
+    },
+    "22": {
+      "step": {
+        "tensor": "parameter_22.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_22.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_22.exp_avg_sq"
+      }
+    },
+    "23": {
+      "step": {
+        "tensor": "parameter_23.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_23.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_23.exp_avg_sq"
+      }
+    },
+    "24": {
+      "step": {
+        "tensor": "parameter_24.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_24.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_24.exp_avg_sq"
+      }
+    },
+    "25": {
+      "step": {
+        "tensor": "parameter_25.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_25.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_25.exp_avg_sq"
+      }
+    },
+    "26": {
+      "step": {
+        "tensor": "parameter_26.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_26.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_26.exp_avg_sq"
+      }
+    },
+    "27": {
+      "step": {
+        "tensor": "parameter_27.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_27.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_27.exp_avg_sq"
+      }
+    },
+    "28": {
+      "step": {
+        "tensor": "parameter_28.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_28.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_28.exp_avg_sq"
+      }
+    },
+    "29": {
+      "step": {
+        "tensor": "parameter_29.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_29.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_29.exp_avg_sq"
+      }
+    },
+    "30": {
+      "step": {
+        "tensor": "parameter_30.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_30.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_30.exp_avg_sq"
+      }
+    },
+    "31": {
+      "step": {
+        "tensor": "parameter_31.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_31.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_31.exp_avg_sq"
+      }
+    },
+    "32": {
+      "step": {
+        "tensor": "parameter_32.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_32.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_32.exp_avg_sq"
+      }
+    },
+    "33": {
+      "step": {
+        "tensor": "parameter_33.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_33.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_33.exp_avg_sq"
+      }
+    },
+    "34": {
+      "step": {
+        "tensor": "parameter_34.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_34.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_34.exp_avg_sq"
+      }
+    },
+    "35": {
+      "step": {
+        "tensor": "parameter_35.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_35.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_35.exp_avg_sq"
+      }
+    },
+    "36": {
+      "step": {
+        "tensor": "parameter_36.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_36.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_36.exp_avg_sq"
+      }
+    },
+    "37": {
+      "step": {
+        "tensor": "parameter_37.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_37.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_37.exp_avg_sq"
+      }
+    },
+    "38": {
+      "step": {
+        "tensor": "parameter_38.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_38.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_38.exp_avg_sq"
+      }
+    },
+    "39": {
+      "step": {
+        "tensor": "parameter_39.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_39.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_39.exp_avg_sq"
+      }
+    },
+    "40": {
+      "step": {
+        "tensor": "parameter_40.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_40.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_40.exp_avg_sq"
+      }
+    },
+    "41": {
+      "step": {
+        "tensor": "parameter_41.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_41.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_41.exp_avg_sq"
+      }
+    },
+    "42": {
+      "step": {
+        "tensor": "parameter_42.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_42.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_42.exp_avg_sq"
+      }
+    },
+    "43": {
+      "step": {
+        "tensor": "parameter_43.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_43.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_43.exp_avg_sq"
+      }
+    },
+    "44": {
+      "step": {
+        "tensor": "parameter_44.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_44.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_44.exp_avg_sq"
+      }
+    },
+    "45": {
+      "step": {
+        "tensor": "parameter_45.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_45.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_45.exp_avg_sq"
+      }
+    },
+    "46": {
+      "step": {
+        "tensor": "parameter_46.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_46.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_46.exp_avg_sq"
+      }
+    },
+    "47": {
+      "step": {
+        "tensor": "parameter_47.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_47.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_47.exp_avg_sq"
+      }
+    },
+    "48": {
+      "step": {
+        "tensor": "parameter_48.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_48.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_48.exp_avg_sq"
+      }
+    },
+    "49": {
+      "step": {
+        "tensor": "parameter_49.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_49.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_49.exp_avg_sq"
+      }
+    },
+    "50": {
+      "step": {
+        "tensor": "parameter_50.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_50.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_50.exp_avg_sq"
+      }
+    },
+    "51": {
+      "step": {
+        "tensor": "parameter_51.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_51.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_51.exp_avg_sq"
+      }
+    },
+    "52": {
+      "step": {
+        "tensor": "parameter_52.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_52.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_52.exp_avg_sq"
+      }
+    },
+    "53": {
+      "step": {
+        "tensor": "parameter_53.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_53.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_53.exp_avg_sq"
+      }
+    },
+    "54": {
+      "step": {
+        "tensor": "parameter_54.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_54.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_54.exp_avg_sq"
+      }
+    },
+    "55": {
+      "step": {
+        "tensor": "parameter_55.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_55.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_55.exp_avg_sq"
+      }
+    },
+    "56": {
+      "step": {
+        "tensor": "parameter_56.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_56.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_56.exp_avg_sq"
+      }
+    },
+    "57": {
+      "step": {
+        "tensor": "parameter_57.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_57.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_57.exp_avg_sq"
+      }
+    },
+    "58": {
+      "step": {
+        "tensor": "parameter_58.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_58.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_58.exp_avg_sq"
+      }
+    },
+    "59": {
+      "step": {
+        "tensor": "parameter_59.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_59.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_59.exp_avg_sq"
+      }
+    },
+    "60": {
+      "step": {
+        "tensor": "parameter_60.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_60.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_60.exp_avg_sq"
+      }
+    },
+    "61": {
+      "step": {
+        "tensor": "parameter_61.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_61.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_61.exp_avg_sq"
+      }
+    },
+    "62": {
+      "step": {
+        "tensor": "parameter_62.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_62.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_62.exp_avg_sq"
+      }
+    },
+    "63": {
+      "step": {
+        "tensor": "parameter_63.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_63.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_63.exp_avg_sq"
+      }
+    },
+    "64": {
+      "step": {
+        "tensor": "parameter_64.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_64.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_64.exp_avg_sq"
+      }
+    },
+    "65": {
+      "step": {
+        "tensor": "parameter_65.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_65.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_65.exp_avg_sq"
+      }
+    },
+    "66": {
+      "step": {
+        "tensor": "parameter_66.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_66.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_66.exp_avg_sq"
+      }
+    },
+    "67": {
+      "step": {
+        "tensor": "parameter_67.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_67.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_67.exp_avg_sq"
+      }
+    },
+    "68": {
+      "step": {
+        "tensor": "parameter_68.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_68.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_68.exp_avg_sq"
+      }
+    },
+    "69": {
+      "step": {
+        "tensor": "parameter_69.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_69.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_69.exp_avg_sq"
+      }
+    },
+    "70": {
+      "step": {
+        "tensor": "parameter_70.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_70.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_70.exp_avg_sq"
+      }
+    },
+    "71": {
+      "step": {
+        "tensor": "parameter_71.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_71.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_71.exp_avg_sq"
+      }
+    },
+    "72": {
+      "step": {
+        "tensor": "parameter_72.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_72.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_72.exp_avg_sq"
+      }
+    },
+    "73": {
+      "step": {
+        "tensor": "parameter_73.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_73.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_73.exp_avg_sq"
+      }
+    },
+    "74": {
+      "step": {
+        "tensor": "parameter_74.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_74.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_74.exp_avg_sq"
+      }
+    },
+    "75": {
+      "step": {
+        "tensor": "parameter_75.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_75.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_75.exp_avg_sq"
+      }
+    },
+    "76": {
+      "step": {
+        "tensor": "parameter_76.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_76.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_76.exp_avg_sq"
+      }
+    },
+    "77": {
+      "step": {
+        "tensor": "parameter_77.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_77.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_77.exp_avg_sq"
+      }
+    },
+    "78": {
+      "step": {
+        "tensor": "parameter_78.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_78.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_78.exp_avg_sq"
+      }
+    },
+    "79": {
+      "step": {
+        "tensor": "parameter_79.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_79.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_79.exp_avg_sq"
+      }
+    },
+    "80": {
+      "step": {
+        "tensor": "parameter_80.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_80.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_80.exp_avg_sq"
+      }
+    },
+    "81": {
+      "step": {
+        "tensor": "parameter_81.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_81.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_81.exp_avg_sq"
+      }
+    },
+    "82": {
+      "step": {
+        "tensor": "parameter_82.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_82.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_82.exp_avg_sq"
+      }
+    },
+    "83": {
+      "step": {
+        "tensor": "parameter_83.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_83.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_83.exp_avg_sq"
+      }
+    },
+    "84": {
+      "step": {
+        "tensor": "parameter_84.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_84.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_84.exp_avg_sq"
+      }
+    },
+    "85": {
+      "step": {
+        "tensor": "parameter_85.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_85.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_85.exp_avg_sq"
+      }
+    },
+    "86": {
+      "step": {
+        "tensor": "parameter_86.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_86.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_86.exp_avg_sq"
+      }
+    },
+    "87": {
+      "step": {
+        "tensor": "parameter_87.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_87.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_87.exp_avg_sq"
+      }
+    },
+    "88": {
+      "step": {
+        "tensor": "parameter_88.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_88.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_88.exp_avg_sq"
+      }
+    },
+    "89": {
+      "step": {
+        "tensor": "parameter_89.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_89.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_89.exp_avg_sq"
+      }
+    },
+    "90": {
+      "step": {
+        "tensor": "parameter_90.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_90.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_90.exp_avg_sq"
+      }
+    },
+    "91": {
+      "step": {
+        "tensor": "parameter_91.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_91.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_91.exp_avg_sq"
+      }
+    },
+    "92": {
+      "step": {
+        "tensor": "parameter_92.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_92.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_92.exp_avg_sq"
+      }
+    },
+    "93": {
+      "step": {
+        "tensor": "parameter_93.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_93.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_93.exp_avg_sq"
+      }
+    },
+    "94": {
+      "step": {
+        "tensor": "parameter_94.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_94.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_94.exp_avg_sq"
+      }
+    },
+    "95": {
+      "step": {
+        "tensor": "parameter_95.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_95.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_95.exp_avg_sq"
+      }
+    },
+    "96": {
+      "step": {
+        "tensor": "parameter_96.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_96.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_96.exp_avg_sq"
+      }
+    },
+    "97": {
+      "step": {
+        "tensor": "parameter_97.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_97.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_97.exp_avg_sq"
+      }
+    },
+    "98": {
+      "step": {
+        "tensor": "parameter_98.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_98.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_98.exp_avg_sq"
+      }
+    },
+    "99": {
+      "step": {
+        "tensor": "parameter_99.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_99.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_99.exp_avg_sq"
+      }
+    },
+    "100": {
+      "step": {
+        "tensor": "parameter_100.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_100.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_100.exp_avg_sq"
+      }
+    },
+    "101": {
+      "step": {
+        "tensor": "parameter_101.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_101.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_101.exp_avg_sq"
+      }
+    },
+    "102": {
+      "step": {
+        "tensor": "parameter_102.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_102.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_102.exp_avg_sq"
+      }
+    },
+    "103": {
+      "step": {
+        "tensor": "parameter_103.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_103.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_103.exp_avg_sq"
+      }
+    },
+    "104": {
+      "step": {
+        "tensor": "parameter_104.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_104.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_104.exp_avg_sq"
+      }
+    },
+    "105": {
+      "step": {
+        "tensor": "parameter_105.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_105.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_105.exp_avg_sq"
+      }
+    },
+    "106": {
+      "step": {
+        "tensor": "parameter_106.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_106.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_106.exp_avg_sq"
+      }
+    },
+    "107": {
+      "step": {
+        "tensor": "parameter_107.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_107.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_107.exp_avg_sq"
+      }
+    },
+    "108": {
+      "step": {
+        "tensor": "parameter_108.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_108.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_108.exp_avg_sq"
+      }
+    },
+    "109": {
+      "step": {
+        "tensor": "parameter_109.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_109.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_109.exp_avg_sq"
+      }
+    },
+    "110": {
+      "step": {
+        "tensor": "parameter_110.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_110.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_110.exp_avg_sq"
+      }
+    },
+    "111": {
+      "step": {
+        "tensor": "parameter_111.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_111.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_111.exp_avg_sq"
+      }
+    },
+    "112": {
+      "step": {
+        "tensor": "parameter_112.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_112.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_112.exp_avg_sq"
+      }
+    },
+    "113": {
+      "step": {
+        "tensor": "parameter_113.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_113.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_113.exp_avg_sq"
+      }
+    },
+    "114": {
+      "step": {
+        "tensor": "parameter_114.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_114.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_114.exp_avg_sq"
+      }
+    },
+    "115": {
+      "step": {
+        "tensor": "parameter_115.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_115.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_115.exp_avg_sq"
+      }
+    },
+    "116": {
+      "step": {
+        "tensor": "parameter_116.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_116.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_116.exp_avg_sq"
+      }
+    },
+    "117": {
+      "step": {
+        "tensor": "parameter_117.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_117.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_117.exp_avg_sq"
+      }
+    },
+    "118": {
+      "step": {
+        "tensor": "parameter_118.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_118.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_118.exp_avg_sq"
+      }
+    },
+    "119": {
+      "step": {
+        "tensor": "parameter_119.step"
+      },
+      "exp_avg": {
+        "tensor": "parameter_119.exp_avg"
+      },
+      "exp_avg_sq": {
+        "tensor": "parameter_119.exp_avg_sq"
+      }
+    }
+  },
+  "optimizer_param_groups": [
+    {
+      "params": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "lr": 0.0005,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "weight_decay": 0.0,
+      "amsgrad": false,
+      "foreach": null,
+      "maximize": false,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null
+    }
+  ],
+  "scope": "Evidence for prospective exact-recovery tooling; not a tested resume guarantee. No resume is implemented in this run."
+}

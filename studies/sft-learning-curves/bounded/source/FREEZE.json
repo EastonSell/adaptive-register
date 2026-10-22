@@ -1,0 +1,13 @@
+{
+  "cases-development.json": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce",
+  "evidence.py": "179877eae7a13c917f6de545e47b5ebeb090028de8f25cd45e954317c1f3463e",
+  "protocol.json": "436bda0c9cb22e043c248d60296ed61d26dab9c734a8441233131a81d064ac58",
+  "runner.py": "50939f84860eb6de28ffbd24ba81fd2824f9adc4c023ea7a0400f1551101a8b7",
+  "supervise.py": "aceed622d811569045780406ae13da627e0a80328a0fe8e2db9b36328c87e574",
+  "tests/test_evidence.py": "c315d8788682326f951b7556feb33f41b029a224daee8b3979d3f7492da4579e",
+  "vendor/data.py": "ea32bbcecebe6a174280637ead3d3a0a4b0c6bfc0eb04761ce863fa80aabc880",
+  "vendor/model_manifest.json": "d0f483028a3219ecefe2e83f73a62b7322af3b13bd3efe0b3725b8247427037d",
+  "vendor/original-sft24.safetensors": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+  "vendor/requirements.lock.txt": "411980fef7956ccb55d03ff9cede0b57e17311d6962ba8c1a5bbd4c6e494e8d7",
+  "vendor/training.py": "936b974c84fb3192926e1ae303dc90d220c0a14a20e8a83ff7a162e7e7125376"
+}

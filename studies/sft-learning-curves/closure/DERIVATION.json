@@ -1,0 +1,539 @@
+[
+  {
+    "section": "source",
+    "path": "AMENDMENT-v2.md",
+    "original_sha256": "f8e267356cd3f3082e4bcea6b5ff50959568f639a2356f66a2eaaf55e52ff752",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "FREEZE.json",
+    "original_sha256": "45314305cfe3cc45cbc9e7a916ba7b973bd2192f22a2fdf235e4384dac21ba58",
+    "disposition": "omitted",
+    "public_sha256": "261a67dbea8e4fb85f1207f94e6b4657d422d0f0da9e44a365639f977a227a16"
+  },
+  {
+    "section": "source",
+    "path": "PROTOCOL.md",
+    "original_sha256": "a16bb69f938d1d2681f8b30f1249abe49d3fe074a6973924be5c7a5b3f940119",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "PROVENANCE.json",
+    "original_sha256": "d080aebcbf8c056d846fad216e4e9098d56f9df0680c965d55d0491b56ec5e67",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "README.md",
+    "original_sha256": "3cba3c1ef62fae78f3d187d2ce6cc56d7bf68c99d62b68ac9e878633a35f4309",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "cases-development.json",
+    "original_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce",
+    "disposition": "byte-identical",
+    "public_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce"
+  },
+  {
+    "section": "source",
+    "path": "evidence.py",
+    "original_sha256": "179877eae7a13c917f6de545e47b5ebeb090028de8f25cd45e954317c1f3463e",
+    "disposition": "byte-identical",
+    "public_sha256": "179877eae7a13c917f6de545e47b5ebeb090028de8f25cd45e954317c1f3463e"
+  },
+  {
+    "section": "source",
+    "path": "protocol.json",
+    "original_sha256": "7dafd345df00c374a44a62ddf31a6c06705bb714d5c898f03e0248c4d964bd18",
+    "disposition": "portable model path",
+    "public_sha256": "721c99b7ffed297f4a6043641eafd129f9afeb290502950133e756ea30590f68"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/FREEZE.json",
+    "original_sha256": "f1a2f39ec54dd235b7a38cfd99831d0b133abd84f516e221882c98186726dc8f",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/PROTOCOL.md",
+    "original_sha256": "f57476e0872cf7d73d8d7c88b1dde442207d18c9ee5c0eb1b16611f54623153a",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/PROVENANCE.json",
+    "original_sha256": "d080aebcbf8c056d846fad216e4e9098d56f9df0680c965d55d0491b56ec5e67",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/README.md",
+    "original_sha256": "3cba3c1ef62fae78f3d187d2ce6cc56d7bf68c99d62b68ac9e878633a35f4309",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/cases-development.json",
+    "original_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/evidence.py",
+    "original_sha256": "179877eae7a13c917f6de545e47b5ebeb090028de8f25cd45e954317c1f3463e",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/protocol.json",
+    "original_sha256": "7dafd345df00c374a44a62ddf31a6c06705bb714d5c898f03e0248c4d964bd18",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/runner.py",
+    "original_sha256": "0552ccdc687fd1ec313f7de7ca912f2c2a3b31f96f062199fb81083ddbcdecb1",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/supervise.py",
+    "original_sha256": "6326938b7ded6057d7ae91756fe3dd09c5c0352d5097ee64bb4a0e1ada1d9ece",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/tests/test_evidence.py",
+    "original_sha256": "307e57ecc067e76e25f1ba82405b1253108b4bfc6eaa5844f994606eadffa085",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/tests-direct.txt",
+    "original_sha256": "c0bf7e260dc851fd745854c0c0d2b65c4a1631fb57e5d66b32a827a347e76c60",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/tests-source.txt",
+    "original_sha256": "69d966c9c60ad9b34b4232d700f7dcc874ffa658c0747fed85635e474446ea9a",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/vendor/data.py",
+    "original_sha256": "ea32bbcecebe6a174280637ead3d3a0a4b0c6bfc0eb04761ce863fa80aabc880",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/vendor/model_manifest.json",
+    "original_sha256": "d0f483028a3219ecefe2e83f73a62b7322af3b13bd3efe0b3725b8247427037d",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/vendor/original-sft24.safetensors",
+    "original_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/vendor/prior-sft96.safetensors",
+    "original_sha256": "9880aeb78158bdf0d1572673973ff2d17e0ca8832eda3b6b4e22afdcf75cb1af",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/vendor/requirements.lock.txt",
+    "original_sha256": "411980fef7956ccb55d03ff9cede0b57e17311d6962ba8c1a5bbd4c6e494e8d7",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "revisions/v1/vendor/training.py",
+    "original_sha256": "936b974c84fb3192926e1ae303dc90d220c0a14a20e8a83ff7a162e7e7125376",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "runner.py",
+    "original_sha256": "96a3bb582e5e1efd225bb874c620c966e9c43a13c27288f2ba6cc286e0982d16",
+    "disposition": "byte-identical",
+    "public_sha256": "96a3bb582e5e1efd225bb874c620c966e9c43a13c27288f2ba6cc286e0982d16"
+  },
+  {
+    "section": "source",
+    "path": "supervise.py",
+    "original_sha256": "6326938b7ded6057d7ae91756fe3dd09c5c0352d5097ee64bb4a0e1ada1d9ece",
+    "disposition": "CLI help text only; scientific logic unchanged",
+    "public_sha256": "aceed622d811569045780406ae13da627e0a80328a0fe8e2db9b36328c87e574"
+  },
+  {
+    "section": "source",
+    "path": "tests/test_evidence.py",
+    "original_sha256": "dd427f0b7a8cbe52c6a9024b1f189942440e2a116f560c9f759977925db9047a",
+    "disposition": "byte-identical",
+    "public_sha256": "dd427f0b7a8cbe52c6a9024b1f189942440e2a116f560c9f759977925db9047a"
+  },
+  {
+    "section": "source",
+    "path": "tests-direct.txt",
+    "original_sha256": "0d96c3661075afa946597fe9347acfb7285f38eb6f14f16ed996aa2d87e48799",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "tests-source.txt",
+    "original_sha256": "0eeb8e250d26a7f2866a0d64c295bce6a49b21a79bbaa5e8c0c4633a0dd5c23c",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "v1-to-v2.diff",
+    "original_sha256": "2bc015450f1af40c705ed71962d4af0b38e711041ec3c74e3fdcc7df92f533cf",
+    "disposition": "omitted"
+  },
+  {
+    "section": "source",
+    "path": "vendor/data.py",
+    "original_sha256": "ea32bbcecebe6a174280637ead3d3a0a4b0c6bfc0eb04761ce863fa80aabc880",
+    "disposition": "byte-identical",
+    "public_sha256": "ea32bbcecebe6a174280637ead3d3a0a4b0c6bfc0eb04761ce863fa80aabc880"
+  },
+  {
+    "section": "source",
+    "path": "vendor/model_manifest.json",
+    "original_sha256": "d0f483028a3219ecefe2e83f73a62b7322af3b13bd3efe0b3725b8247427037d",
+    "disposition": "byte-identical",
+    "public_sha256": "d0f483028a3219ecefe2e83f73a62b7322af3b13bd3efe0b3725b8247427037d"
+  },
+  {
+    "section": "source",
+    "path": "vendor/original-sft24.safetensors",
+    "original_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+    "disposition": "byte-identical",
+    "public_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4"
+  },
+  {
+    "section": "source",
+    "path": "vendor/prior-sft96.safetensors",
+    "original_sha256": "9880aeb78158bdf0d1572673973ff2d17e0ca8832eda3b6b4e22afdcf75cb1af",
+    "disposition": "byte-identical",
+    "public_sha256": "9880aeb78158bdf0d1572673973ff2d17e0ca8832eda3b6b4e22afdcf75cb1af"
+  },
+  {
+    "section": "source",
+    "path": "vendor/requirements.lock.txt",
+    "original_sha256": "411980fef7956ccb55d03ff9cede0b57e17311d6962ba8c1a5bbd4c6e494e8d7",
+    "disposition": "byte-identical",
+    "public_sha256": "411980fef7956ccb55d03ff9cede0b57e17311d6962ba8c1a5bbd4c6e494e8d7"
+  },
+  {
+    "section": "source",
+    "path": "vendor/training.py",
+    "original_sha256": "936b974c84fb3192926e1ae303dc90d220c0a14a20e8a83ff7a162e7e7125376",
+    "disposition": "byte-identical",
+    "public_sha256": "936b974c84fb3192926e1ae303dc90d220c0a14a20e8a83ff7a162e7e7125376"
+  },
+  {
+    "section": "run",
+    "path": "RESULTS-MANIFEST.json",
+    "original_sha256": "fdaae5bc98569f9b535b1561638bbd37902e78f2a2480f6e7e4f5c0b08ad9765",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "6898575105355650b8cc0cfee63b94205e06d043dd47eca4ea054b5741d3ebcb"
+  },
+  {
+    "section": "run",
+    "path": "cases.json",
+    "original_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce",
+    "disposition": "byte-identical",
+    "public_sha256": "6c85c67e74e6982e4071e6f4b28d0fd3359010d30b8def009d928aa29cf001ce"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/README.md",
+    "original_sha256": "e3a5cbe68380ab16cab3e29edaa26d8830d54196415e0ca2194242a8ec2008d9",
+    "disposition": "omitted"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/adapter_config.json",
+    "original_sha256": "7a5e43f52e91b34d8a10997ece4cbc8bb1ccd3b5e77821f4090ab7fd6972cbc0",
+    "disposition": "portable pinned model reference",
+    "public_sha256": "8a8cd5f84cd7395ae8b0f6876d8deff910edd20db01766d2702aac97a2d9dcae"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/adapter_manifest.json",
+    "original_sha256": "cf94604de1f932b8870319642e1163b341f0997b736648d9395bed7bab97a1aa",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "c5664b447442c623e80c3ab3649576361793a8ae9efd9a9a399adc93fd87053b"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/adapter_model.safetensors",
+    "original_sha256": "f42afc6a6f4a46ff16c39a9c757487d50e9d930edc37e687f5a8677d226918b6",
+    "disposition": "byte-identical",
+    "public_sha256": "f42afc6a6f4a46ff16c39a9c757487d50e9d930edc37e687f5a8677d226918b6"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/checkpoint_manifest.json",
+    "original_sha256": "159e12dff6a0e3281a8db7e29d94aa611c4feda07c321d71ed546c7616fae9e6",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "2122dbea9bd6ca0f1e0201598938e63ffd07896159a871fbde5760a4f74d61ab"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/recovery.json",
+    "original_sha256": "8207871cda1bec6545e00f39419e08e34d09bb053f8ad2e0724735ab419e591b",
+    "disposition": "byte-identical",
+    "public_sha256": "8207871cda1bec6545e00f39419e08e34d09bb053f8ad2e0724735ab419e591b"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0000/recovery.safetensors",
+    "original_sha256": "c1d10d889989798f450a9c620ce348587798bc93173a2f725d8426fc744f50c5",
+    "disposition": "byte-identical",
+    "public_sha256": "c1d10d889989798f450a9c620ce348587798bc93173a2f725d8426fc744f50c5"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/README.md",
+    "original_sha256": "e3a5cbe68380ab16cab3e29edaa26d8830d54196415e0ca2194242a8ec2008d9",
+    "disposition": "omitted"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/adapter_config.json",
+    "original_sha256": "7a5e43f52e91b34d8a10997ece4cbc8bb1ccd3b5e77821f4090ab7fd6972cbc0",
+    "disposition": "portable pinned model reference",
+    "public_sha256": "8a8cd5f84cd7395ae8b0f6876d8deff910edd20db01766d2702aac97a2d9dcae"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/adapter_manifest.json",
+    "original_sha256": "b462e7e746b192106c617ce7644ea063ebaff10950648b7b1ee21c5a0e8dc729",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "e8f4880c16a785284a31ca3e78054606fbb1af3e1ac420a8f77a3d19cdf9687e"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/adapter_model.safetensors",
+    "original_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+    "disposition": "byte-identical",
+    "public_sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/checkpoint_manifest.json",
+    "original_sha256": "ad759fd62a144e1514093442f792907df22dc2fcd24283775af5283c0e1d5cbb",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "f0fd684d6ac1f7af0c07fba95a6e47c8853aad250ca6e5edacabd1f91085b463"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/recovery.json",
+    "original_sha256": "900141ad47f286ac631e840216cdf013847968a4eff12335e5364824d5d20208",
+    "disposition": "byte-identical",
+    "public_sha256": "900141ad47f286ac631e840216cdf013847968a4eff12335e5364824d5d20208"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0024/recovery.safetensors",
+    "original_sha256": "124b5f86d7be028574a1d90b57e9ae99e06050e9ca12786d15f24a4ed9e144cd",
+    "disposition": "byte-identical",
+    "public_sha256": "124b5f86d7be028574a1d90b57e9ae99e06050e9ca12786d15f24a4ed9e144cd"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/README.md",
+    "original_sha256": "e3a5cbe68380ab16cab3e29edaa26d8830d54196415e0ca2194242a8ec2008d9",
+    "disposition": "omitted"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/adapter_config.json",
+    "original_sha256": "7a5e43f52e91b34d8a10997ece4cbc8bb1ccd3b5e77821f4090ab7fd6972cbc0",
+    "disposition": "portable pinned model reference",
+    "public_sha256": "8a8cd5f84cd7395ae8b0f6876d8deff910edd20db01766d2702aac97a2d9dcae"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/adapter_manifest.json",
+    "original_sha256": "b254108ae8dba8f2b5b7e0a2783be0ad317c1cd4bf64045d80a3a8445b5ffa0f",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "0da8d64c58b5efaf503eb99ebc9fadc32510093c9817d4bbdc0584b3eda28ea0"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/adapter_model.safetensors",
+    "original_sha256": "9880aeb78158bdf0d1572673973ff2d17e0ca8832eda3b6b4e22afdcf75cb1af",
+    "disposition": "byte-identical",
+    "public_sha256": "9880aeb78158bdf0d1572673973ff2d17e0ca8832eda3b6b4e22afdcf75cb1af"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/checkpoint_manifest.json",
+    "original_sha256": "a6ab457d9c60cc58c2ab1d49caa031402c66699a92a6ae427af937f876173750",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "2ec8982765891a315096ac9710924c161eb48b459b5ca784ac70db38604d28f3"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/recovery.json",
+    "original_sha256": "10d2c75b8b25df075e92409127ce7becda28840d09d6cf0e64b6252f44b67b22",
+    "disposition": "byte-identical",
+    "public_sha256": "10d2c75b8b25df075e92409127ce7becda28840d09d6cf0e64b6252f44b67b22"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0096/recovery.safetensors",
+    "original_sha256": "e563e9aad72d9a7d0f3ed1eaab5c4458bc7346431a687eff2bdd3da30464ff33",
+    "disposition": "byte-identical",
+    "public_sha256": "e563e9aad72d9a7d0f3ed1eaab5c4458bc7346431a687eff2bdd3da30464ff33"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0384/README.md",
+    "original_sha256": "e3a5cbe68380ab16cab3e29edaa26d8830d54196415e0ca2194242a8ec2008d9",
+    "disposition": "omitted"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0384/adapter_config.json",
+    "original_sha256": "7a5e43f52e91b34d8a10997ece4cbc8bb1ccd3b5e77821f4090ab7fd6972cbc0",
+    "disposition": "portable pinned model reference",
+    "public_sha256": "8a8cd5f84cd7395ae8b0f6876d8deff910edd20db01766d2702aac97a2d9dcae"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0384/adapter_manifest.json",
+    "original_sha256": "6e823b6b2dd907958c3fa41abb8a79e9d4aa3f7bd21339173500445b6fed7ea2",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "4e2a73755c39af228da4bade44a84e1777e16de15c5d59be038745cba424697b"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0384/adapter_model.safetensors",
+    "original_sha256": "95b74d7920f151de1aa17dd2a61174c2dffddd1f52444e899df4a4ff6f0c8beb",
+    "disposition": "byte-identical",
+    "public_sha256": "95b74d7920f151de1aa17dd2a61174c2dffddd1f52444e899df4a4ff6f0c8beb"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0384/checkpoint_manifest.json",
+    "original_sha256": "abe47bd69a1748dc6321357b37d4f5f6f7dbac213337950095ecdd26304a400d",
+    "disposition": "replaced public derivative manifest",
+    "public_sha256": "ad9d061c29aed8942dc4193834cce46f9575039cb3ba805f84165951421adcd1"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0384/recovery.json",
+    "original_sha256": "370d32463516174f7291daed4c38e3a10bca962e8962b2a9951ba0521a877ff0",
+    "disposition": "byte-identical",
+    "public_sha256": "370d32463516174f7291daed4c38e3a10bca962e8962b2a9951ba0521a877ff0"
+  },
+  {
+    "section": "run",
+    "path": "checkpoint-0384/recovery.safetensors",
+    "original_sha256": "79a7be0d54deb822a6451c4424f8dda6b7149a9eb250ee94c8d9abe4c338e812",
+    "disposition": "byte-identical",
+    "public_sha256": "79a7be0d54deb822a6451c4424f8dda6b7149a9eb250ee94c8d9abe4c338e812"
+  },
+  {
+    "section": "run",
+    "path": "console.log",
+    "original_sha256": "9fcb6f3fbf4b103f70b03fa0ceb6495d71ad6e9d037c9842acdf13b8d7313692",
+    "disposition": "omitted"
+  },
+  {
+    "section": "run",
+    "path": "curves.jsonl",
+    "original_sha256": "b09d2121a1ee299ac823619fb32229c98b264ce5db9db2d89e03d9c94a75adbc",
+    "disposition": "byte-identical",
+    "public_sha256": "b09d2121a1ee299ac823619fb32229c98b264ce5db9db2d89e03d9c94a75adbc"
+  },
+  {
+    "section": "run",
+    "path": "exposure.jsonl",
+    "original_sha256": "194b8037c14abd908e6de2740f3832cacf1075fb13e8b2b0574310c022d28593",
+    "disposition": "byte-identical",
+    "public_sha256": "194b8037c14abd908e6de2740f3832cacf1075fb13e8b2b0574310c022d28593"
+  },
+  {
+    "section": "run",
+    "path": "generations.jsonl",
+    "original_sha256": "11c2e86a0ec780f6cca2bb6bb956a726db4d6c6643808af1ab2fb53590606937",
+    "disposition": "byte-identical",
+    "public_sha256": "11c2e86a0ec780f6cca2bb6bb956a726db4d6c6643808af1ab2fb53590606937"
+  },
+  {
+    "section": "run",
+    "path": "identity.json",
+    "original_sha256": "06e5d486e1ddc901f6ff504ac3b07616999aa2c111f490835a7f1197bc3758d0",
+    "disposition": "byte-identical",
+    "public_sha256": "06e5d486e1ddc901f6ff504ac3b07616999aa2c111f490835a7f1197bc3758d0"
+  },
+  {
+    "section": "run",
+    "path": "order.json",
+    "original_sha256": "6464c82eb39157bc3ddc65178c41b08ec4d53994e9ce5c69cd30f0842099f589",
+    "disposition": "byte-identical",
+    "public_sha256": "6464c82eb39157bc3ddc65178c41b08ec4d53994e9ce5c69cd30f0842099f589"
+  },
+  {
+    "section": "run",
+    "path": "resource_summary.json",
+    "original_sha256": "2153c2d8756fc2e092afd3bf1d2f47f0694960049f27db9c3ae8561f694415c1",
+    "disposition": "byte-identical",
+    "public_sha256": "2153c2d8756fc2e092afd3bf1d2f47f0694960049f27db9c3ae8561f694415c1"
+  },
+  {
+    "section": "run",
+    "path": "resources.jsonl",
+    "original_sha256": "029ad8557183b5f6aaa4d2559bc178325f3d9555b16f795f0c36a2faaecd3de4",
+    "disposition": "byte-identical",
+    "public_sha256": "029ad8557183b5f6aaa4d2559bc178325f3d9555b16f795f0c36a2faaecd3de4"
+  },
+  {
+    "section": "run",
+    "path": "status.json",
+    "original_sha256": "438774d55c2281881e6cdaae953721382e84c5f604fddb97e2883ce976deac19",
+    "disposition": "byte-identical",
+    "public_sha256": "438774d55c2281881e6cdaae953721382e84c5f604fddb97e2883ce976deac19"
+  },
+  {
+    "section": "run",
+    "path": "step24-original-comparison.json",
+    "original_sha256": "2fc6f9e2779f3f645fcc356151ded74ce2ced364acad1aee6c7268e9d4b64789",
+    "disposition": "byte-identical",
+    "public_sha256": "2fc6f9e2779f3f645fcc356151ded74ce2ced364acad1aee6c7268e9d4b64789"
+  },
+  {
+    "section": "run",
+    "path": "step96-original-comparison.json",
+    "original_sha256": "b4cab301d4cf248cc534ff9043c65d7c673350bf2e6b7a0bcd9a40c94fba74a0",
+    "disposition": "byte-identical",
+    "public_sha256": "b4cab301d4cf248cc534ff9043c65d7c673350bf2e6b7a0bcd9a40c94fba74a0"
+  },
+  {
+    "section": "run",
+    "path": "training.jsonl",
+    "original_sha256": "bd92c4ca1bdc855d1443a2bd59786dda06ca4e8cfd4c832f645e7ec303cda0f1",
+    "disposition": "byte-identical",
+    "public_sha256": "bd92c4ca1bdc855d1443a2bd59786dda06ca4e8cfd4c832f645e7ec303cda0f1"
+  },
+  {
+    "section": "run",
+    "path": "validation_lm.jsonl",
+    "original_sha256": "05fd14518d7e1339494045e68040f8337ab35f5fcbae9e8b5c9238c8adba5ecd",
+    "disposition": "byte-identical",
+    "public_sha256": "05fd14518d7e1339494045e68040f8337ab35f5fcbae9e8b5c9238c8adba5ecd"
+  }
+]

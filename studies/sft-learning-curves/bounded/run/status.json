@@ -1,0 +1,9 @@
+{
+  "status": "incomplete",
+  "reason": "cpu_budget",
+  "returncode": -9,
+  "worker_status": {
+    "status": "running"
+  },
+  "accounting_error": null
+}

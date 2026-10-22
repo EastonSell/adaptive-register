@@ -1,0 +1,6 @@
+{
+  "sampled_peak_combined_rss_bytes": 1568608256,
+  "wall_seconds": 604.2525810070001,
+  "returncode": -9,
+  "stop_reason": "cpu_budget"
+}
