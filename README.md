@@ -43,3 +43,7 @@ Presentation choices are `introductory`, `working`, `technical`; absent choice d
 ## Recovery provenance
 
 Original recovered artifacts remain preserved separately in the recovery workspace, unchanged. `historical/README.original.md` is an exact recovered historical document, whose results and commands are not validated by this release. Do not confuse its original pilot metrics with the new table above. Historical files and original manifests were not silently substituted for missing artifacts. New code and newly generated synthetic data are MIT licensed; see LICENSE.
+
+## Content/formatting separation milestone
+
+An additive [multi-split comparison](milestone2/RESULTS.md) tests keeping presentation choices outside content prediction. It achieves structural answer invariance, but does not beat the simpler unconditioned control on accuracy. This remains a synthetic experiment, not a pretrained fine-tune.
