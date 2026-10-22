@@ -1,0 +1,8 @@
+{
+  "sha256": "fb594143bbfcbe2cfad404cd755984307e4d76203b31cf08b19357803ba6aaf4",
+  "bytes": 937056,
+  "status": "retained_locally_not_in_this_text_checkpoint",
+  "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "source_commit": "abce2e6e335cbf59ec63095d968e18bc34c4a0a1"
+}
