@@ -2,7 +2,15 @@
 
 A recovery research project testing explicit presentation-register requests, an auxiliary register head, and counterfactual answer consistency. The NumPy experiments below are newly written recovery implementations, not recovered original source. An additive [actual pretrained LoRA pilot](pretrained/results/RESULTS.md) now tests SmolLM2-135M-Instruct. Neither stage demonstrates improved comprehension or improvement of arbitrary models.
 
-## Run
+## Study guide
+
+- [NumPy rebuild results](results/rebuild/summary.json): the synthetic experiment summarized below; its run and test commands are in the next section.
+- [Content/formatting separation](milestone2/RESULTS.md): structural answer invariance without an accuracy gain over the simpler unconditioned control.
+- [Pretrained LoRA pilot](pretrained/results/RESULTS.md) and [setup](pretrained/README.md): actual adaptation, with 25/48 strict-correct responses in each adapted arm and no observed auxiliary-head benefit.
+- [Exploratory fourth-label probe](pretrained/exploratory-results/RESULTS.md): 112 new responses, including an exact untouched-base repeat; only 7/16 source records were correct across all four labels in each adapted arm. This reused already-inspected facts.
+- [SFT learning curves](studies/sft-learning-curves/README.md): correctness reached 46/48 on reused development validation, not a new test set. The separate repeat produced the scheduled numerical outputs through update 384, while its supervisor ended incomplete with an accounting failure. [Verification and reproduction](studies/sft-learning-curves/REPRODUCE.md) distinguish retained-evidence checks from a new experiment.
+
+## Run the NumPy rebuild
 
 Python 3.11+ and NumPy are required. Recorded environment: Python 3.12.14, NumPy 2.3.5. No API, download, GPU, or external service is used.
 
@@ -21,7 +29,7 @@ Enumerate unique four-slot records with values 0–3; randomly choose 160 using 
 
 Four objectives, each run with seeds 11,22,33: unconditioned joint objective; conditioned joint objective; conditioned plus auxiliary weight 0.3; auxiliary plus answer-marginal consistency weight 2.0. Outputs use separate answer and register marginal argmaxes and fixed templates. The consistency term is mean squared answer-probability deviation across three register counterfactuals. It does not guarantee correct answers.
 
-## New results
+## NumPy rebuild results
 
 Mean over three initialization seeds on one fixed split:
 
