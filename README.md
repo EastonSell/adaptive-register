@@ -12,11 +12,11 @@ The current experiments use explicit presentation requests, small structured tas
 
 ## Watch the concept in 24 seconds
 
-[![A ledger with Bay 3, 18:45 and printed ID feeds three fixed wording templates. A shorter sentence loses the facts; a wrong input remains wrong in every template. Literal checks do not establish truth or comprehension.](docs/animations/poster.png)](docs/animations/concept.mp4)
+[![The wrong supplied fact Bay 9 is copied into three requested formats. Agreement across formats does not verify the fact.](docs/animations/poster.png)](docs/animations/concept.mp4)
 
-[MP4](docs/animations/concept.mp4) · [Optional GIF preview](docs/animations/concept.gif) · [Text transcript](docs/animations/transcript.txt) · [Captions](docs/animations/captions.vtt)
+[24-second Manim MP4](docs/animations/concept.mp4) · [Optional GIF preview](docs/animations/concept.gif) · [Text transcript](docs/animations/transcript.txt) · [Captions](docs/animations/captions.vtt)
 
-Fixed template illustration · no model or reader experiment. No audio. The poster and transcript provide a no-motion alternative. The downloaded [HTML viewer](docs/animations/index.html) is static by default and never autoplays.
+Rendered with Manim Community 0.22.0. Fixed template illustration · no model or reader experiment. No audio. The poster and transcript provide a no-motion alternative. The downloaded [HTML viewer](docs/animations/index.html) is static by default and never autoplays.
 
 Here, “register” means the user's requested `introductory`, `working` or `technical` presentation. The system does not infer a reader's intelligence or demographics.
 

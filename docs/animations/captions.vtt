@@ -1,17 +1,13 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:06.000
-The supplied facts are the content. The requested register controls presentation.
+00:00:00.000 --> 00:00:08.000
+Requested presentation changes wording, not supplied facts.
 
 2
-00:00:06.000 --> 00:00:12.000
-Fixed templates retain the same three literals across all requested formats.
+00:00:08.000 --> 00:00:16.000
+A shorter instruction can lose exact facts needed to act.
 
 3
-00:00:12.000 --> 00:00:18.000
-A simpler-looking sentence can omit information needed to act.
-
-4
-00:00:18.000 --> 00:00:24.000
-Preservation, truth and reader understanding require different checks.
+00:00:16.000 --> 00:00:24.000
+Agreement is not truth. Wrong input can remain wrong in every format.

@@ -1,6 +1,16 @@
 {
-  "scene": "content-explanation",
-  "repository": "adaptive-register",
-  "path": "docs/examples/content_presentation.py",
-  "sha256": "b01b6b2055ee87de1853f054c0bdb900263c41791eeae560ec58f90f13a7ca3e"
+  "renderer": "Actual Manim Community 0.22.0, Cairo",
+  "scene": "ContentExplanation",
+  "neutral_asset_slug": "content-explanation",
+  "source_demo": "docs/examples/content_presentation.py",
+  "asset_provenance": "Original programmatic geometry and typography; no generated scientific data or external media.",
+  "evidence_scope": "FIXED TEMPLATE ILLUSTRATION \u00b7 NO MODEL OR READER EXPERIMENT",
+  "duration_seconds": 24,
+  "frames_per_second": 15,
+  "no_audio": true,
+  "motion_free_path": [
+    "poster.png",
+    "transcript.txt",
+    "index.html (static by default)"
+  ]
 }
