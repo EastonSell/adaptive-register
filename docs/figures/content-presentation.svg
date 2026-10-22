@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title description">
+<title id="title">Preserve supplied facts, not just style</title><desc id="description">Illustrative fixed formatter. Bay 3, 18:45, and printed ID are retained in three registers. Consistency cannot correct a wrong supplied fact. A separate panel introduces SFT, auxiliary-head, and proposed stop-gradient comparisons without claiming measured benefit.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto-start-reverse"><path d="M0,0 L10,4 L0,8 Z" fill="#076f6d"/></marker></defs>
+<rect width="1120" height="620" fill="#f8faf9"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="32" y="45" font-size="30" fill="#153346" font-weight="bold">Preserve supplied facts, not just style</text>
+<text x="32" y="78" font-size="18" fill="#486271" font-weight="normal">ILLUSTRATION: fixed templates, not a model or reader experiment</text>
+<rect x="32" y="112" width="282" height="170" rx="12" fill="#e8f5f2" stroke="#9bb0b8" stroke-width="1.5"/>
+<text x="54" y="147" font-size="23" fill="#076f6d" font-weight="bold">Supplied content</text>
+<text x="54" y="184" font-size="20" fill="#153346" font-weight="normal">Place: Bay 3</text>
+<text x="54" y="212" font-size="20" fill="#153346" font-weight="normal">Time: 18:45</text>
+<text x="54" y="240" font-size="20" fill="#153346" font-weight="normal">Requirement: printed ID</text>
+<line x1="320" y1="195" x2="401" y2="195" stroke="#076f6d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="409" y="112" width="267" height="170" rx="12" fill="#ffffff" stroke="#9bb0b8" stroke-width="1.5"/>
+<text x="433" y="147" font-size="23" fill="#076f6d" font-weight="bold">Fixed formatter</text>
+<text x="433" y="184" font-size="19" fill="#486271" font-weight="normal">Receives supplied facts</text>
+<text x="433" y="212" font-size="19" fill="#486271" font-weight="normal">+ requested register</text>
+<text x="433" y="240" font-size="19" fill="#486271" font-weight="normal">Changes wording only</text>
+<line x1="682" y1="195" x2="749" y2="195" stroke="#076f6d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="757" y="112" width="331" height="170" rx="12" fill="#e8f5f2" stroke="#9bb0b8" stroke-width="1.5"/>
+<text x="779" y="147" font-size="23" fill="#076f6d" font-weight="bold">Three presentations</text>
+<text x="779" y="180" font-size="18" fill="#153346" font-weight="normal">Introductory / working / technical</text>
+<text x="779" y="208" font-size="18" fill="#153346" font-weight="normal">Each retains: Bay 3, 18:45,</text>
+<text x="779" y="236" font-size="18" fill="#153346" font-weight="normal">printed ID</text>
+<rect x="32" y="306" width="1056" height="57" rx="12" fill="#fff1e3" stroke="#dfb484" stroke-width="1.5"/>
+<text x="52" y="342" font-size="21" fill="#9c460c" font-weight="normal">If the supplied place is Bay 9, every version can be consistent and still wrong.</text>
+<rect x="32" y="389" width="1056" height="173" rx="12" fill="#ffffff" stroke="#9bb0b8" stroke-width="1.5"/>
+<text x="52" y="423" font-size="22" fill="#153346" font-weight="bold">Separate training question: does an extra objective help generation?</text>
+<text x="52" y="462" font-size="21" fill="#076f6d" font-weight="bold">SFT</text>
+<text x="52" y="493" font-size="17" fill="#486271" font-weight="normal">Train on requested answers.</text>
+<text x="52" y="518" font-size="17" fill="#486271" font-weight="normal">Use ordinary training as control.</text>
+<text x="403" y="462" font-size="21" fill="#076f6d" font-weight="bold">SFT + auxiliary head</text>
+<text x="403" y="493" font-size="17" fill="#486271" font-weight="normal">Predict the requested register.</text>
+<text x="403" y="518" font-size="17" fill="#486271" font-weight="normal">Extra loss updates shared model.</text>
+<text x="754" y="462" font-size="21" fill="#076f6d" font-weight="bold">Stop-gradient control</text>
+<text x="754" y="493" font-size="17" fill="#486271" font-weight="normal">Head learns; shared model does not</text>
+<text x="754" y="518" font-size="17" fill="#486271" font-weight="normal">receive its loss. Proposed, not run.</text>
+<text x="32" y="597" font-size="17" fill="#486271" font-weight="normal">Published pretrained pilot: no observed head accuracy benefit. See START_HERE for scope and sources.</text>
+</g></svg>
