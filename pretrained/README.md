@@ -6,15 +6,29 @@ Read [the locally recorded pre-run protocol](PROTOCOL.md). This small synthetic,
 
 ## Dependencies and model
 
-Use an isolated Python 3.12 environment. `requirements.lock.txt` records the tested installation. The CPU Torch wheel came from the official https://download.pytorch.org/whl/cpu index; remaining wheels came from the default PyPI registry. No dependency installation is performed by the experiment script.
+The following post-run setup recipe targets Linux x86_64 with Python 3.12, the pilot platform. Run from the repository root. The frozen `requirements.lock.txt` includes `torch==2.5.1+cpu`, which is not supplied by the default PyPI index alone. Install that exact wheel from the [official PyTorch CPU index](https://pytorch.org/get-started/previous-versions/) first, then install the remaining pinned requirements. The lock's original bytes and version pins are preserved.
 
-Download the files named in `model_manifest.json` from the public model repository at its exact revision into a directory of your choice. Only safetensors weights are used, no pickled training arguments or model-provided Python. The manifest includes hashes and original byte sizes. Its README hash records license provenance; the model card's Apache-2.0 declaration is not a claim that this project relicenses the pretrained model. Model metadata and license reference are in the protocol.
+```sh
+python3.12 -m venv .venv
+. .venv/bin/activate
+python -m pip install --only-binary=:all: --index-url https://download.pytorch.org/whl/cpu 'torch==2.5.1+cpu'
+python -m pip install --only-binary=:all: -r pretrained/requirements.lock.txt
+python -m pip check
+export HF_HOME="$PWD/.cache/huggingface"
+export MODEL_DIR="$PWD/.local-models/SmolLM2-135M-Instruct-12fd25f"
+python pretrained/fetch_model.py --destination "$MODEL_DIR"
+python pretrained/fetch_model.py --destination "$MODEL_DIR" --verify-only
+python tooling/run_tests.py --pretrained --model-dir "$MODEL_DIR"
+```
 
-`MODEL_DIR` below is your downloaded directory. Set `HF_HOME` to a writable local cache if needed. Execution is strictly local-only and refuses mismatched model-file hashes.
+The standard-library fetch helper downloads only public data files listed in `model_manifest.json` at the immutable model revision, verifies every SHA256 and byte count, then atomically publishes verified files. It sends no credentials, executes no downloaded code and never loads pickle. An existing mismatched file is refused rather than overwritten. Verified existing files are reused, so an interrupted download can be restarted safely; `--verify-only` never uses the network. Model/data cache folders are ignored by Git. Allow roughly 275 MB for model assets plus the separate Python runtime. No download occurs during tests: helper tests use tiny local byte fixtures.
+
+The model card's Apache-2.0 declaration is not a claim that this project relicenses the base model. Full provenance and exact file sizes are in the manifest. The fresh installation recipe is documented from the official package sources; this tooling checkpoint reuses the already-installed pilot runtime rather than claiming a second clean installation or redownload.
+
+Keep `MODEL_DIR` exported from the setup block above. Set `HF_HOME` to a writable local cache if needed. Execution is strictly local-only and refuses mismatched model-file hashes.
 
 ```sh
 export PYTHONPATH=pretrained
-export MODEL_DIR=/your/local/model-directory
 python -m unittest discover -s pretrained/tests -v
 python pretrained/pilot.py --model-dir "$MODEL_DIR" --out pretrained/local-results
 sha256sum -c pretrained/MANIFEST.sha256

@@ -1,0 +1,49 @@
+test_checkpoint (test_core.CoreTests.test_checkpoint) ... ok
+test_gradient (test_core.CoreTests.test_gradient) ... ok
+test_invalid_register (test_core.CoreTests.test_invalid_register) ... ok
+test_learning_and_reproducibility (test_core.CoreTests.test_learning_and_reproducibility) ... ok
+test_renderer (test_core.CoreTests.test_renderer) ... ok
+test_seed_repeats (test_core.CoreTests.test_seed_repeats) ... ok
+test_split_disjoint_and_counterfactuals (test_core.CoreTests.test_split_disjoint_and_counterfactuals) ... ok
+test_unconditioned_invariance (test_core.CoreTests.test_unconditioned_invariance) ... ok
+test_artifacts_and_all_ablations (test_run.RunTests.test_artifacts_and_all_ablations) ... ok
+test_dead_register_weights_excluded (test_separation.RunnerTests.test_dead_register_weights_excluded) ... ok
+test_grid_and_paired_results (test_separation.RunnerTests.test_grid_and_paired_results) ... ok
+test_formatting_does_not_correct_wrong_prediction (test_separation.SeparationTests.test_formatting_does_not_correct_wrong_prediction) ... ok
+test_gradient (test_separation.SeparationTests.test_gradient) ... ok
+test_parameter_budget (test_separation.SeparationTests.test_parameter_budget) ... ok
+test_register_cannot_change_content (test_separation.SeparationTests.test_register_cannot_change_content) ... ok
+test_repeat_learning (test_separation.SeparationTests.test_repeat_learning) ... ok
+test_validation_selection (test_separation.SeparationTests.test_validation_selection) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.144s
+
+OK
+test_bad_download_not_published (test_fetch_model.FetchTests.test_bad_download_not_published) ... ok
+test_downloads_verified_bytes (test_fetch_model.FetchTests.test_downloads_verified_bytes) ... ok
+test_existing_valid_file_needs_no_network (test_fetch_model.FetchTests.test_existing_valid_file_needs_no_network) ... ok
+test_existing_wrong_file_not_overwritten (test_fetch_model.FetchTests.test_existing_wrong_file_not_overwritten) ... ok
+test_rejects_unsafe_paths_and_unpinned_revision (test_fetch_model.FetchTests.test_rejects_unsafe_paths_and_unpinned_revision) ... ok
+test_verify_only_missing_does_not_download (test_fetch_model.FetchTests.test_verify_only_missing_does_not_download) ... ok
+test_default_includes_root_and_tooling (test_run_tests.RunnerTests.test_default_includes_root_and_tooling) ... ok
+test_pretrained_is_explicit_and_additive (test_run_tests.RunnerTests.test_pretrained_is_explicit_and_additive) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK
+test_disjoint_and_grouped (test_data.DataTests.test_disjoint_and_grouped) ... ok
+test_parser_rejects_conflicts (test_data.DataTests.test_parser_rejects_conflicts) ... ok
+test_target_roundtrip (test_data.DataTests.test_target_roundtrip) ... ok
+test_existing_receipt_refused_before_model_load (test_replay.ReplaySafetyTests.test_existing_receipt_refused_before_model_load) ... ok
+test_invalid_and_conflicting_generations_count_wrong (test_training.EvaluationTests.test_invalid_and_conflicting_generations_count_wrong) ... ok
+test_existing_output_refused_without_touching_files (test_training.OutputSafetyTests.test_existing_output_refused_without_touching_files) ... ok
+test_backprop_changes_adapters_not_base (test_training.TrainingTests.test_backprop_changes_adapters_not_base) ... ok
+test_consistency_zero_for_identical_distributions (test_training.TrainingTests.test_consistency_zero_for_identical_distributions) ... ok
+test_mask_answer_alignment (test_training.TrainingTests.test_mask_answer_alignment) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.732s
+
+OK

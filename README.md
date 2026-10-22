@@ -36,7 +36,7 @@ The extra head did not improve this toy task. Conditioning caused substantial fa
 
 ## Verification and scope
 
-Nine tests pass: record-disjoint splitting, counterfactual labels, determinism, finite-difference gradients including consistency, learning, checkpoint round trips, unconditioned invariance, renderer validation, and experiment artifacts. A second complete execution produced byte-identical summaries, splits, histories and all 12 checkpoints. These checks apply only to this new implementation; they do not reproduce the lost original implementation.
+The current NumPy suite has 17 passing tests (the original baseline had nine): record-disjoint splitting, counterfactual labels, determinism, finite-difference gradients including consistency, learning, checkpoint round trips, unconditioned invariance, renderer validation, and experiment artifacts. A second complete execution produced byte-identical summaries, splits, histories and all 12 checkpoints. These checks apply only to this new implementation; they do not reproduce the lost original implementation.
 
 Presentation choices are `introductory`, `working`, `technical`; absent choice defaults to `working`. No demographic traits or inferred intelligence are used. No human comprehension, fairness or accessibility study was performed. The initial NumPy checkpoint did not contain pretrained fine-tuning. The later [pretrained milestone](pretrained/README.md) installs an isolated runtime and executes real LoRA adaptation, while retaining the earlier experiment unchanged.
 
@@ -51,3 +51,7 @@ An additive [multi-split comparison](milestone2/RESULTS.md) tests keeping presen
 ## Actual pretrained LoRA milestone
 
 [Results and limitations](pretrained/results/RESULTS.md): all three adapted arms answer 25/48 held-out synthetic prompts correctly under a strict parser, with no observed accuracy benefit from the auxiliary head. The 48 prompts cover only 16 independent source records. This verifies actual fine-tuning execution, not reliable factual preservation or better language understanding.
+
+## Aggregate release checks (post-run tooling)
+
+With Python and NumPy installed, run `python tooling/run_tests.py` from the repository root. This runs the 17 NumPy tests and 8 standard-library tooling tests. It explicitly reports that the optional pretrained suite was not requested. To run all 34 tests (17 NumPy + 8 tooling + 9 pretrained), follow the isolated CPU setup and manifest-driven model fetch in [pretrained/README.md](pretrained/README.md), then run `python tooling/run_tests.py --pretrained --model-dir "$MODEL_DIR"`. Missing optional dependencies or model files fail clearly instead of silently skipping tests. These release tools were added after the frozen experiment; no training code, protocol, raw results, adapters or dependency pins were changed.
