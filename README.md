@@ -6,6 +6,7 @@ The current experiments use explicit presentation requests, small structured tas
 
 ## Start here
 
+- [Understand the evidence, failure examples and reproduction levels](docs/EVIDENCE_GUIDE.md).
 - [Work through a two-minute content-and-presentation example](docs/START_HERE.md).
 - [Read the research overview](docs/RESEARCH_OVERVIEW.md) for motivation, hypotheses, controls and the path toward reader studies.
 - [Inspect the pretrained pilot's raw generations and findings](pretrained/results/RESULTS.md), or start with the faster synthetic experiment below.

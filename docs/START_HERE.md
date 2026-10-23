@@ -37,17 +37,20 @@ A **control** is a simpler comparison that helps isolate why something changed.
 
 ## What the measured results actually mean
 
-Start with these three evidence levels, not with the largest percentage:
+Start with these four evidence levels, not with the largest percentage:
 
 1. [Synthetic content/formatting separation](../milestone2/RESULTS.md): separated models never change the predicted integer across registers by construction. They do not beat the simpler unconditioned control on accuracy. Fixed template agreement is not learned language quality.
 2. [Actual pretrained LoRA pilot](../pretrained/results/RESULTS.md): SFT, SFT + head, and SFT + head + consistency each scored **25/48 strict-correct responses**. Those prompts cover only **16 independent source records**, each repeated in three registers. The untouched base's 0/48 is strict parser/format failure, not proof that every response was semantically wrong. No extra-head advantage was observed in this one-seed pilot.
 3. [SFT learning curves](../studies/sft-learning-curves/README.md): the later **46/48** is on **reused development validation**, not a fresh test, and uses no auxiliary head. A separate training repeat produced all scheduled numerical outputs through update 384, but its supervisor ended `incomplete/accounting_failure`. Numerical output and clean supervision are different claims.
+
+4. [Reader-specific rewrite capacity gate](../studies/reader-capacity-gate/README.md): the later AI-scored semantic audit produced **14/24** fluent truth-complete outputs against 18 required and **3/24** all-concept-supported outputs against 12 required. The fixed development-set gate failed. Its 24 outputs come from 12 scenarios with paired synthetic profiles, not human readers. The [evidence guide](EVIDENCE_GUIDE.md) walks through omissions, role substitutions and uncertainty failures.
 
 Read **correctness**, **template matching**, and **answer consistency** separately. None is a human-comprehension, accessibility, or fairness measurement. Repeated variants and reused facts are not new independent evidence.
 
 ## Inspect first, reproduce at the right level
 
 - Read the linked reports, raw generation links, split definitions, and limitations before rerunning anything.
+- The [capacity-gate verifier](../studies/reader-capacity-gate/REPRODUCE.md) checks published saved-output evidence and aggregation using only the Python standard library. It does not load a model, rerate the language or replay historical training.
 - The [root README](../README.md#run-the-numpy-rebuild) gives the synthetic NumPy experiment. With its existing dependency available, `python tooling/run_tests.py` checks the NumPy and release-tool suites without requesting pretrained execution.
 - The [pretrained setup](../pretrained/README.md) and [learning-curve verification guide](../studies/sft-learning-curves/REPRODUCE.md) distinguish retained-artifact checks, checkpoint replay, and new training. They have separate dependencies and local-model requirements. The two-minute example above needs none of them.
 
