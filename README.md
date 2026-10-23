@@ -58,3 +58,7 @@ python tooling/run_tests.py --pretrained --model-dir "$MODEL_DIR"
 A useful follow-up would compare ordinary SFT with auxiliary and stop-gradient controls on genuinely new facts, then test whether people understand independently authored explanations more accurately. Correctness, consistency, style compliance and comprehension need separate outcomes. The [overview](docs/RESEARCH_OVERVIEW.md) gives falsifiable next steps.
 
 The NumPy studies are newly written recovery implementations. [The recovered historical README](historical/README.original.md) is preserved separately; its old metrics and commands are unvalidated historical material. Original code and synthetic data are [MIT licensed](LICENSE); the pretrained model and its retained notices use Apache-2.0.
+
+## Reader-specific rewrite capacity gate
+
+[A-only capacity gate](studies/reader-capacity-gate/README.md): engineering checks passed, but the frozen semantic gate failed, with 14/24 fluent truth-complete outputs (18 required) and 3/24 supporting all unfamiliar concepts (12 required). These are AI judgments, not measured human comprehension; this attempt does not justify the planned B/C/S efficacy comparison.

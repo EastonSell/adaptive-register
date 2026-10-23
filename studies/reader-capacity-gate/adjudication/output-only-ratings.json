@@ -1,0 +1,738 @@
+[
+  {
+    "output_id": "O001",
+    "questions": [
+      {
+        "answer": "No, the counterweight is not attached to the red kite.",
+        "answerability": "answerable",
+        "evidence_span": "the counterweight is not attached to the red kite.",
+        "question": "Is the counterweight attached to the red kite?",
+        "question_id": "Q01",
+        "rationale": "The output directly denies the attachment."
+      },
+      {
+        "answer": "Over the sloping surface joining different heights.",
+        "answerability": "answerable",
+        "evidence_span": "The pulley hangs over the sloping surface joining different heights.",
+        "question": "Where does the pulley hang?",
+        "question_id": "Q02",
+        "rationale": "The output explicitly gives the pulley location."
+      },
+      {
+        "answer": "After the dock closes.",
+        "answerability": "answerable",
+        "evidence_span": "Balance checks after the dock closes.",
+        "question": "When is balance checked?",
+        "question_id": "Q03",
+        "rationale": "Although the wording is awkward, the timing of the balance check is explicit."
+      }
+    ],
+    "scoring_text": "At Aven's kite dock, the counterweight is not attached to the red kite. The grooved wheel guides a cord. The pulley hangs over the sloping surface joining different heights. Balance checks after the dock closes."
+  },
+  {
+    "output_id": "O002",
+    "questions": [
+      {
+        "answer": "No, the weight used to offset opposing effects is not attached to the red kite.",
+        "answerability": "answerable",
+        "evidence_span": "the weight used to offset opposing effects is not attached to the red kite.",
+        "question": "Is the counterweight attached to the red kite?",
+        "question_id": "Q01",
+        "rationale": "The described offsetting weight is explicitly not attached."
+      },
+      {
+        "answer": "Over the ramp.",
+        "answerability": "answerable",
+        "evidence_span": "The grooved wheel that guides a cord hangs over the ramp.",
+        "question": "Where does the pulley hang?",
+        "question_id": "Q02",
+        "rationale": "The cord-guiding wheel is located over the ramp."
+      },
+      {
+        "answer": "After the dock closes.",
+        "answerability": "answerable",
+        "evidence_span": "Balance is checked after the dock closes.",
+        "question": "When is balance checked?",
+        "question_id": "Q03",
+        "rationale": "The check time is stated directly."
+      }
+    ],
+    "scoring_text": "At Aven's kite dock, the weight used to offset opposing effects is not attached to the red kite. The grooved wheel that guides a cord hangs over the ramp. Balance is checked after the dock closes."
+  },
+  {
+    "output_id": "O003",
+    "questions": [
+      {
+        "answer": "Three paper kites toward the dock's painted edge.",
+        "answerability": "answerable",
+        "evidence_span": "Aven's ramp carries three paper kites toward the dock's painted edge.",
+        "question": "What does the ramp carry and where?",
+        "question_id": "Q01",
+        "rationale": "Both the carried objects and their destination are explicit."
+      },
+      {
+        "answer": "No, the pulley does not lift the counterweight today.",
+        "answerability": "answerable",
+        "evidence_span": "The pulley does not lift the counterweight today.",
+        "question": "Does the pulley lift the counterweight today?",
+        "question_id": "Q02",
+        "rationale": "The output directly denies lifting today."
+      },
+      {
+        "answer": "No, not all kite positions provide balance.",
+        "answerability": "answerable",
+        "evidence_span": "Not all kite positions provide balance.",
+        "question": "Do all kite positions provide balance?",
+        "question_id": "Q03",
+        "rationale": "The output explicitly rejects the universal claim."
+      }
+    ],
+    "scoring_text": "Aven's ramp carries three paper kites toward the dock's painted edge. The pulley does not lift the counterweight today. Not all kite positions provide balance."
+  },
+  {
+    "output_id": "O004",
+    "questions": [
+      {
+        "answer": "Three paper kites toward the dock's painted edge.",
+        "answerability": "answerable",
+        "evidence_span": "Aven's ramp carries three paper kites toward the dock's painted edge.",
+        "question": "What does the ramp carry and where?",
+        "question_id": "Q01",
+        "rationale": "Both the carried objects and their destination are explicit."
+      },
+      {
+        "answer": "The pulley does not lift the described offsetting weight, but whether this statement is specifically about today is not stated.",
+        "answerability": "uncertain",
+        "evidence_span": "The pulley does not lift the weight used to offset another load.",
+        "question": "Does the pulley lift the counterweight today?",
+        "question_id": "Q02",
+        "rationale": "The denial of lifting is clear, but the question adds a temporal qualifier that the output does not explicitly supply."
+      },
+      {
+        "answer": "No, not all kite positions provide balance.",
+        "answerability": "answerable",
+        "evidence_span": "Not all kite positions provide balance.",
+        "question": "Do all kite positions provide balance?",
+        "question_id": "Q03",
+        "rationale": "The output explicitly rejects the universal claim."
+      }
+    ],
+    "scoring_text": "Aven's ramp carries three paper kites toward the dock's painted edge. The pulley does not lift the weight used to offset another load. Not all kite positions provide balance."
+  },
+  {
+    "output_id": "O005",
+    "questions": [
+      {
+        "answer": "One bubble every eight seconds.",
+        "answerability": "answerable",
+        "evidence_span": "the sensor records one bubble every eight seconds.",
+        "question": "How often does the sensor record a bubble?",
+        "question_id": "Q01",
+        "rationale": "The recording frequency is stated directly."
+      },
+      {
+        "answer": "Seconds.",
+        "answerability": "answerable",
+        "evidence_span": "The interval is measured in seconds.",
+        "question": "What units measure the interval?",
+        "question_id": "Q02",
+        "rationale": "The interval unit is explicit."
+      },
+      {
+        "answer": "At readings above six marks.",
+        "answerability": "answerable",
+        "evidence_span": "A message or change carrying information appears above a threshold of six marks.",
+        "question": "At what readings may a signal appear?",
+        "question_id": "Q03",
+        "rationale": "The information-carrying message or change is said to appear above, not at or below, six marks."
+      }
+    ],
+    "scoring_text": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A message or change carrying information appears above a threshold of six marks."
+  },
+  {
+    "output_id": "O006",
+    "questions": [
+      {
+        "answer": "One bubble every eight seconds.",
+        "answerability": "answerable",
+        "evidence_span": "the device that detects physical conditions records one bubble every eight seconds.",
+        "question": "How often does the sensor record a bubble?",
+        "question_id": "Q01",
+        "rationale": "The detecting device has an explicit recording frequency."
+      },
+      {
+        "answer": "Seconds.",
+        "answerability": "answerable",
+        "evidence_span": "The gap between two stated times is measured in seconds.",
+        "question": "What units measure the interval?",
+        "question_id": "Q02",
+        "rationale": "The stated time-gap unit answers the interval-unit question."
+      },
+      {
+        "answer": "At readings above six marks.",
+        "answerability": "answerable",
+        "evidence_span": "A signal appears above a threshold of six marks.",
+        "question": "At what readings may a signal appear?",
+        "question_id": "Q03",
+        "rationale": "The output gives the threshold and the above-threshold condition."
+      }
+    ],
+    "scoring_text": "At Nira's bubble clock, the device that detects physical conditions records one bubble every eight seconds. The gap between two stated times is measured in seconds. A signal appears above a threshold of six marks."
+  },
+  {
+    "output_id": "O007",
+    "questions": [
+      {
+        "answer": "Not stated.",
+        "answerability": "unanswerable",
+        "evidence_span": "",
+        "question": "How long does the signal last?",
+        "question_id": "Q01",
+        "rationale": "The output describes what the message carries but gives no signal or message duration."
+      },
+      {
+        "answer": "Four marks.",
+        "answerability": "answerable",
+        "evidence_span": "The boundary value for a response stays at four marks.",
+        "question": "What is the unchanged threshold?",
+        "question_id": "Q02",
+        "rationale": "The unchanged response boundary is explicitly four marks."
+      },
+      {
+        "answer": "Two seconds between the first two bubbles.",
+        "answerability": "answerable",
+        "evidence_span": "The sensor records an interval of two seconds between the first two bubbles.",
+        "question": "What is the first bubble interval?",
+        "question_id": "Q03",
+        "rationale": "The first interval has an explicit numeric duration."
+      }
+    ],
+    "scoring_text": "Nira's message carries information about a physical condition. The boundary value for a response stays at four marks. The sensor records an interval of two seconds between the first two bubbles."
+  },
+  {
+    "output_id": "O008",
+    "questions": [
+      {
+        "answer": "250 milliseconds.",
+        "answerability": "answerable",
+        "evidence_span": "Nira's message lasts 250 milliseconds beside the bubble tube.",
+        "question": "How long does the signal last?",
+        "question_id": "Q01",
+        "rationale": "The message has an explicit duration."
+      },
+      {
+        "answer": "Four marks.",
+        "answerability": "answerable",
+        "evidence_span": "The boundary value for a response stays at four marks.",
+        "question": "What is the unchanged threshold?",
+        "question_id": "Q02",
+        "rationale": "The unchanged response boundary is explicitly four marks."
+      },
+      {
+        "answer": "Not stated.",
+        "answerability": "unanswerable",
+        "evidence_span": "The device that detects physical conditions records a gap between the first two bubbles.",
+        "question": "What is the first bubble interval?",
+        "question_id": "Q03",
+        "rationale": "The output mentions the first gap but supplies no length for it."
+      }
+    ],
+    "scoring_text": "Nira's message lasts 250 milliseconds beside the bubble tube. The boundary value for a response stays at four marks. The device that detects physical conditions records a gap between the first two bubbles."
+  },
+  {
+    "output_id": "O009",
+    "questions": [
+      {
+        "answer": "The wide tray.",
+        "answerability": "answerable",
+        "evidence_span": "evaporation is faster from the wide tray than the narrow tray.",
+        "question": "Which tray evaporates faster?",
+        "question_id": "Q01",
+        "rationale": "The comparison explicitly identifies the faster tray."
+      },
+      {
+        "answer": "Above both trays.",
+        "answerability": "answerable",
+        "evidence_span": "Condensation collects above both trays.",
+        "question": "Where does condensation collect?",
+        "question_id": "Q02",
+        "rationale": "The collection location is explicit."
+      },
+      {
+        "answer": "The described mixture stands left of the suspension, but it is not identified as the solution.",
+        "answerability": "uncertain",
+        "evidence_span": "The mixture with undissolved particles stands left of the suspension.",
+        "question": "Where is solution relative to suspension?",
+        "question_id": "Q03",
+        "rationale": "A left-of relation is stated for a described mixture, but the output does not identify that subject as the solution named in the question."
+      }
+    ],
+    "scoring_text": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray. Condensation collects above both trays. The mixture with undissolved particles stands left of the suspension."
+  },
+  {
+    "output_id": "O010",
+    "questions": [
+      {
+        "answer": "The wide tray.",
+        "answerability": "answerable",
+        "evidence_span": "liquid-changing to gas is faster from the wide tray than the narrow tray.",
+        "question": "Which tray evaporates faster?",
+        "question_id": "Q01",
+        "rationale": "The stated liquid-to-gas comparison identifies the faster tray."
+      },
+      {
+        "answer": "Above both trays.",
+        "answerability": "answerable",
+        "evidence_span": "Condensation collects above both trays.",
+        "question": "Where does condensation collect?",
+        "question_id": "Q02",
+        "rationale": "The collection location is explicit."
+      },
+      {
+        "answer": "Left of the suspension.",
+        "answerability": "answerable",
+        "evidence_span": "The solution stands left of the suspension.",
+        "question": "Where is solution relative to suspension?",
+        "question_id": "Q03",
+        "rationale": "The requested relation is stated directly."
+      }
+    ],
+    "scoring_text": "On Luma's ink terrace, liquid-changing to gas is faster from the wide tray than the narrow tray. Condensation collects above both trays. The solution stands left of the suspension."
+  },
+  {
+    "output_id": "O011",
+    "questions": [
+      {
+        "answer": "Luma's mixture with dissolved substance dissolved throughout.",
+        "answerability": "answerable",
+        "evidence_span": "Luma's mixture with dissolved substance dissolved throughout settles lower in the jar than the colored solution's surface.",
+        "question": "What is lower than the colored solution's surface?",
+        "question_id": "Q01",
+        "rationale": "The output explicitly names this described mixture as the lower entity; no correction to its description is needed to report it."
+      },
+      {
+        "answer": "The uncovered cup.",
+        "answerability": "answerable",
+        "evidence_span": "Evaporation removes more water from the uncovered cup.",
+        "question": "Which cup loses more water through evaporation?",
+        "question_id": "Q02",
+        "rationale": "The output identifies the cup losing more water."
+      },
+      {
+        "answer": "The colder lid.",
+        "answerability": "answerable",
+        "evidence_span": "Condensation is heavier on the colder lid.",
+        "question": "Which lid has heavier condensation?",
+        "question_id": "Q03",
+        "rationale": "The output identifies the lid with heavier condensation."
+      }
+    ],
+    "scoring_text": "Luma's mixture with dissolved substance dissolved throughout settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid."
+  },
+  {
+    "output_id": "O012",
+    "questions": [
+      {
+        "answer": "Luma's suspension.",
+        "answerability": "answerable",
+        "evidence_span": "Luma's suspension settles lower in the jar than the colored solution's surface.",
+        "question": "What is lower than the colored solution's surface?",
+        "question_id": "Q01",
+        "rationale": "The lower entity is explicitly named."
+      },
+      {
+        "answer": "The uncovered cup.",
+        "answerability": "answerable",
+        "evidence_span": "Evaporation removes more water from the uncovered cup.",
+        "question": "Which cup loses more water through evaporation?",
+        "question_id": "Q02",
+        "rationale": "The output identifies the cup losing more water."
+      },
+      {
+        "answer": "The colder lid.",
+        "answerability": "answerable",
+        "evidence_span": "Condensation is heavier on the colder lid.",
+        "question": "Which lid has heavier condensation?",
+        "question_id": "Q03",
+        "rationale": "The output identifies the lid with heavier condensation."
+      }
+    ],
+    "scoring_text": "Luma's suspension settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid."
+  },
+  {
+    "output_id": "O013",
+    "questions": [
+      {
+        "answer": "The spring.",
+        "answerability": "answerable",
+        "evidence_span": "the spring drives the gear through one turn.",
+        "question": "What drives one gear turn?",
+        "question_id": "Q01",
+        "rationale": "The driver of the gear turn is explicit."
+      },
+      {
+        "answer": "The painted face.",
+        "answerability": "answerable",
+        "evidence_span": "The shaft supports the painted face.",
+        "question": "What does the axle support?",
+        "question_id": "Q02",
+        "rationale": "The output gives the supported object for the shaft."
+      },
+      {
+        "answer": "The support clicking afterward is described as untested; whether the cause of a pivot click is established is not explicit.",
+        "answerability": "uncertain",
+        "evidence_span": "The support clicking afterward is untested.",
+        "question": "Is the pivot click's cause established?",
+        "question_id": "Q03",
+        "rationale": "The output attaches untested to the support clicking, without explicitly identifying a pivot or stating the causal claim requested."
+      }
+    ],
+    "scoring_text": "In Savo's mask automaton, the spring drives the gear through one turn. The shaft supports the painted face. The support clicking afterward is untested."
+  },
+  {
+    "output_id": "O014",
+    "questions": [
+      {
+        "answer": "The elastic part that stores energy when deformed.",
+        "answerability": "answerable",
+        "evidence_span": "the elastic part that stores energy when deformed drives the toothed wheel through one turn.",
+        "question": "What drives one gear turn?",
+        "question_id": "Q01",
+        "rationale": "The output explicitly describes the part driving the turn."
+      },
+      {
+        "answer": "The painted face.",
+        "answerability": "answerable",
+        "evidence_span": "The axle supports the painted face.",
+        "question": "What does the axle support?",
+        "question_id": "Q02",
+        "rationale": "The supported object is explicit."
+      },
+      {
+        "answer": "No, the click's cause is untested.",
+        "answerability": "answerable",
+        "evidence_span": "The pivot clicks afterward, but the click's cause is untested.",
+        "question": "Is the pivot click's cause established?",
+        "question_id": "Q03",
+        "rationale": "The output expressly says the cause has not been tested, rather than presenting an established cause."
+      }
+    ],
+    "scoring_text": "In Savo's mask automaton, the elastic part that stores energy when deformed drives the toothed wheel through one turn. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested."
+  },
+  {
+    "output_id": "O015",
+    "questions": [
+      {
+        "answer": "Savo moves the axle before the mask opens during rehearsal.",
+        "answerability": "answerable",
+        "evidence_span": "Savo moves the axle before the mask opens during rehearsal.",
+        "question": "What precedes the mask opening?",
+        "question_id": "Q01",
+        "rationale": "The earlier event is explicitly stated."
+      },
+      {
+        "answer": "No, that order alone does not establish what opened the mask.",
+        "answerability": "answerable",
+        "evidence_span": "That order alone does not establish what opened the mask.",
+        "question": "Does that order establish the opening's cause?",
+        "question_id": "Q02",
+        "rationale": "The output explicitly separates temporal order from establishing the cause."
+      },
+      {
+        "answer": "Beside the fixed support point about which something turns.",
+        "answerability": "answerable",
+        "evidence_span": "The gear and spring sit beside the fixed support point about which something turns.",
+        "question": "Where are the gear and spring?",
+        "question_id": "Q03",
+        "rationale": "The location of both components is explicit."
+      }
+    ],
+    "scoring_text": "Savo moves the axle before the mask opens during rehearsal. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed support point about which something turns."
+  },
+  {
+    "output_id": "O016",
+    "questions": [
+      {
+        "answer": "Savo moves the axle before the mask opens during rehearsal.",
+        "answerability": "answerable",
+        "evidence_span": "Savo moves the axle before the mask opens during rehearsal.",
+        "question": "What precedes the mask opening?",
+        "question_id": "Q01",
+        "rationale": "The earlier event is explicitly stated."
+      },
+      {
+        "answer": "No, that order alone does not establish what opened the mask.",
+        "answerability": "answerable",
+        "evidence_span": "That order alone does not establish what opened the mask.",
+        "question": "Does that order establish the opening's cause?",
+        "question_id": "Q02",
+        "rationale": "The output explicitly separates temporal order from establishing the cause."
+      },
+      {
+        "answer": "Beside the fixed pivot.",
+        "answerability": "answerable",
+        "evidence_span": "The gear and elastic part that stores energy when deformed sit beside the fixed pivot.",
+        "question": "Where are the gear and spring?",
+        "question_id": "Q03",
+        "rationale": "Both the gear and the described energy-storing part are located beside the fixed pivot."
+      }
+    ],
+    "scoring_text": "Savo moves the axle before the mask opens during rehearsal. That order alone does not establish what opened the mask. The gear and elastic part that stores energy when deformed sit beside the fixed pivot."
+  },
+  {
+    "output_id": "O017",
+    "questions": [
+      {
+        "answer": "If the sample changes.",
+        "answerability": "answerable",
+        "evidence_span": "the approximate value of the number of striped shells may exceed baseline if the sample changes.",
+        "question": "When might estimate exceed baseline?",
+        "question_id": "Q01",
+        "rationale": "The condition under which the approximate value may exceed baseline is explicit."
+      },
+      {
+        "answer": "The number of striped shells.",
+        "answerability": "answerable",
+        "evidence_span": "The variable is the number of striped shells.",
+        "question": "What is the variable?",
+        "question_id": "Q02",
+        "rationale": "The variable is named directly."
+      },
+      {
+        "answer": "Inside a square blue box.",
+        "answerability": "answerable",
+        "evidence_span": "The shells remain inside a square blue box.",
+        "question": "Where do shells remain?",
+        "question_id": "Q03",
+        "rationale": "The location is explicit."
+      }
+    ],
+    "scoring_text": "For Tola's shell game, the approximate value of the number of striped shells may exceed baseline if the sample changes. The variable is the number of striped shells. The shells remain inside a square blue box."
+  },
+  {
+    "output_id": "O018",
+    "questions": [
+      {
+        "answer": "If the sample changes.",
+        "answerability": "answerable",
+        "evidence_span": "the estimate may exceed baseline if the sample changes.",
+        "question": "When might estimate exceed baseline?",
+        "question_id": "Q01",
+        "rationale": "The condition is stated directly."
+      },
+      {
+        "answer": "The number of striped shells.",
+        "answerability": "answerable",
+        "evidence_span": "The feature whose value can change is the number of striped shells.",
+        "question": "What is the variable?",
+        "question_id": "Q02",
+        "rationale": "The output explicitly identifies the changing feature."
+      },
+      {
+        "answer": "Inside a square blue box.",
+        "answerability": "answerable",
+        "evidence_span": "The shells remain inside a square blue box.",
+        "question": "Where do shells remain?",
+        "question_id": "Q03",
+        "rationale": "The location is explicit."
+      }
+    ],
+    "scoring_text": "For Tola's shell game, the estimate may exceed baseline if the sample changes. The feature whose value can change is the number of striped shells. The shells remain inside a square blue box."
+  },
+  {
+    "output_id": "O019",
+    "questions": [
+      {
+        "answer": "The sample must include a spiral shell.",
+        "answerability": "answerable",
+        "evidence_span": "Tola changes the baseline only if the sample includes a spiral shell.",
+        "question": "What is necessary for a baseline change?",
+        "question_id": "Q01",
+        "rationale": "Only if makes the inclusion of a spiral shell necessary for the change."
+      },
+      {
+        "answer": "No, including a spiral shell does not require a change.",
+        "answerability": "answerable",
+        "evidence_span": "Including one does not require a change.",
+        "question": "Does a spiral shell require a change?",
+        "question_id": "Q02",
+        "rationale": "One refers to the spiral shell in the preceding sentence, and the output explicitly denies that inclusion requires change."
+      },
+      {
+        "answer": "The color variable in tomorrow's round.",
+        "answerability": "answerable",
+        "evidence_span": "The estimate concerns the color variable in tomorrow's round.",
+        "question": "What does the estimate concern?",
+        "question_id": "Q03",
+        "rationale": "The subject and round of the estimate are explicit."
+      }
+    ],
+    "scoring_text": "Tola changes the baseline only if the sample includes a spiral shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round."
+  },
+  {
+    "output_id": "O020",
+    "questions": [
+      {
+        "answer": "The sample must include a spiral shell.",
+        "answerability": "answerable",
+        "evidence_span": "Tola changes the reference value for comparison only if the sample includes a spiral shell.",
+        "question": "What is necessary for a baseline change?",
+        "question_id": "Q01",
+        "rationale": "The stated comparison reference can change only with a sample containing a spiral shell."
+      },
+      {
+        "answer": "No, including a spiral shell does not require a change.",
+        "answerability": "answerable",
+        "evidence_span": "Including one does not require a change.",
+        "question": "Does a spiral shell require a change?",
+        "question_id": "Q02",
+        "rationale": "One refers to the spiral shell in the preceding sentence, and the output explicitly denies that inclusion requires change."
+      },
+      {
+        "answer": "The color variable in tomorrow's round.",
+        "answerability": "answerable",
+        "evidence_span": "The estimate concerns the color variable in tomorrow's round.",
+        "question": "What does the estimate concern?",
+        "question_id": "Q03",
+        "rationale": "The subject and round of the estimate are explicit."
+      }
+    ],
+    "scoring_text": "Tola changes the reference value for comparison only if the sample includes a spiral shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round."
+  },
+  {
+    "output_id": "O021",
+    "questions": [
+      {
+        "answer": "Large flakes from the liquid.",
+        "answerability": "answerable",
+        "evidence_span": "the barrier that lets material pass and stops material entering another material separates large flakes from the liquid.",
+        "question": "What does the filter separate?",
+        "question_id": "Q01",
+        "rationale": "Despite the awkward barrier description, the separated materials are explicit."
+      },
+      {
+        "answer": "The netlike material inside the barrier.",
+        "answerability": "answerable",
+        "evidence_span": "The mesh is the netlike material inside it.",
+        "question": "What is mesh here?",
+        "question_id": "Q02",
+        "rationale": "The mesh is directly described and its location is given."
+      },
+      {
+        "answer": "Refraction.",
+        "answerability": "answerable",
+        "evidence_span": "Refraction bends light at glass",
+        "question": "What bends light at glass?",
+        "question_id": "Q03",
+        "rationale": "The light-bending process is named directly."
+      },
+      {
+        "answer": "Diffusion.",
+        "answerability": "answerable",
+        "evidence_span": "diffusion spreads dye through liquid.",
+        "question": "What spreads dye through liquid?",
+        "question_id": "Q04",
+        "rationale": "The dye-spreading process is named directly."
+      }
+    ],
+    "scoring_text": "In Navo's glass maze, the barrier that lets material pass and stops material entering another material separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while diffusion spreads dye through liquid."
+  },
+  {
+    "output_id": "O022",
+    "questions": [
+      {
+        "answer": "Large flakes from the liquid.",
+        "answerability": "answerable",
+        "evidence_span": "the filter separates large flakes from the liquid.",
+        "question": "What does the filter separate?",
+        "question_id": "Q01",
+        "rationale": "The separated materials are explicit."
+      },
+      {
+        "answer": "The netlike material inside the filter.",
+        "answerability": "answerable",
+        "evidence_span": "The netlike material inside it is the netlike material inside it.",
+        "question": "What is mesh here?",
+        "question_id": "Q02",
+        "rationale": "The sentence is repetitive and omits the label mesh, but still supplies the contextual description of netlike material inside the filter."
+      },
+      {
+        "answer": "Refraction.",
+        "answerability": "answerable",
+        "evidence_span": "Refraction bends light at glass",
+        "question": "What bends light at glass?",
+        "question_id": "Q03",
+        "rationale": "The light-bending process is named directly."
+      },
+      {
+        "answer": "Diffusion.",
+        "answerability": "answerable",
+        "evidence_span": "diffusion spreads dye through liquid.",
+        "question": "What spreads dye through liquid?",
+        "question_id": "Q04",
+        "rationale": "The dye-spreading process is named directly."
+      }
+    ],
+    "scoring_text": "In Navo's glass maze, the filter separates large flakes from the liquid. The netlike material inside it is the netlike material inside it. Refraction bends light at glass, while diffusion spreads dye through liquid."
+  },
+  {
+    "output_id": "O023",
+    "questions": [
+      {
+        "answer": "No, mesh does not mean the whole filter assembly.",
+        "answerability": "answerable",
+        "evidence_span": "Navo's mesh does not mean the whole filter assembly in the maze.",
+        "question": "Does mesh mean the whole filter assembly?",
+        "question_id": "Q01",
+        "rationale": "The output directly denies the whole-assembly meaning."
+      },
+      {
+        "answer": "Diffusion.",
+        "answerability": "answerable",
+        "evidence_span": "Diffusion is the dye's spreading process.",
+        "question": "What process spreads the dye?",
+        "question_id": "Q02",
+        "rationale": "The process is explicitly named."
+      },
+      {
+        "answer": "Light direction changes, not dye position.",
+        "answerability": "answerable",
+        "evidence_span": "Light changing direction, not a change in dye position, is the change in light direction, not a change in dye position.",
+        "question": "What changes through refraction?",
+        "question_id": "Q03",
+        "rationale": "Although repetitive and lacking the label refraction, the output explicitly supplies light direction as the change and excludes dye position."
+      }
+    ],
+    "scoring_text": "Navo's mesh does not mean the whole filter assembly in the maze. Diffusion is the dye's spreading process. Light changing direction, not a change in dye position, is the change in light direction, not a change in dye position."
+  },
+  {
+    "output_id": "O024",
+    "questions": [
+      {
+        "answer": "No, the netlike material with many openings does not mean the whole filter assembly.",
+        "answerability": "answerable",
+        "evidence_span": "Navo's netlike material with many openings does not mean the whole filter assembly in the maze.",
+        "question": "Does mesh mean the whole filter assembly?",
+        "question_id": "Q01",
+        "rationale": "The output explicitly distinguishes the described material from the whole assembly."
+      },
+      {
+        "answer": "Diffusion.",
+        "answerability": "answerable",
+        "evidence_span": "Diffusion is the dye's spreading process.",
+        "question": "What process spreads the dye?",
+        "question_id": "Q02",
+        "rationale": "The process is explicitly named."
+      },
+      {
+        "answer": "Light direction changes, not dye position.",
+        "answerability": "answerable",
+        "evidence_span": "Refraction is a change in light direction, not a change in dye position.",
+        "question": "What changes through refraction?",
+        "question_id": "Q03",
+        "rationale": "The kind of change through refraction is explicit."
+      }
+    ],
+    "scoring_text": "Navo's netlike material with many openings does not mean the whole filter assembly in the maze. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position."
+  }
+]

@@ -1,0 +1,340 @@
+[
+  {
+    "output_id": "O001",
+    "profile_id": "kite_dock-01-A",
+    "proposition_ids": [
+      "kite_dock-01-p1",
+      "kite_dock-01-p2",
+      "kite_dock-01-p3"
+    ],
+    "source_id": "kite_dock-01",
+    "unknown_concept_ids": [
+      "ramp",
+      "pulley"
+    ]
+  },
+  {
+    "output_id": "O002",
+    "profile_id": "kite_dock-01-B",
+    "proposition_ids": [
+      "kite_dock-01-p1",
+      "kite_dock-01-p2",
+      "kite_dock-01-p3"
+    ],
+    "source_id": "kite_dock-01",
+    "unknown_concept_ids": [
+      "counterweight",
+      "balance"
+    ]
+  },
+  {
+    "output_id": "O003",
+    "profile_id": "kite_dock-02-A",
+    "proposition_ids": [
+      "kite_dock-02-p1",
+      "kite_dock-02-p2",
+      "kite_dock-02-p3"
+    ],
+    "source_id": "kite_dock-02",
+    "unknown_concept_ids": [
+      "pulley",
+      "ramp"
+    ]
+  },
+  {
+    "output_id": "O004",
+    "profile_id": "kite_dock-02-B",
+    "proposition_ids": [
+      "kite_dock-02-p1",
+      "kite_dock-02-p2",
+      "kite_dock-02-p3"
+    ],
+    "source_id": "kite_dock-02",
+    "unknown_concept_ids": [
+      "counterweight",
+      "balance"
+    ]
+  },
+  {
+    "output_id": "O005",
+    "profile_id": "bubble_clock-01-A",
+    "proposition_ids": [
+      "bubble_clock-01-p1",
+      "bubble_clock-01-p2",
+      "bubble_clock-01-p3"
+    ],
+    "source_id": "bubble_clock-01",
+    "unknown_concept_ids": [
+      "signal",
+      "threshold"
+    ]
+  },
+  {
+    "output_id": "O006",
+    "profile_id": "bubble_clock-01-B",
+    "proposition_ids": [
+      "bubble_clock-01-p1",
+      "bubble_clock-01-p2",
+      "bubble_clock-01-p3"
+    ],
+    "source_id": "bubble_clock-01",
+    "unknown_concept_ids": [
+      "interval",
+      "sensor"
+    ]
+  },
+  {
+    "output_id": "O007",
+    "profile_id": "bubble_clock-02-A",
+    "proposition_ids": [
+      "bubble_clock-02-p1",
+      "bubble_clock-02-p2",
+      "bubble_clock-02-p3"
+    ],
+    "source_id": "bubble_clock-02",
+    "unknown_concept_ids": [
+      "threshold",
+      "signal"
+    ]
+  },
+  {
+    "output_id": "O008",
+    "profile_id": "bubble_clock-02-B",
+    "proposition_ids": [
+      "bubble_clock-02-p1",
+      "bubble_clock-02-p2",
+      "bubble_clock-02-p3"
+    ],
+    "source_id": "bubble_clock-02",
+    "unknown_concept_ids": [
+      "sensor",
+      "interval"
+    ]
+  },
+  {
+    "output_id": "O009",
+    "profile_id": "ink_terrace-01-A",
+    "proposition_ids": [
+      "ink_terrace-01-p1",
+      "ink_terrace-01-p2",
+      "ink_terrace-01-p3"
+    ],
+    "source_id": "ink_terrace-01",
+    "unknown_concept_ids": [
+      "suspension",
+      "solution"
+    ]
+  },
+  {
+    "output_id": "O010",
+    "profile_id": "ink_terrace-01-B",
+    "proposition_ids": [
+      "ink_terrace-01-p1",
+      "ink_terrace-01-p2",
+      "ink_terrace-01-p3"
+    ],
+    "source_id": "ink_terrace-01",
+    "unknown_concept_ids": [
+      "condensation",
+      "evaporation"
+    ]
+  },
+  {
+    "output_id": "O011",
+    "profile_id": "ink_terrace-02-A",
+    "proposition_ids": [
+      "ink_terrace-02-p1",
+      "ink_terrace-02-p2",
+      "ink_terrace-02-p3"
+    ],
+    "source_id": "ink_terrace-02",
+    "unknown_concept_ids": [
+      "solution",
+      "suspension"
+    ]
+  },
+  {
+    "output_id": "O012",
+    "profile_id": "ink_terrace-02-B",
+    "proposition_ids": [
+      "ink_terrace-02-p1",
+      "ink_terrace-02-p2",
+      "ink_terrace-02-p3"
+    ],
+    "source_id": "ink_terrace-02",
+    "unknown_concept_ids": [
+      "evaporation",
+      "condensation"
+    ]
+  },
+  {
+    "output_id": "O013",
+    "profile_id": "mask_automaton-01-A",
+    "proposition_ids": [
+      "mask_automaton-01-p1",
+      "mask_automaton-01-p2",
+      "mask_automaton-01-p3"
+    ],
+    "source_id": "mask_automaton-01",
+    "unknown_concept_ids": [
+      "pivot",
+      "axle"
+    ]
+  },
+  {
+    "output_id": "O014",
+    "profile_id": "mask_automaton-01-B",
+    "proposition_ids": [
+      "mask_automaton-01-p1",
+      "mask_automaton-01-p2",
+      "mask_automaton-01-p3"
+    ],
+    "source_id": "mask_automaton-01",
+    "unknown_concept_ids": [
+      "gear",
+      "spring"
+    ]
+  },
+  {
+    "output_id": "O015",
+    "profile_id": "mask_automaton-02-A",
+    "proposition_ids": [
+      "mask_automaton-02-p1",
+      "mask_automaton-02-p2",
+      "mask_automaton-02-p3"
+    ],
+    "source_id": "mask_automaton-02",
+    "unknown_concept_ids": [
+      "axle",
+      "pivot"
+    ]
+  },
+  {
+    "output_id": "O016",
+    "profile_id": "mask_automaton-02-B",
+    "proposition_ids": [
+      "mask_automaton-02-p1",
+      "mask_automaton-02-p2",
+      "mask_automaton-02-p3"
+    ],
+    "source_id": "mask_automaton-02",
+    "unknown_concept_ids": [
+      "gear",
+      "spring"
+    ]
+  },
+  {
+    "output_id": "O017",
+    "profile_id": "shell_forecast-01-A",
+    "proposition_ids": [
+      "shell_forecast-01-p1",
+      "shell_forecast-01-p2",
+      "shell_forecast-01-p3"
+    ],
+    "source_id": "shell_forecast-01",
+    "unknown_concept_ids": [
+      "sample",
+      "estimate"
+    ]
+  },
+  {
+    "output_id": "O018",
+    "profile_id": "shell_forecast-01-B",
+    "proposition_ids": [
+      "shell_forecast-01-p1",
+      "shell_forecast-01-p2",
+      "shell_forecast-01-p3"
+    ],
+    "source_id": "shell_forecast-01",
+    "unknown_concept_ids": [
+      "variable",
+      "baseline"
+    ]
+  },
+  {
+    "output_id": "O019",
+    "profile_id": "shell_forecast-02-A",
+    "proposition_ids": [
+      "shell_forecast-02-p1",
+      "shell_forecast-02-p2",
+      "shell_forecast-02-p3"
+    ],
+    "source_id": "shell_forecast-02",
+    "unknown_concept_ids": [
+      "estimate",
+      "sample"
+    ]
+  },
+  {
+    "output_id": "O020",
+    "profile_id": "shell_forecast-02-B",
+    "proposition_ids": [
+      "shell_forecast-02-p1",
+      "shell_forecast-02-p2",
+      "shell_forecast-02-p3"
+    ],
+    "source_id": "shell_forecast-02",
+    "unknown_concept_ids": [
+      "variable",
+      "baseline"
+    ]
+  },
+  {
+    "output_id": "O021",
+    "profile_id": "glass_maze-01-A",
+    "proposition_ids": [
+      "glass_maze-01-p1",
+      "glass_maze-01-p2",
+      "glass_maze-01-p3",
+      "glass_maze-01-p4"
+    ],
+    "source_id": "glass_maze-01",
+    "unknown_concept_ids": [
+      "filter",
+      "refraction"
+    ]
+  },
+  {
+    "output_id": "O022",
+    "profile_id": "glass_maze-01-B",
+    "proposition_ids": [
+      "glass_maze-01-p1",
+      "glass_maze-01-p2",
+      "glass_maze-01-p3",
+      "glass_maze-01-p4"
+    ],
+    "source_id": "glass_maze-01",
+    "unknown_concept_ids": [
+      "mesh",
+      "diffusion"
+    ]
+  },
+  {
+    "output_id": "O023",
+    "profile_id": "glass_maze-02-A",
+    "proposition_ids": [
+      "glass_maze-02-p1",
+      "glass_maze-02-p2",
+      "glass_maze-02-p3"
+    ],
+    "source_id": "glass_maze-02",
+    "unknown_concept_ids": [
+      "filter",
+      "refraction"
+    ]
+  },
+  {
+    "output_id": "O024",
+    "profile_id": "glass_maze-02-B",
+    "proposition_ids": [
+      "glass_maze-02-p1",
+      "glass_maze-02-p2",
+      "glass_maze-02-p3"
+    ],
+    "source_id": "glass_maze-02",
+    "unknown_concept_ids": [
+      "mesh",
+      "diffusion"
+    ]
+  }
+]

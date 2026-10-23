@@ -1,0 +1,79 @@
+{
+  "study": "A-only reader-specific rewrite capacity gate",
+  "study_date_utc": "2026-10-23",
+  "design": "One fixed ordinary-SFT feasibility attempt; no non-A comparison or test evaluation.",
+  "model": {
+    "repository": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "license": "Apache-2.0",
+    "base_weights_bundled": false
+  },
+  "recipe": {
+    "generator_seed": 11,
+    "training_source_order_seed": 11,
+    "training_order": "sort 96 training source IDs, shuffle once with private Python Random(11), cycle that fixed permutation for 128 updates",
+    "updates": 128,
+    "batch": "one training source and its two canonical complementary profile/reference variants",
+    "training_source_count": 96,
+    "example_exposures": 256,
+    "max_full_sequence_tokens": 256,
+    "gradient_accumulation": 1,
+    "optimizer": "accepted core AdamW lr 0.0005, weight_decay 0, betas 0.9/0.999, eps 1e-8, LoRA-only clip 1.0",
+    "lora": {
+      "r": 4,
+      "alpha": 8,
+      "dropout": 0,
+      "targets": [
+        "q_proj",
+        "v_proj"
+      ]
+    },
+    "evaluation_sources": 12,
+    "evaluation_outputs": 24,
+    "generation": {
+      "max_new_tokens": 80,
+      "use_cache": true,
+      "decoding": "greedy argmax",
+      "eos": 2,
+      "max_total_generated_tokens": 1920
+    },
+    "runtime": {
+      "python": "3.12.14",
+      "torch": "2.5.1+cpu",
+      "transformers": "4.46.3",
+      "peft": "0.13.2",
+      "tokenizers": "0.20.3",
+      "safetensors": "0.4.5",
+      "intraop_threads": 2,
+      "interop_threads": 1,
+      "dtype": "float32",
+      "device": "cpu",
+      "attention": "eager",
+      "network": "denied",
+      "subprocess_workers": 0
+    }
+  },
+  "data_identity": {
+    "original_executed_inputs_sha256": "72832853c0f37bba22b4f0ae17d37c73a1b4d392e86907fdb6b0255aaa12ab1b",
+    "original_executed_inputs_bytes": 2242725,
+    "train_sources": 96,
+    "train_profile_reference_examples": 192,
+    "capacity_dev_sources": 12,
+    "capacity_dev_profiles": 24,
+    "dev_source_previously_exposed_in_technical_calibration": "kite_dock-01 (both profiles)",
+    "training_references_and_combined_upstream_corpus_distributed_here": false,
+    "no_test_model_use": true,
+    "test_bytes_physically_unread_claim": false
+  },
+  "prospective_numeric_floors": {
+    "denominator": 24,
+    "fluent_task_following_truth_complete_minimum": 18,
+    "all_unknown_concepts_supported_minimum": 12
+  },
+  "source_identity": {
+    "original_frozen_source_sha256": "b6c0ca5e0ac33befe678b7ba5403bf335ef384e5e399f1f3274dcba7d4aee86a",
+    "original_source_artifact_manifest_sha256": "9bf56ab2e205b0e00cc7f4bc226df2e0fb7c3902d46c1898439795ecb549d4f0"
+  },
+  "historical_model_run_reproduced_by_this_public_package": false,
+  "public_reproduction_scope": "Saved-output evidence/ratings validation and exact numerical aggregation, not new training, generation, gradient reconstruction or the full engineering archive."
+}

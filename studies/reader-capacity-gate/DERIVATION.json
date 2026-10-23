@@ -1,0 +1,466 @@
+{
+  "scope": "Explicit public semantic-audit derivative; not the original execution archive.",
+  "original_frozen_source_sha256": "b6c0ca5e0ac33befe678b7ba5403bf335ef384e5e399f1f3274dcba7d4aee86a",
+  "role_redaction": "Internal evaluator identities and coordination notes are replaced by public AI roles/stages. Statuses, evidence, rationales and initial/final distinctions are not changed.",
+  "no_model_execution_for_publication": true,
+  "historical_full_model_replay_available_from_this_package": false,
+  "files": [
+    {
+      "public_path": "METHODS_AND_RESULTS.md",
+      "artifact_id": "new-METHODS_AND_RESULTS.md",
+      "artifact_type": "new_public_artifact",
+      "original_sha256": null,
+      "public_sha256": "be47752095f5253853b964ccc3727055ba9b4ecee9a097671bd9056b68578f3d",
+      "transformation": "New public explanatory/verification artifact. Not executed historical model source or an original execution record."
+    },
+    {
+      "public_path": "PROVENANCE.md",
+      "artifact_id": "new-PROVENANCE.md",
+      "artifact_type": "new_public_artifact",
+      "original_sha256": null,
+      "public_sha256": "1d04d93584ca291f9b74f9dd493035efaa05c5bc19c5a70f7607c15093acbd2f",
+      "transformation": "New public explanatory/verification artifact. Not executed historical model source or an original execution record."
+    },
+    {
+      "public_path": "README.md",
+      "artifact_id": "new-README.md",
+      "artifact_type": "new_public_artifact",
+      "original_sha256": null,
+      "public_sha256": "833c83993995a7fc79edcea9c167b7e74456d6ffdfb4498830d1d5caf441d91a",
+      "transformation": "New public explanatory/verification artifact. Not executed historical model source or an original execution record."
+    },
+    {
+      "public_path": "REPRODUCE.md",
+      "artifact_id": "new-REPRODUCE.md",
+      "artifact_type": "new_public_artifact",
+      "original_sha256": null,
+      "public_sha256": "01214375323f5d6abf43eb4d63e5f67f3fe91dff3694c4f09abdaceecfd00185",
+      "transformation": "New public explanatory/verification artifact. Not executed historical model source or an original execution record."
+    },
+    {
+      "public_path": "SOURCE_SCOPE.md",
+      "artifact_id": "new-SOURCE_SCOPE.md",
+      "artifact_type": "new_public_artifact",
+      "original_sha256": null,
+      "public_sha256": "943e24ec39157a1efcc3e7521b8b61c30e143dfd1c97a587106f1e10a92d0036",
+      "transformation": "New public explanatory/verification artifact. Not executed historical model source or an original execution record."
+    },
+    {
+      "public_path": "adjudication/output-only-context.txt",
+      "artifact_id": "retained-output-only-context",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "527be35bb5fdb7c54e5042f6a5a567949c82d4d92f0a1cffa8f90e777234d61b",
+      "public_sha256": "527be35bb5fdb7c54e5042f6a5a567949c82d4d92f0a1cffa8f90e777234d61b",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "adjudication/output-only-ledger-comparison.json",
+      "artifact_id": "final-answerability-comparison",
+      "artifact_type": "public_derivative",
+      "original_sha256": "ce54f6cfc83efdc30020519b55edb621001ff86ba3a78b2b2844ab7482465c87",
+      "public_sha256": "ce54f6cfc83efdc30020519b55edb621001ff86ba3a78b2b2844ab7482465c87",
+      "transformation": "JSON serialization only; all 74 descriptive answer/ledger comparisons and reconciled statuses preserved. This is a post-adjudication analysis, not a new output-only answer set."
+    },
+    {
+      "public_path": "adjudication/output-only-ratings.json",
+      "artifact_id": "retained-output-only-ratings",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "eb0f12d74fae677c3f95944752cf1af4e7417aaca61c3526430ad3a3492c3599",
+      "public_sha256": "eb0f12d74fae677c3f95944752cf1af4e7417aaca61c3526430ad3a3492c3599",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "adjudication/reconciliation.json",
+      "artifact_id": "source-aware-reconciliation",
+      "artifact_type": "public_derivative",
+      "original_sha256": "813063fc11e85317a46bacfa76d87a2c1319c9aa540aa02d63a41bd09a4e045c",
+      "public_sha256": "0459bfdc214369b0a0ea15412aa5fab1e5eb593dbab1b9c1a0a6fd029a3c139a",
+      "transformation": "Scientific decision comparisons, exact source/output spans and resolutions retained. Internal identities, message quotation, private input-path map, execution receipts and routing/control metadata omitted. Initial/reconciled numerical provenance is explicitly retained. No semantic decisions changed."
+    },
+    {
+      "public_path": "adjudication/source-aware-final.json",
+      "artifact_id": "source-aware-final.json",
+      "artifact_type": "public_derivative",
+      "original_sha256": "0eb8919ebca6953ed2b1c666d148d8ae344abec84936899ef7b0304f0fe3ad00",
+      "public_sha256": "8d94cc38c60eb7f7223e223adcad8f5643deff7d308124fc7b7cdc8ccc1484bc",
+      "transformation": "Only adjudicator identity and notes fields replaced with public role/stage descriptions. All IDs, statuses, evidence spans, semantic/presentation rationales, unsupported claims, known-concept descriptors and boolean flags are unchanged. This is a metadata-redacted derivative, not the original file."
+    },
+    {
+      "public_path": "adjudication/source-aware-initial-A.json",
+      "artifact_id": "source-aware-initial-A.json",
+      "artifact_type": "public_derivative",
+      "original_sha256": "86f608364188434f9e3c116443c3a154940cbfa4e228ff36ab90ae64ff2f1f80",
+      "public_sha256": "58207731b57195a9ad81f0c374b4dbd48a6a551879292b8d33ee8a76c8df3002",
+      "transformation": "Only adjudicator identity and notes fields replaced with public role/stage descriptions. All IDs, statuses, evidence spans, semantic/presentation rationales, unsupported claims, known-concept descriptors and boolean flags are unchanged. This is a metadata-redacted derivative, not the original file."
+    },
+    {
+      "public_path": "adjudication/source-aware-initial-B.json",
+      "artifact_id": "source-aware-initial-B.json",
+      "artifact_type": "public_derivative",
+      "original_sha256": "c0bae8c6314358aef750640784ae7330905c139fc1cebc5628239fe12ef0dd57",
+      "public_sha256": "5847aba0a77c1a6dc078506671b063f410bf8be65fda61f4ad2f2f92a05497d7",
+      "transformation": "Only adjudicator identity and notes fields replaced with public role/stage descriptions. All IDs, statuses, evidence spans, semantic/presentation rationales, unsupported claims, known-concept descriptors and boolean flags are unchanged. This is a metadata-redacted derivative, not the original file."
+    },
+    {
+      "public_path": "evaluation/evaluation-cases.json",
+      "artifact_id": "frozen-evaluation-mappings",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "ed26aace11b2f549da099aaa97f08547dcce59846e01a2d93edb725dc7001a0c",
+      "public_sha256": "ed26aace11b2f549da099aaa97f08547dcce59846e01a2d93edb725dc7001a0c",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "evaluation/output-only-packet.json",
+      "artifact_id": "retained-output-only-packet",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "6d6796c7ac9b18a5781840db424687c50796d825b6177db2dbe9b745bdc0d758",
+      "public_sha256": "6d6796c7ac9b18a5781840db424687c50796d825b6177db2dbe9b745bdc0d758",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "evaluation/question-crosswalk.json",
+      "artifact_id": "frozen-question-crosswalk",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "8f15e7e05e4721670d9402257f4482c5f0403e395eec445c9b63af0d737047a2",
+      "public_sha256": "8f15e7e05e4721670d9402257f4482c5f0403e395eec445c9b63af0d737047a2",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "evaluation/rating-template.json",
+      "artifact_id": "frozen-rating-template",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "0663a38683c577912e9d983ae27ccff0abd0f8eacf153832a03ca084aaf51051",
+      "public_sha256": "0663a38683c577912e9d983ae27ccff0abd0f8eacf153832a03ca084aaf51051",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "evaluation/rubric.md",
+      "artifact_id": "frozen-pre-output-rubric",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "64bced330fb4f59d951ac4fb798eecc16cb2aa199200afb375069369c5e642e2",
+      "public_sha256": "64bced330fb4f59d951ac4fb798eecc16cb2aa199200afb375069369c5e642e2",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "evaluation/source-aware-packet.json",
+      "artifact_id": "frozen-source-aware-packet",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "89774c847c81830ba8654de4baeba7b79574f40fbfa2e134e32b2ad2176aafae",
+      "public_sha256": "89774c847c81830ba8654de4baeba7b79574f40fbfa2e134e32b2ad2176aafae",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "method-inspection/core.py",
+      "artifact_id": "method-inspection-core.py",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "f3c14857f05997e77336567c7edf91b00912067639e5481606f01ebf5f3c8fe5",
+      "public_sha256": "f3c14857f05997e77336567c7edf91b00912067639e5481606f01ebf5f3c8fe5",
+      "transformation": "No byte changes. Inspection-only original loss/controller source; non-A implementations in this module were not run in this attempt."
+    },
+    {
+      "public_path": "method-inspection/decoder_public_derivative.py",
+      "artifact_id": "method-inspection-decoder_public_derivative.py",
+      "artifact_type": "public_derivative",
+      "original_sha256": "2c1e6330518ad03d43b6bea113201831bf85f11e53ef5150121e699a4503c8b9",
+      "public_sha256": "c58692d3ddf75c95729de44b674e531183284de635d81d008fe7533dd22fe7fb",
+      "transformation": "Exactly one non-executable caller-control sentence removed from a docstring. No executable code changes. Inspection-only LoRA/forward/greedy-decoder source; original dependency imports remain unresolved in this minimal package. This is not original executed bytes or a portable model runner."
+    },
+    {
+      "public_path": "method-inspection/run.py",
+      "artifact_id": "method-inspection-run.py",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "b5d6bef05cb612384718e59916474354c05c00dab3d0d2450ad5d9a53c6921c8",
+      "public_sha256": "b5d6bef05cb612384718e59916474354c05c00dab3d0d2450ad5d9a53c6921c8",
+      "transformation": "No byte changes. Inspection-only original fixed A orchestration body; environment-specific dependency wrappers are omitted, so this is not a standalone public model runner."
+    },
+    {
+      "public_path": "method-inspection/serialization.py",
+      "artifact_id": "method-inspection-serialization.py",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "916997866abbb90a73703e4eca130d1475c76d01f2491938de2e885dad886242",
+      "public_sha256": "916997866abbb90a73703e4eca130d1475c76d01f2491938de2e885dad886242",
+      "transformation": "No byte changes. Inspection-only original profile/glossary/source chat serialization source."
+    },
+    {
+      "public_path": "method/method.json",
+      "artifact_id": "public-scientific-method",
+      "artifact_type": "public_derivative",
+      "original_sha256": "5786b30cf6c5ffb2c80fe847cafe158610ee4a28c75b96c315076347aaa59fa2",
+      "public_sha256": "0f8df1b9d359704bb20585488e806ff6a130091c82131764633c1f23a07d1e41",
+      "transformation": "Scientific recipe selected unchanged; model/data/source identities and explicit public reproducibility limits added from the frozen protocol and reviewed result. Internal paths and execution-control prose excluded. Not the original plan."
+    },
+    {
+      "public_path": "method/model-runtime-identities.json",
+      "artifact_id": "public-model-runtime-identity-summary",
+      "artifact_type": "new_public_artifact",
+      "original_sha256": null,
+      "public_sha256": "8e670f8b62f55051e88ead56243f94b48e2cbd2343e0b83d6318e942e7925d19",
+      "transformation": "New scientific identity summary extracted from authenticated historical model/runtime/data declarations; not an original environment lock or a tested fresh reproduction setup."
+    },
+    {
+      "public_path": "method/training-order.json",
+      "artifact_id": "original-realized-training-order",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "bf5a8803ae4e587b2c6c37a1de3935180c817ff487b82c1b5e22de3003cdcc94",
+      "public_sha256": "bf5a8803ae4e587b2c6c37a1de3935180c817ff487b82c1b5e22de3003cdcc94",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O001.json",
+      "artifact_id": "original-output-O001",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "a9a5a736d87c243e93201f5d814d480344e8a73b0f6d5ae54720d00ed7fe115b",
+      "public_sha256": "a9a5a736d87c243e93201f5d814d480344e8a73b0f6d5ae54720d00ed7fe115b",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O002.json",
+      "artifact_id": "original-output-O002",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "04cda668d01dbb80c1261414a8ebe27e4dbff9b00feae91ef9f4db59e5a8222f",
+      "public_sha256": "04cda668d01dbb80c1261414a8ebe27e4dbff9b00feae91ef9f4db59e5a8222f",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O003.json",
+      "artifact_id": "original-output-O003",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "63208ef51f6850e3f132d2c2a28d2d28ec15b8e4fa211fd523ae81b1c038cba3",
+      "public_sha256": "63208ef51f6850e3f132d2c2a28d2d28ec15b8e4fa211fd523ae81b1c038cba3",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O004.json",
+      "artifact_id": "original-output-O004",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "6077cc4003d079a26bfadf6e20feb6026806d4995b81c63ad6094b6126eb1259",
+      "public_sha256": "6077cc4003d079a26bfadf6e20feb6026806d4995b81c63ad6094b6126eb1259",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O005.json",
+      "artifact_id": "original-output-O005",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "bc54dde5ac4e5ff5cb2fd3c6b486fd8b21ac410f939d40e2252f0db5ea1bba5f",
+      "public_sha256": "bc54dde5ac4e5ff5cb2fd3c6b486fd8b21ac410f939d40e2252f0db5ea1bba5f",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O006.json",
+      "artifact_id": "original-output-O006",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "13af92fe741a990636aa71f004fa2b173df53c873337a375adcdc01f6cfbc09e",
+      "public_sha256": "13af92fe741a990636aa71f004fa2b173df53c873337a375adcdc01f6cfbc09e",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O007.json",
+      "artifact_id": "original-output-O007",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "ecaee35f57158509f89e7723075eba0dcc21edc3e2f27970cf154b50ba9ddbf1",
+      "public_sha256": "ecaee35f57158509f89e7723075eba0dcc21edc3e2f27970cf154b50ba9ddbf1",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O008.json",
+      "artifact_id": "original-output-O008",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "f91d71b5893be2022094c4942c389eeb9bdb58b3487cabd2890f47bd67e9e387",
+      "public_sha256": "f91d71b5893be2022094c4942c389eeb9bdb58b3487cabd2890f47bd67e9e387",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O009.json",
+      "artifact_id": "original-output-O009",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "335f326df274014209c9010c51079212044de2948047491fed068d2bd7c571b9",
+      "public_sha256": "335f326df274014209c9010c51079212044de2948047491fed068d2bd7c571b9",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O010.json",
+      "artifact_id": "original-output-O010",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "4c17985c1a15c4a8fb9e1ca95f44b7394dcc23ee55af966324aa0664eaae2f0e",
+      "public_sha256": "4c17985c1a15c4a8fb9e1ca95f44b7394dcc23ee55af966324aa0664eaae2f0e",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O011.json",
+      "artifact_id": "original-output-O011",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "70a142b89c2d11f83cb9ab0d394de6b02c8ced68b71266e7682e6756b05c650c",
+      "public_sha256": "70a142b89c2d11f83cb9ab0d394de6b02c8ced68b71266e7682e6756b05c650c",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O012.json",
+      "artifact_id": "original-output-O012",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "7512ae7cd06e81c3c7688481b77222ca8e88ed952bf12c0f5981758aeeb20eeb",
+      "public_sha256": "7512ae7cd06e81c3c7688481b77222ca8e88ed952bf12c0f5981758aeeb20eeb",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O013.json",
+      "artifact_id": "original-output-O013",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "74c8bf0eb83d299f95892c512366499893ebf23531e7c39a4fcba75f2897c262",
+      "public_sha256": "74c8bf0eb83d299f95892c512366499893ebf23531e7c39a4fcba75f2897c262",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O014.json",
+      "artifact_id": "original-output-O014",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "ae9768cdcbd4984331a665d090570545b0d1d4652c73af30ad069b729d805632",
+      "public_sha256": "ae9768cdcbd4984331a665d090570545b0d1d4652c73af30ad069b729d805632",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O015.json",
+      "artifact_id": "original-output-O015",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "fd8b9489e8bd5bb2ecb42434ad5cd63f7b9573448b05af78fe801a327a025ba7",
+      "public_sha256": "fd8b9489e8bd5bb2ecb42434ad5cd63f7b9573448b05af78fe801a327a025ba7",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O016.json",
+      "artifact_id": "original-output-O016",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "f57d3c8e970036a3420dd37e373f4ef5e5a22c5678a5848c7d35a2edcf696322",
+      "public_sha256": "f57d3c8e970036a3420dd37e373f4ef5e5a22c5678a5848c7d35a2edcf696322",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O017.json",
+      "artifact_id": "original-output-O017",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "28944ce66b9a3ac169f0261acb01560cc97849bf71dd82ae8c22c6cb3039f5b1",
+      "public_sha256": "28944ce66b9a3ac169f0261acb01560cc97849bf71dd82ae8c22c6cb3039f5b1",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O018.json",
+      "artifact_id": "original-output-O018",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "0166f3fa7b9f43dfd2418aa580af96015a86309a3fcf5413e1446f3e45bf0e88",
+      "public_sha256": "0166f3fa7b9f43dfd2418aa580af96015a86309a3fcf5413e1446f3e45bf0e88",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O019.json",
+      "artifact_id": "original-output-O019",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "302a1021f5d7d2ccf209ea30956b93b8b5bf3e8fdfbee8d8ac32dc6e27944cd8",
+      "public_sha256": "302a1021f5d7d2ccf209ea30956b93b8b5bf3e8fdfbee8d8ac32dc6e27944cd8",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O020.json",
+      "artifact_id": "original-output-O020",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "ff793a1bf7625a3fbf63b4d2334ffc0bc96cc9316cb1b65a06db608008dcdc27",
+      "public_sha256": "ff793a1bf7625a3fbf63b4d2334ffc0bc96cc9316cb1b65a06db608008dcdc27",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O021.json",
+      "artifact_id": "original-output-O021",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "8f05ceab259f8d8c961e5f5fa97e6ebbd72331ed86d82941b14ad0023e6ec237",
+      "public_sha256": "8f05ceab259f8d8c961e5f5fa97e6ebbd72331ed86d82941b14ad0023e6ec237",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O022.json",
+      "artifact_id": "original-output-O022",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "964a7d407a6fd616546eea5c57687d7a81d9bac43e294d7bc5f7292866a04ac0",
+      "public_sha256": "964a7d407a6fd616546eea5c57687d7a81d9bac43e294d7bc5f7292866a04ac0",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O023.json",
+      "artifact_id": "original-output-O023",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "f97e508d3a51f577b3df0ac92598fda45b356e3181a3d7f39aa51db159ea4e7a",
+      "public_sha256": "f97e508d3a51f577b3df0ac92598fda45b356e3181a3d7f39aa51db159ea4e7a",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "outputs/O024.json",
+      "artifact_id": "original-output-O024",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "9d2ce49dab0d5ee141e35343c97ad3caa938d487c8eb1cb566cc9eac0108d842",
+      "public_sha256": "9d2ce49dab0d5ee141e35343c97ad3caa938d487c8eb1cb566cc9eac0108d842",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "results/aggregate.json",
+      "artifact_id": "official-semantic-aggregate",
+      "artifact_type": "public_derivative",
+      "original_sha256": "8d8e5841725e741e2ce61e9b578e63457ef7b50b6471e1633c7eb92989fcf4d5",
+      "public_sha256": "119283c808ba6a6ab9249d81f8314356fa1ef67727fbb627ab52faf0f954c2f2",
+      "transformation": "Only interpretation prose replaced with public scientific-scope wording. Every numeric value, boolean, status and all 24 case results are unchanged. This is a public derivative of the official aggregate, not its original stdout."
+    },
+    {
+      "public_path": "results/engineering-summary.json",
+      "artifact_id": "engineering-review-summary",
+      "artifact_type": "public_derivative",
+      "original_sha256": "15dc7a6a44d41e601708d2dd32fe366fb32102be2261d79ce796ee89d46bf640",
+      "public_sha256": "ddec9fc970c0401a1dc8ce638d4c1c81a9de9393f0482c3e0d609cca17737a78",
+      "transformation": "New scientific summary of the accepted engineering review. Private paths, reviewer identity, command/tool receipts and coordination prose omitted. Numerical observations and qualifications retained; not the original review."
+    },
+    {
+      "public_path": "source/__init__.py",
+      "artifact_id": "public-source-import-marker",
+      "artifact_type": "new_public_artifact",
+      "original_sha256": null,
+      "public_sha256": "96517f13182bf1af1122c56bf2fd51afe90c4af246630f8efd883dcb38b0d6e3",
+      "transformation": "New import marker for the public verification package."
+    },
+    {
+      "public_path": "source/custody.py",
+      "artifact_id": "executed-custody-module",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "9b0769bf969d9e34410e33bad88dd184678da578431dfe2ec447e6590d7336cc",
+      "public_sha256": "9b0769bf969d9e34410e33bad88dd184678da578431dfe2ec447e6590d7336cc",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "source/optimizer.py",
+      "artifact_id": "executed-optimizer-module",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "a8831d6d27f8719971ee9ef19e4a48764c97e2199db5743ccf947213b44253f0",
+      "public_sha256": "a8831d6d27f8719971ee9ef19e4a48764c97e2199db5743ccf947213b44253f0",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "source/schedule.py",
+      "artifact_id": "executed-schedule-module",
+      "artifact_type": "exact_byte_copy",
+      "original_sha256": "231ed48b7b32cbf00dd14f78525fa03a680317edaec62919d6315447287aa22c",
+      "public_sha256": "231ed48b7b32cbf00dd14f78525fa03a680317edaec62919d6315447287aa22c",
+      "transformation": "No byte changes; repository location differs. The original artifact remains unchanged."
+    },
+    {
+      "public_path": "source/scoring.py",
+      "artifact_id": "executed-aggregation-module",
+      "artifact_type": "public_derivative",
+      "original_sha256": "85e988292e5cd076fd42faef68874df8bd7c66b06b1895a46dfd05e591ca38d6",
+      "public_sha256": "6709a41be12e5695645e7be371b6bdf1f0a32802a360ac5f3b529d3bc0cb2688",
+      "transformation": "Only the final scientific interpretation prose is replaced. The aggregation logic and numeric thresholds are unchanged. This is a portable public derivative of the executed aggregation module, not its original bytes."
+    },
+    {
+      "public_path": "verify_package.py",
+      "artifact_id": "new-verify_package.py",
+      "artifact_type": "new_public_artifact",
+      "original_sha256": null,
+      "public_sha256": "999af822e30a062ccfd31dd298fc88db5c3eddf522e1b05baafd153789f28845",
+      "transformation": "New public explanatory/verification artifact. Not executed historical model source or an original execution record."
+    }
+  ],
+  "self_identity_rule": "MANIFEST.json covers DERIVATION.json. DERIVATION.json does not hash itself or the manifest, avoiding a circular hash claim."
+}

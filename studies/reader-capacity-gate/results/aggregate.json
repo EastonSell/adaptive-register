@@ -1,0 +1,225 @@
+{
+  "adjudicated_outputs": 24,
+  "capacity_gate_passed": false,
+  "case_results": [
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O001",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O002",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O003",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O004",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O005",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O006",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": true
+    },
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O007",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": true
+    },
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O008",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": true
+    },
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O009",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O010",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O011",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O012",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": false,
+      "output_id": "O013",
+      "truth_complete": false,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O014",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O015",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O016",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O017",
+      "truth_complete": true,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O018",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O019",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O020",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O021",
+      "truth_complete": true,
+      "truth_safe": false,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O022",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O023",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    },
+    {
+      "fluent_truth_complete": true,
+      "output_id": "O024",
+      "truth_complete": true,
+      "truth_safe": true,
+      "truth_safe_and_supported": false,
+      "unknown_support": false
+    }
+  ],
+  "denominator": 24,
+  "fluency_pass": 23,
+  "fluent_truth_complete": 14,
+  "interpretation": "A-only pragmatic development-set feasibility; no comparative-arm efficacy, human-comprehension or test-set conclusion.",
+  "missing_ratings": 0,
+  "outputs_with_unsupported_assertions": 6,
+  "proposition_status_counts": {
+    "contradicted": 2,
+    "omitted": 7,
+    "preserved": 64,
+    "uncertain": 1,
+    "unscored": 0
+  },
+  "semantic_status": "complete",
+  "task_following_pass": 24,
+  "truth_complete": 14,
+  "truth_safe": 12,
+  "truth_safe_and_supported": 0,
+  "unknown_status_counts": {
+    "absent_or_unglossed": 18,
+    "inaccurate": 2,
+    "supported": 17,
+    "uncertain": 11,
+    "unscored": 0
+  },
+  "unknown_support": 3,
+  "unscored_or_incomplete": 0
+}

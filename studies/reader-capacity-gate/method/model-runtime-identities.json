@@ -1,0 +1,114 @@
+{
+  "base_model": {
+    "files": {
+      "README.md": {
+        "bytes": 6772,
+        "sha256": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4"
+      },
+      "config.json": {
+        "bytes": 861,
+        "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a"
+      },
+      "generation_config.json": {
+        "bytes": 132,
+        "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013"
+      },
+      "merges.txt": {
+        "bytes": 466391,
+        "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510"
+      },
+      "model.safetensors": {
+        "bytes": 269060552,
+        "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c"
+      },
+      "special_tokens_map.json": {
+        "bytes": 655,
+        "sha256": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52"
+      },
+      "tokenizer.json": {
+        "bytes": 2104556,
+        "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c"
+      },
+      "tokenizer_config.json": {
+        "bytes": 3764,
+        "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df"
+      },
+      "vocab.json": {
+        "bytes": 800662,
+        "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+      }
+    },
+    "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac"
+  },
+  "data_identity": {
+    "capacity_dev_profile_outputs": 24,
+    "capacity_dev_sources": 12,
+    "full_corpus_and_sealed_test_distributed": false,
+    "processed_input_bytes": 2242725,
+    "processed_inputs_and_training_references_distributed": false,
+    "processed_train_and_capacity_dev_inputs_sha256": "72832853c0f37bba22b4f0ae17d37c73a1b4d392e86907fdb6b0255aaa12ab1b",
+    "train_sources": 96
+  },
+  "historical_recipe": {
+    "arm": "A",
+    "generation": {
+      "cache": true,
+      "eos_token_id": 2,
+      "max_new_tokens": 80,
+      "policy": "greedy argmax"
+    },
+    "generator": "ordinary assistant-token-mean SFT",
+    "lora": {
+      "alpha": 8,
+      "dropout": 0,
+      "r": 4,
+      "seed": 11,
+      "targets": [
+        "q_proj",
+        "v_proj"
+      ],
+      "trainable_parameters": 230400
+    },
+    "max_full_sequence_tokens": 256,
+    "optimizer": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "lr": 0.0005,
+      "max_grad_norm": 1,
+      "name": "AdamW",
+      "weight_decay": 0
+    },
+    "profile_example_exposures": 256,
+    "profile_examples_per_pair": 2,
+    "source_pairs_per_update": 1,
+    "training_order": "Sort 96 train source IDs, shuffle once with Python Random(11), cycle for 128 updates.",
+    "updates": 128
+  },
+  "not_captured_as_complete_replay_environment": [
+    "Full transitive dependency lock and wheel/package hashes.",
+    "Container/OS and CPU/BLAS build identity sufficient for cross-machine bitwise reproducibility."
+  ],
+  "public_semantic_audit_runtime": "The new verifier and scoring derivative can be stdlib-only; publishing optimizer.py does not make torch required for the saved-output semantic audit.",
+  "runtime": {
+    "attention": "eager",
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "dtype": "float32",
+    "interop_threads": 1,
+    "intraop_threads": 2,
+    "offline": true,
+    "peft": "0.13.2",
+    "python": "3.12.14",
+    "safetensors": "0.4.5",
+    "subprocess_workers": 0,
+    "tokenizers": "0.20.3",
+    "torch": "2.5.1+cpu",
+    "transformers": "4.46.3"
+  },
+  "schema_version": 1,
+  "scope": "Historical execution identity metadata only; model weights, corpus and training references are not distributed."
+}

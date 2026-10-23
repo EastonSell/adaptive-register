@@ -1,0 +1,30 @@
+{
+  "status": "engineering_evidence_review_passed",
+  "review_kind": "AI independent saved-evidence review; not human semantic validation",
+  "observed_original_process_exit": 0,
+  "strict_saved_run_reconciliation_passed": true,
+  "completed_updates": 128,
+  "optimizer_calls_begun": 128,
+  "optimizer_calls_returned": 128,
+  "forward_calls_begun": 1115,
+  "forward_calls_returned": 1115,
+  "generation_calls": 24,
+  "generation_returns": 24,
+  "generation_candidates": 987,
+  "lora_tensors": 120,
+  "lora_trainable_scalars": 230400,
+  "final_optimizer_step_counters": 128,
+  "optimizer_trajectory_check": "Same-version AdamW replay matched all 128 retained consumed-gradient recurrences and final adapter/optimizer states. This is conditional on the recorded gradients, not independent recomputation of their derivatives.",
+  "base_state_check": "Non-LoRA parameters and buffers fingerprinted initially, every 16 updates and after generation; no continuous intermediate-state immutability claim.",
+  "output_custody": "All 24 expected mappings, raw returned IDs/text, EOS-only-trimmed scoring text and natural-EOS/cap fields strictly reconciled. No output/checkpoint selection.",
+  "observed_resources": {
+    "external_waited_child_wall_seconds": 478.78184807400976,
+    "external_waited_child_cpu_delta_seconds": 925.1021370000001,
+    "postwait_max_child_rss_bytes": 1960255488,
+    "final_regular_file_count": 162,
+    "final_regular_file_bytes": 133144820
+  },
+  "resource_limits_and_limits_of_measurement": "CPU RLIMIT 5400/5410 seconds; 7200-second in-process wall signal; 6 GiB hard virtual address-space limit; 64 MiB per-file limit; sampled 3 GiB peak-self-RSS stop; 256 MiB aggregate prewrite cap. Address space is not RSS; sampling/signals are not independently hard wall/RSS supervisor guarantees. Retained receipts are not signed operating-system attestation.",
+  "full_private_engineering_archive_distributed": false,
+  "public_verification_limit": "This release supplies semantic evidence and source kernels, not the complete authenticated engineering archive, optimizer/gradient payloads, all dependency ancestry or training references. The public verifier does not independently establish the historical engineering verdict."
+}

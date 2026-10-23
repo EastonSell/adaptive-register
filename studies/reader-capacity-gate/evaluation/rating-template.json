@@ -1,0 +1,1214 @@
+[
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O001",
+    "profile_id": "kite_dock-01-A",
+    "propositions": [
+      {
+        "proposition_id": "kite_dock-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "kite_dock-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "kite_dock-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "kite_dock-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "ramp",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "pulley",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O002",
+    "profile_id": "kite_dock-01-B",
+    "propositions": [
+      {
+        "proposition_id": "kite_dock-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "kite_dock-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "kite_dock-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "kite_dock-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "counterweight",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "balance",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O003",
+    "profile_id": "kite_dock-02-A",
+    "propositions": [
+      {
+        "proposition_id": "kite_dock-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "kite_dock-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "kite_dock-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "kite_dock-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "pulley",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "ramp",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O004",
+    "profile_id": "kite_dock-02-B",
+    "propositions": [
+      {
+        "proposition_id": "kite_dock-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "kite_dock-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "kite_dock-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "kite_dock-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "counterweight",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "balance",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O005",
+    "profile_id": "bubble_clock-01-A",
+    "propositions": [
+      {
+        "proposition_id": "bubble_clock-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "bubble_clock-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "bubble_clock-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "bubble_clock-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "signal",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "threshold",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O006",
+    "profile_id": "bubble_clock-01-B",
+    "propositions": [
+      {
+        "proposition_id": "bubble_clock-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "bubble_clock-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "bubble_clock-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "bubble_clock-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "interval",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "sensor",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O007",
+    "profile_id": "bubble_clock-02-A",
+    "propositions": [
+      {
+        "proposition_id": "bubble_clock-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "bubble_clock-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "bubble_clock-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "bubble_clock-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "threshold",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "signal",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O008",
+    "profile_id": "bubble_clock-02-B",
+    "propositions": [
+      {
+        "proposition_id": "bubble_clock-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "bubble_clock-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "bubble_clock-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "bubble_clock-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "sensor",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "interval",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O009",
+    "profile_id": "ink_terrace-01-A",
+    "propositions": [
+      {
+        "proposition_id": "ink_terrace-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "ink_terrace-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "ink_terrace-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "ink_terrace-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "suspension",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "solution",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O010",
+    "profile_id": "ink_terrace-01-B",
+    "propositions": [
+      {
+        "proposition_id": "ink_terrace-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "ink_terrace-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "ink_terrace-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "ink_terrace-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "condensation",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "evaporation",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O011",
+    "profile_id": "ink_terrace-02-A",
+    "propositions": [
+      {
+        "proposition_id": "ink_terrace-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "ink_terrace-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "ink_terrace-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "ink_terrace-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "solution",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "suspension",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O012",
+    "profile_id": "ink_terrace-02-B",
+    "propositions": [
+      {
+        "proposition_id": "ink_terrace-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "ink_terrace-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "ink_terrace-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "ink_terrace-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "evaporation",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "condensation",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O013",
+    "profile_id": "mask_automaton-01-A",
+    "propositions": [
+      {
+        "proposition_id": "mask_automaton-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "mask_automaton-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "mask_automaton-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "mask_automaton-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "pivot",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "axle",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O014",
+    "profile_id": "mask_automaton-01-B",
+    "propositions": [
+      {
+        "proposition_id": "mask_automaton-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "mask_automaton-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "mask_automaton-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "mask_automaton-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "gear",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "spring",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O015",
+    "profile_id": "mask_automaton-02-A",
+    "propositions": [
+      {
+        "proposition_id": "mask_automaton-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "mask_automaton-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "mask_automaton-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "mask_automaton-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "axle",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "pivot",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O016",
+    "profile_id": "mask_automaton-02-B",
+    "propositions": [
+      {
+        "proposition_id": "mask_automaton-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "mask_automaton-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "mask_automaton-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "mask_automaton-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "gear",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "spring",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O017",
+    "profile_id": "shell_forecast-01-A",
+    "propositions": [
+      {
+        "proposition_id": "shell_forecast-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "shell_forecast-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "shell_forecast-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "shell_forecast-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "sample",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "estimate",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O018",
+    "profile_id": "shell_forecast-01-B",
+    "propositions": [
+      {
+        "proposition_id": "shell_forecast-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "shell_forecast-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "shell_forecast-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "shell_forecast-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "variable",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "baseline",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O019",
+    "profile_id": "shell_forecast-02-A",
+    "propositions": [
+      {
+        "proposition_id": "shell_forecast-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "shell_forecast-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "shell_forecast-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "shell_forecast-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "estimate",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "sample",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O020",
+    "profile_id": "shell_forecast-02-B",
+    "propositions": [
+      {
+        "proposition_id": "shell_forecast-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "shell_forecast-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "shell_forecast-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "shell_forecast-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "variable",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "baseline",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O021",
+    "profile_id": "glass_maze-01-A",
+    "propositions": [
+      {
+        "proposition_id": "glass_maze-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-01-p4",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "glass_maze-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "filter",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "refraction",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O022",
+    "profile_id": "glass_maze-01-B",
+    "propositions": [
+      {
+        "proposition_id": "glass_maze-01-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-01-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-01-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-01-p4",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "glass_maze-01",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "mesh",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "diffusion",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O023",
+    "profile_id": "glass_maze-02-A",
+    "propositions": [
+      {
+        "proposition_id": "glass_maze-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "glass_maze-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "filter",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "refraction",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  },
+  {
+    "adjudication_complete": false,
+    "adjudicator": "",
+    "adjudicator_kind": "",
+    "disagreement_resolved": false,
+    "fluency": "unscored",
+    "fluency_rationale": "",
+    "known_explanations": [],
+    "notes": "",
+    "output_id": "O024",
+    "profile_id": "glass_maze-02-B",
+    "propositions": [
+      {
+        "proposition_id": "glass_maze-02-p1",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-02-p2",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "proposition_id": "glass_maze-02-p3",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "source_id": "glass_maze-02",
+    "task_following": "unscored",
+    "task_following_rationale": "",
+    "unknown_concepts": [
+      {
+        "concept_id": "mesh",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      },
+      {
+        "concept_id": "diffusion",
+        "rationale": "",
+        "span": "",
+        "status": "unscored"
+      }
+    ],
+    "unsupported_assertions": null
+  }
+]
