@@ -1,0 +1,45 @@
+{
+  "title": "Language For The Reader",
+  "repo": "language-for-the-reader",
+  "legacy_class": "ContentExplanation",
+  "segments": [
+    {
+      "id": "beat-1",
+      "start": 0.0,
+      "end": 11.566666666666666,
+      "text": "Suppose an instruction says: Bay three, six forty-five p.m., and bring printed ID. We can change its presentation while keeping those facts fixed.",
+      "visual": "Reveal ledger first; then three formats one at a time, preserving colored exact facts.",
+      "chapter": "The example",
+      "frames": 347
+    },
+    {
+      "id": "beat-2",
+      "start": 11.566666666666666,
+      "end": 22.133333333333333,
+      "text": "But listen to this shorter version: Check in this evening. Bring your ID. Now the exact place, time, and printed-copy requirement have disappeared.",
+      "visual": "Replace full instruction with shorter wording. Point separately to missing place, time, printed requirement.",
+      "chapter": "What changes",
+      "frames": 317
+    },
+    {
+      "id": "beat-3",
+      "start": 22.133333333333333,
+      "end": 34.266666666666666,
+      "text": "There's another catch. If the supplied location is wrong, every format can repeat the same mistake. Agreement across formats doesn't verify the original fact.",
+      "visual": "Change ledger Bay 3 to Bay 9; propagate the same wrong input to all outputs.",
+      "chapter": "The mechanism",
+      "frames": 364
+    },
+    {
+      "id": "beat-4",
+      "start": 34.266666666666666,
+      "end": 43.5,
+      "text": "This is a fixed-template illustration. Preserving facts, checking their truth, and helping a reader understand are separate questions.",
+      "visual": "Close with three separate labels: preservation / correctness / comprehension.",
+      "chapter": "What this establishes",
+      "frames": 277
+    }
+  ],
+  "fps": 30,
+  "duration": 43.5
+}

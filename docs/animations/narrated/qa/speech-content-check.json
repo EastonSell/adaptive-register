@@ -1,0 +1,1066 @@
+{
+  "method": "Independent automatic speech recognition; no listening claim; no text prompt supplied. FFmpeg decodes WAV to mono float32 at 16 kHz for Whisper input.",
+  "model": "Systran/faster-whisper-small.en",
+  "model_source": "https://huggingface.co/Systran/faster-whisper-small.en",
+  "options": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 6,
+    "beam_size": 5,
+    "language": "en",
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "initial_prompt": null
+  },
+  "limitations": "ASR transcription is fallible and does not establish prosody, naturalness, or exact pronunciation. Text differences require interpretation, not automatic failure.",
+  "clips": [
+    {
+      "repo": "language-for-the-reader",
+      "id": "beat-1",
+      "sha256_before": "bd7038affbbb876eb2c88c1d800d1834a3badbd386e0a513a3a2e3e9665cefab",
+      "manifest_sha256": "9e955ce7fffd999588fd72b9cbf10b7b796ae8e1cf5219ec8393d8e90c1e756e",
+      "canonical_text": "Suppose an instruction says: Bay three, six forty-five p.m., and bring printed ID. We can change its presentation while keeping those facts fixed.",
+      "tts_text": "Suppose an instruction says: Bay three, six forty-five p.m., and bring printed ID. We can change its presentation while keeping those facts fixed.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "9ff3d720ac55114ecab2e3a02ddf1553788f20cb584ca43edfad32838ca831ed",
+        "audio_sha256": "bd7038affbbb876eb2c88c1d800d1834a3badbd386e0a513a3a2e3e9665cefab",
+        "parameters": {
+          "tts_text": "Suppose an instruction says: Bay three, six forty-five p.m., and bring printed ID. We can change its presentation while keeping those facts fixed.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 277536,
+        "duration_seconds": 11.564
+      },
+      "transcription": "Suppose an instruction says, Bay 3, 645 p.m., and bring printed I.D. We can change its presentation while keeping those facts fixed.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.78,
+          "text": " Suppose an instruction says,",
+          "tokens": [
+            50363,
+            39200,
+            281,
+            12064,
+            1139,
+            11,
+            50467
+          ],
+          "avg_logprob": -0.3373670593286172,
+          "compression_ratio": 1.1282051282051282,
+          "no_speech_prob": 0.001194358803331852,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.52,
+              "word": " Suppose",
+              "probability": 0.934292197227478
+            },
+            {
+              "start": 0.52,
+              "end": 0.76,
+              "word": " an",
+              "probability": 0.9819321632385254
+            },
+            {
+              "start": 0.76,
+              "end": 1.24,
+              "word": " instruction",
+              "probability": 0.9852814078330994
+            },
+            {
+              "start": 1.24,
+              "end": 1.78,
+              "word": " says,",
+              "probability": 0.9967865943908691
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 2.16,
+          "end": 6.8,
+          "text": " Bay 3, 645 p.m., and bring printed I.D.",
+          "tokens": [
+            50467,
+            4696,
+            513,
+            11,
+            718,
+            2231,
+            279,
+            13,
+            76,
+            1539,
+            290,
+            2222,
+            10398,
+            314,
+            13,
+            35,
+            13,
+            50725
+          ],
+          "avg_logprob": -0.3373670593286172,
+          "compression_ratio": 1.1282051282051282,
+          "no_speech_prob": 0.001194358803331852,
+          "words": [
+            {
+              "start": 2.16,
+              "end": 2.48,
+              "word": " Bay",
+              "probability": 0.08148648589849472
+            },
+            {
+              "start": 2.48,
+              "end": 3.0,
+              "word": " 3,",
+              "probability": 0.8487409949302673
+            },
+            {
+              "start": 3.46,
+              "end": 4.28,
+              "word": " 645",
+              "probability": 0.9161576628684998
+            },
+            {
+              "start": 4.28,
+              "end": 4.66,
+              "word": " p",
+              "probability": 0.5313774347305298
+            },
+            {
+              "start": 4.66,
+              "end": 5.52,
+              "word": ".m.,",
+              "probability": 0.8330837289492289
+            },
+            {
+              "start": 5.52,
+              "end": 5.72,
+              "word": " and",
+              "probability": 0.992449164390564
+            },
+            {
+              "start": 5.72,
+              "end": 5.92,
+              "word": " bring",
+              "probability": 0.9776297807693481
+            },
+            {
+              "start": 5.92,
+              "end": 6.28,
+              "word": " printed",
+              "probability": 0.9771674275398254
+            },
+            {
+              "start": 6.28,
+              "end": 6.5,
+              "word": " I",
+              "probability": 0.5397506356239319
+            },
+            {
+              "start": 6.5,
+              "end": 6.8,
+              "word": ".D.",
+              "probability": 0.9684441089630127
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 3,
+          "seek": 0,
+          "start": 7.2,
+          "end": 10.8,
+          "text": " We can change its presentation while keeping those facts fixed.",
+          "tokens": [
+            50725,
+            775,
+            460,
+            1487,
+            663,
+            10470,
+            981,
+            5291,
+            883,
+            6419,
+            5969,
+            13,
+            50925
+          ],
+          "avg_logprob": -0.3373670593286172,
+          "compression_ratio": 1.1282051282051282,
+          "no_speech_prob": 0.001194358803331852,
+          "words": [
+            {
+              "start": 7.2,
+              "end": 7.56,
+              "word": " We",
+              "probability": 0.9523689150810242
+            },
+            {
+              "start": 7.56,
+              "end": 7.74,
+              "word": " can",
+              "probability": 0.9980382323265076
+            },
+            {
+              "start": 7.74,
+              "end": 8.02,
+              "word": " change",
+              "probability": 0.9990513920783997
+            },
+            {
+              "start": 8.02,
+              "end": 8.24,
+              "word": " its",
+              "probability": 0.9795005321502686
+            },
+            {
+              "start": 8.24,
+              "end": 8.82,
+              "word": " presentation",
+              "probability": 0.9956443309783936
+            },
+            {
+              "start": 8.82,
+              "end": 9.28,
+              "word": " while",
+              "probability": 0.9530916810035706
+            },
+            {
+              "start": 9.28,
+              "end": 9.6,
+              "word": " keeping",
+              "probability": 0.9987686276435852
+            },
+            {
+              "start": 9.6,
+              "end": 9.98,
+              "word": " those",
+              "probability": 0.9953776597976685
+            },
+            {
+              "start": 9.98,
+              "end": 10.36,
+              "word": " facts",
+              "probability": 0.9912360906600952
+            },
+            {
+              "start": 10.36,
+              "end": 10.8,
+              "word": " fixed.",
+              "probability": 0.9981334805488586
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [
+        {
+          "operation": "replace",
+          "expected": "three six forty five",
+          "recognized": "3 645"
+        },
+        {
+          "operation": "replace",
+          "expected": "id",
+          "recognized": "i d"
+        }
+      ],
+      "differences_vs_tts": [
+        {
+          "operation": "replace",
+          "expected": "three six forty five",
+          "recognized": "3 645"
+        },
+        {
+          "operation": "replace",
+          "expected": "id",
+          "recognized": "i d"
+        }
+      ],
+      "sha256_after": "bd7038affbbb876eb2c88c1d800d1834a3badbd386e0a513a3a2e3e9665cefab",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.5824544830002196,
+      "sha256_final_recheck": "bd7038affbbb876eb2c88c1d800d1834a3badbd386e0a513a3a2e3e9665cefab",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    },
+    {
+      "repo": "language-for-the-reader",
+      "id": "beat-2",
+      "sha256_before": "f1f9c76d08669c00973177744a55344f7f33bf29e630d520e0f44f64b6b01e97",
+      "manifest_sha256": "9e955ce7fffd999588fd72b9cbf10b7b796ae8e1cf5219ec8393d8e90c1e756e",
+      "canonical_text": "But listen to this shorter version: Check in this evening. Bring your ID. Now the exact place, time, and printed-copy requirement have disappeared.",
+      "tts_text": "But listen to this shorter version: Check in this evening. Bring your ID. Now the exact place, time, and printed-copy requirement have disappeared.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "a78021f4df3bd1f713861d4f672d352cff4016dd8402af6fcfab865aef591b0d",
+        "audio_sha256": "f1f9c76d08669c00973177744a55344f7f33bf29e630d520e0f44f64b6b01e97",
+        "parameters": {
+          "tts_text": "But listen to this shorter version: Check in this evening. Bring your ID. Now the exact place, time, and printed-copy requirement have disappeared.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 252960,
+        "duration_seconds": 10.54
+      },
+      "transcription": "But listen to this shorter version. Check in this evening. Bring your ID. Now the exact place, time, and printed copy requirement have disappeared.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 4.68,
+          "text": " But listen to this shorter version. Check in this evening. Bring your ID.",
+          "tokens": [
+            50363,
+            887,
+            6004,
+            284,
+            428,
+            12238,
+            2196,
+            13,
+            6822,
+            287,
+            428,
+            6180,
+            13,
+            24347,
+            534,
+            4522,
+            13,
+            50613
+          ],
+          "avg_logprob": -0.18323847225734166,
+          "compression_ratio": 1.2457627118644068,
+          "no_speech_prob": 0.0009354017092846334,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.3,
+              "word": " But",
+              "probability": 0.8557761311531067
+            },
+            {
+              "start": 0.3,
+              "end": 0.54,
+              "word": " listen",
+              "probability": 0.9669646620750427
+            },
+            {
+              "start": 0.54,
+              "end": 0.8,
+              "word": " to",
+              "probability": 0.998181939125061
+            },
+            {
+              "start": 0.8,
+              "end": 1.0,
+              "word": " this",
+              "probability": 0.9845370054244995
+            },
+            {
+              "start": 1.0,
+              "end": 1.34,
+              "word": " shorter",
+              "probability": 0.9912154674530029
+            },
+            {
+              "start": 1.34,
+              "end": 1.82,
+              "word": " version.",
+              "probability": 0.9982649683952332
+            },
+            {
+              "start": 2.44,
+              "end": 2.48,
+              "word": " Check",
+              "probability": 0.9922308325767517
+            },
+            {
+              "start": 2.48,
+              "end": 2.64,
+              "word": " in",
+              "probability": 0.9749897718429565
+            },
+            {
+              "start": 2.64,
+              "end": 2.8,
+              "word": " this",
+              "probability": 0.9977055191993713
+            },
+            {
+              "start": 2.8,
+              "end": 3.24,
+              "word": " evening.",
+              "probability": 0.9954385161399841
+            },
+            {
+              "start": 3.9,
+              "end": 4.04,
+              "word": " Bring",
+              "probability": 0.9959251880645752
+            },
+            {
+              "start": 4.04,
+              "end": 4.28,
+              "word": " your",
+              "probability": 0.9943645000457764
+            },
+            {
+              "start": 4.28,
+              "end": 4.68,
+              "word": " ID.",
+              "probability": 0.7427630424499512
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 5.58,
+          "end": 9.72,
+          "text": " Now the exact place, time, and printed copy requirement have disappeared.",
+          "tokens": [
+            50613,
+            2735,
+            262,
+            2748,
+            1295,
+            11,
+            640,
+            11,
+            290,
+            10398,
+            4866,
+            9079,
+            423,
+            12120,
+            13,
+            50863
+          ],
+          "avg_logprob": -0.18323847225734166,
+          "compression_ratio": 1.2457627118644068,
+          "no_speech_prob": 0.0009354017092846334,
+          "words": [
+            {
+              "start": 5.58,
+              "end": 5.74,
+              "word": " Now",
+              "probability": 0.9967926144599915
+            },
+            {
+              "start": 5.74,
+              "end": 5.96,
+              "word": " the",
+              "probability": 0.8032069206237793
+            },
+            {
+              "start": 5.96,
+              "end": 6.36,
+              "word": " exact",
+              "probability": 0.996431827545166
+            },
+            {
+              "start": 6.36,
+              "end": 6.84,
+              "word": " place,",
+              "probability": 0.996269941329956
+            },
+            {
+              "start": 6.94,
+              "end": 7.36,
+              "word": " time,",
+              "probability": 0.995410144329071
+            },
+            {
+              "start": 7.56,
+              "end": 7.64,
+              "word": " and",
+              "probability": 0.9963550567626953
+            },
+            {
+              "start": 7.64,
+              "end": 7.92,
+              "word": " printed",
+              "probability": 0.9916344881057739
+            },
+            {
+              "start": 7.92,
+              "end": 8.34,
+              "word": " copy",
+              "probability": 0.9912328124046326
+            },
+            {
+              "start": 8.34,
+              "end": 8.92,
+              "word": " requirement",
+              "probability": 0.814663827419281
+            },
+            {
+              "start": 8.92,
+              "end": 9.18,
+              "word": " have",
+              "probability": 0.9857801795005798
+            },
+            {
+              "start": 9.18,
+              "end": 9.72,
+              "word": " disappeared.",
+              "probability": 0.9984857439994812
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "f1f9c76d08669c00973177744a55344f7f33bf29e630d520e0f44f64b6b01e97",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.275578183000107,
+      "sha256_final_recheck": "f1f9c76d08669c00973177744a55344f7f33bf29e630d520e0f44f64b6b01e97",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    },
+    {
+      "repo": "language-for-the-reader",
+      "id": "beat-3",
+      "sha256_before": "878f5f26f67996ab2faab196f3021b2455c5d2e6ea2414178e91373b5963ddd1",
+      "manifest_sha256": "9e955ce7fffd999588fd72b9cbf10b7b796ae8e1cf5219ec8393d8e90c1e756e",
+      "canonical_text": "There's another catch. If the supplied location is wrong, every format can repeat the same mistake. Agreement across formats doesn't verify the original fact.",
+      "tts_text": "There's another catch. If the supplied location is wrong, every format can repeat the same mistake. Agreement across formats doesn't verify the original fact.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "f87826560c8bc1762bd7a1cfaba67efba5402981b8e6fd76fd30efe0962d285d",
+        "audio_sha256": "878f5f26f67996ab2faab196f3021b2455c5d2e6ea2414178e91373b5963ddd1",
+        "parameters": {
+          "tts_text": "There's another catch. If the supplied location is wrong, every format can repeat the same mistake. Agreement across formats doesn't verify the original fact.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 290848,
+        "duration_seconds": 12.118666666666666
+      },
+      "transcription": "There's another catch. If the supplied location is wrong, every format can repeat the same mistake. Agreement across formats doesn't verify the original fact.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 6.94,
+          "text": " There's another catch. If the supplied location is wrong, every format can repeat the same mistake.",
+          "tokens": [
+            50363,
+            1318,
+            338,
+            1194,
+            4929,
+            13,
+            1002,
+            262,
+            14275,
+            4067,
+            318,
+            2642,
+            11,
+            790,
+            5794,
+            460,
+            9585,
+            262,
+            976,
+            7457,
+            13,
+            50739
+          ],
+          "avg_logprob": -0.2139869144984654,
+          "compression_ratio": 1.2845528455284554,
+          "no_speech_prob": 0.0043720463290810585,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.42,
+              "word": " There's",
+              "probability": 0.929778665304184
+            },
+            {
+              "start": 0.42,
+              "end": 0.66,
+              "word": " another",
+              "probability": 0.9971591234207153
+            },
+            {
+              "start": 0.66,
+              "end": 1.14,
+              "word": " catch.",
+              "probability": 0.9981081485748291
+            },
+            {
+              "start": 1.78,
+              "end": 1.94,
+              "word": " If",
+              "probability": 0.9890550374984741
+            },
+            {
+              "start": 1.94,
+              "end": 2.1,
+              "word": " the",
+              "probability": 0.9968910813331604
+            },
+            {
+              "start": 2.1,
+              "end": 2.64,
+              "word": " supplied",
+              "probability": 0.9865458011627197
+            },
+            {
+              "start": 2.64,
+              "end": 3.18,
+              "word": " location",
+              "probability": 0.9986037611961365
+            },
+            {
+              "start": 3.18,
+              "end": 3.54,
+              "word": " is",
+              "probability": 0.9991124272346497
+            },
+            {
+              "start": 3.54,
+              "end": 3.92,
+              "word": " wrong,",
+              "probability": 0.9991771578788757
+            },
+            {
+              "start": 4.4,
+              "end": 4.64,
+              "word": " every",
+              "probability": 0.9976330995559692
+            },
+            {
+              "start": 4.64,
+              "end": 5.22,
+              "word": " format",
+              "probability": 0.9902507066726685
+            },
+            {
+              "start": 5.22,
+              "end": 5.48,
+              "word": " can",
+              "probability": 0.9986950755119324
+            },
+            {
+              "start": 5.48,
+              "end": 5.94,
+              "word": " repeat",
+              "probability": 0.9990332126617432
+            },
+            {
+              "start": 5.94,
+              "end": 6.16,
+              "word": " the",
+              "probability": 0.9990799427032471
+            },
+            {
+              "start": 6.16,
+              "end": 6.44,
+              "word": " same",
+              "probability": 0.9995201826095581
+            },
+            {
+              "start": 6.44,
+              "end": 6.94,
+              "word": " mistake.",
+              "probability": 0.9983965754508972
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 7.76,
+          "end": 11.34,
+          "text": " Agreement across formats doesn't verify the original fact.",
+          "tokens": [
+            50739,
+            12729,
+            1973,
+            17519,
+            1595,
+            470,
+            11767,
+            262,
+            2656,
+            1109,
+            13,
+            50959
+          ],
+          "avg_logprob": -0.2139869144984654,
+          "compression_ratio": 1.2845528455284554,
+          "no_speech_prob": 0.0043720463290810585,
+          "words": [
+            {
+              "start": 7.76,
+              "end": 8.06,
+              "word": " Agreement",
+              "probability": 0.9743376970291138
+            },
+            {
+              "start": 8.06,
+              "end": 8.52,
+              "word": " across",
+              "probability": 0.9904188513755798
+            },
+            {
+              "start": 8.52,
+              "end": 9.12,
+              "word": " formats",
+              "probability": 0.9942418932914734
+            },
+            {
+              "start": 9.12,
+              "end": 9.62,
+              "word": " doesn't",
+              "probability": 0.9941310882568359
+            },
+            {
+              "start": 9.62,
+              "end": 10.14,
+              "word": " verify",
+              "probability": 0.9963412880897522
+            },
+            {
+              "start": 10.14,
+              "end": 10.46,
+              "word": " the",
+              "probability": 0.999270498752594
+            },
+            {
+              "start": 10.46,
+              "end": 10.88,
+              "word": " original",
+              "probability": 0.9985890984535217
+            },
+            {
+              "start": 10.88,
+              "end": 11.34,
+              "word": " fact.",
+              "probability": 0.9928770661354065
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "878f5f26f67996ab2faab196f3021b2455c5d2e6ea2414178e91373b5963ddd1",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.4505947350003225,
+      "sha256_final_recheck": "878f5f26f67996ab2faab196f3021b2455c5d2e6ea2414178e91373b5963ddd1",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    },
+    {
+      "repo": "language-for-the-reader",
+      "id": "beat-4",
+      "sha256_before": "2565a3f8e6b8f501a668508e437489cfaee15055dba88a284726695895211126",
+      "manifest_sha256": "9e955ce7fffd999588fd72b9cbf10b7b796ae8e1cf5219ec8393d8e90c1e756e",
+      "canonical_text": "This is a fixed-template illustration. Preserving facts, checking their truth, and helping a reader understand are separate questions.",
+      "tts_text": "This is a fixed-template illustration. Preserving facts, checking their truth, and helping a reader understand are separate questions.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "87951daca34f77cedb9460d6d181833d860736bdd66829f1fc25b6884b9ce326",
+        "audio_sha256": "2565a3f8e6b8f501a668508e437489cfaee15055dba88a284726695895211126",
+        "parameters": {
+          "tts_text": "This is a fixed-template illustration. Preserving facts, checking their truth, and helping a reader understand are separate questions.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 221216,
+        "duration_seconds": 9.217333333333332
+      },
+      "transcription": "This is a fixed template illustration. Preserving facts, checking their truth, and helping a reader understand our separate questions.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.06,
+          "text": " This is a fixed template illustration.",
+          "tokens": [
+            50363,
+            770,
+            318,
+            257,
+            5969,
+            11055,
+            20936,
+            13,
+            50501
+          ],
+          "avg_logprob": -0.3423495158072441,
+          "compression_ratio": 1.2523364485981308,
+          "no_speech_prob": 0.004882004112005234,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.34,
+              "word": " This",
+              "probability": 0.9309576749801636
+            },
+            {
+              "start": 0.34,
+              "end": 0.52,
+              "word": " is",
+              "probability": 0.9959611296653748
+            },
+            {
+              "start": 0.52,
+              "end": 0.74,
+              "word": " a",
+              "probability": 0.9956353306770325
+            },
+            {
+              "start": 0.74,
+              "end": 0.96,
+              "word": " fixed",
+              "probability": 0.9649655818939209
+            },
+            {
+              "start": 0.96,
+              "end": 1.48,
+              "word": " template",
+              "probability": 0.6463510990142822
+            },
+            {
+              "start": 1.48,
+              "end": 2.06,
+              "word": " illustration.",
+              "probability": 0.9967271089553833
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 3.06,
+          "end": 5.2,
+          "text": " Preserving facts, checking their truth,",
+          "tokens": [
+            50501,
+            1763,
+            14344,
+            6419,
+            11,
+            10627,
+            511,
+            3872,
+            11,
+            50636
+          ],
+          "avg_logprob": -0.3423495158072441,
+          "compression_ratio": 1.2523364485981308,
+          "no_speech_prob": 0.004882004112005234,
+          "words": [
+            {
+              "start": 3.06,
+              "end": 3.4,
+              "word": " Preserving",
+              "probability": 0.99004927277565
+            },
+            {
+              "start": 3.4,
+              "end": 3.88,
+              "word": " facts,",
+              "probability": 0.9961643218994141
+            },
+            {
+              "start": 4.24,
+              "end": 4.56,
+              "word": " checking",
+              "probability": 0.996778666973114
+            },
+            {
+              "start": 4.56,
+              "end": 4.86,
+              "word": " their",
+              "probability": 0.9952834248542786
+            },
+            {
+              "start": 4.86,
+              "end": 5.2,
+              "word": " truth,",
+              "probability": 0.9868496656417847
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 3,
+          "seek": 0,
+          "start": 5.6,
+          "end": 8.4,
+          "text": " and helping a reader understand our separate questions.",
+          "tokens": [
+            50636,
+            290,
+            5742,
+            257,
+            9173,
+            1833,
+            674,
+            4553,
+            2683,
+            13,
+            50813
+          ],
+          "avg_logprob": -0.3423495158072441,
+          "compression_ratio": 1.2523364485981308,
+          "no_speech_prob": 0.004882004112005234,
+          "words": [
+            {
+              "start": 5.6,
+              "end": 5.74,
+              "word": " and",
+              "probability": 0.9972361922264099
+            },
+            {
+              "start": 5.74,
+              "end": 6.1,
+              "word": " helping",
+              "probability": 0.998640239238739
+            },
+            {
+              "start": 6.1,
+              "end": 6.3,
+              "word": " a",
+              "probability": 0.9888697862625122
+            },
+            {
+              "start": 6.3,
+              "end": 6.54,
+              "word": " reader",
+              "probability": 0.9980307221412659
+            },
+            {
+              "start": 6.54,
+              "end": 7.22,
+              "word": " understand",
+              "probability": 0.9984042048454285
+            },
+            {
+              "start": 7.22,
+              "end": 7.56,
+              "word": " our",
+              "probability": 0.6577761173248291
+            },
+            {
+              "start": 7.56,
+              "end": 7.94,
+              "word": " separate",
+              "probability": 0.9941328167915344
+            },
+            {
+              "start": 7.94,
+              "end": 8.4,
+              "word": " questions.",
+              "probability": 0.9976122379302979
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [
+        {
+          "operation": "replace",
+          "expected": "are",
+          "recognized": "our"
+        }
+      ],
+      "differences_vs_tts": [
+        {
+          "operation": "replace",
+          "expected": "are",
+          "recognized": "our"
+        }
+      ],
+      "sha256_after": "2565a3f8e6b8f501a668508e437489cfaee15055dba88a284726695895211126",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.138940959000138,
+      "sha256_final_recheck": "2565a3f8e6b8f501a668508e437489cfaee15055dba88a284726695895211126",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    }
+  ]
+}

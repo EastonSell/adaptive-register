@@ -1,0 +1,21 @@
+{
+  "repo": "language-for-the-reader",
+  "sha256": "af7478a1a941b504dd3f2a343f042f773bee70a68118f60c676a73650f69e5bc",
+  "bytes": 1609923,
+  "duration": 43.5,
+  "video_duration": "43.500000",
+  "audio_duration": "43.500000",
+  "width": 1280,
+  "height": 720,
+  "fps": "30/1",
+  "decode_returncode": 0,
+  "decode_errors": "",
+  "loudness_summary": "Integrated loudness:\n    I:         -16.6 LUFS\n    Threshold: -27.0 LUFS\n\n  Loudness range:\n    LRA:         2.0 LU\n    Threshold: -37.1 LUFS\n    LRA low:   -18.2 LUFS\n    LRA high:  -16.1 LUFS\n\n  True peak:\n    Peak:       -1.9 dBFS\n[out#0/null @ 0x55b642252500] video:0KiB audio:2040KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:43.52 bitrate=N/A speed= 394x",
+  "filename": "concept.mp4",
+  "visual_review": "Final contact sheet and meaning-carrying transitions inspected; no identified blocking overlap or clipping.",
+  "limitations": [
+    "No human or assistant listening claim.",
+    "Captions use approximate sentence timing, not word alignment.",
+    "No full research-project test rerun; scope is additive animation package."
+  ]
+}
