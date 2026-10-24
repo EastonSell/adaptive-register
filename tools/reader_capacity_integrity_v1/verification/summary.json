@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "supplement_version": "1.0.0",
+  "date_utc": "2026-10-24",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "historical_package_files": 59,
+  "historical_package_unchanged": true,
+  "baseline_historical_verifier_exit": 0,
+  "baseline_supplement_exit": 0,
+  "integration_cases": 49,
+  "integration_passed": 49,
+  "controls_accepted": 3,
+  "malformed_variants": 46,
+  "historical_malformed_variants_rejected": 18,
+  "historical_malformed_variants_accepted": 28,
+  "accepted_malformed_variants_resealed": 27,
+  "combined_malformed_variants_rejected": 46,
+  "runner_safety_cases": 3,
+  "runner_safety_passed": 3,
+  "wrong_external_manifest_anchor_rejected": true,
+  "full_repository_test_suite_run": false,
+  "partial_repository_snapshot": true,
+  "independent_review": {
+    "verdict": "approved_within_bounded_scope",
+    "independently_reproduced_integration": "49/49",
+    "independently_reproduced_runner_safety": "3/3",
+    "material_blockers_remaining": 0
+  },
+  "historical_scores": {
+    "fluent_truth_complete": 14,
+    "unknown_support": 3,
+    "denominator": 24,
+    "required_fluent_truth_complete": 18,
+    "required_unknown_support": 12,
+    "capacity_gate_passed": false
+  },
+  "new_model_execution": false,
+  "external_repository_writes": false,
+  "code_sha256": {
+    "tests/run_adversarial_tests.py": "e8ad94bbe80d514fb8b1a63409cbca5472f280f7e6d4faa46650afb52bd2b8ca",
+    "tests/test_runner_safety.py": "a187076f2edf2e274c0ae6a5af8e09065542e0ac3b6a3362b227495e3ccaa42b",
+    "validate_structure_v1.py": "7525a382cebeec06816af015313929b068c7c50732d6ce0f9ccccebbd136297d"
+  }
+}
