@@ -1,0 +1,244 @@
+{
+  "scope": "Independent recomputation against publication preflight GitHub commit/tree receipts; this checker did not make a network request.",
+  "base_commit": "79b745b5374293560ba9a0c546ce0403837ffb80",
+  "base_tree": "9e29a9c6848d7a0e732aecbc2e7629153c65ef59",
+  "source_file_count": 59,
+  "source_files": [
+    {
+      "path": "studies/reader-capacity-gate/DERIVATION.json",
+      "git_blob_sha": "28a033187d143eeb3f86ab141d774a5f9f36c86b"
+    },
+    {
+      "path": "studies/reader-capacity-gate/MANIFEST.json",
+      "git_blob_sha": "18677efe399e83dfab91bd21db603ba06ef518bb"
+    },
+    {
+      "path": "studies/reader-capacity-gate/METHODS_AND_RESULTS.md",
+      "git_blob_sha": "5ad4a4ea4a5d10c2d17dc23163a1618e33c96d70"
+    },
+    {
+      "path": "studies/reader-capacity-gate/PROVENANCE.md",
+      "git_blob_sha": "d83fc5d2fb0455ba4edee062754f193a4ef54ebf"
+    },
+    {
+      "path": "studies/reader-capacity-gate/README.md",
+      "git_blob_sha": "64e73a00a7c5194e8d8b8995a6176fb08fad41df"
+    },
+    {
+      "path": "studies/reader-capacity-gate/REPRODUCE.md",
+      "git_blob_sha": "09c3a9873b9fd1f65450c94ad584e8eafa9e5754"
+    },
+    {
+      "path": "studies/reader-capacity-gate/SOURCE_SCOPE.md",
+      "git_blob_sha": "29925dc3e6cf2d87f7779edce0b5402f92e21a4e"
+    },
+    {
+      "path": "studies/reader-capacity-gate/adjudication/output-only-context.txt",
+      "git_blob_sha": "e392144702656eec58f9df96d95b4122607ad32e"
+    },
+    {
+      "path": "studies/reader-capacity-gate/adjudication/output-only-ledger-comparison.json",
+      "git_blob_sha": "a0b09d794c6a59e6ede902ffbeec3551736da59a"
+    },
+    {
+      "path": "studies/reader-capacity-gate/adjudication/output-only-ratings.json",
+      "git_blob_sha": "bcea8596ce03e35a01de0a1fb59203d4d81c761d"
+    },
+    {
+      "path": "studies/reader-capacity-gate/adjudication/reconciliation.json",
+      "git_blob_sha": "27fb3db03823cc3bb75176d1529cb5ae63049329"
+    },
+    {
+      "path": "studies/reader-capacity-gate/adjudication/source-aware-final.json",
+      "git_blob_sha": "c8c5743279294e4b656386ee57882a50a16a25bc"
+    },
+    {
+      "path": "studies/reader-capacity-gate/adjudication/source-aware-initial-A.json",
+      "git_blob_sha": "ea65d7da5409050ca1b65d840f2984638d1fb412"
+    },
+    {
+      "path": "studies/reader-capacity-gate/adjudication/source-aware-initial-B.json",
+      "git_blob_sha": "07c8383f028d1953b0b85da73d3aa10c7ce0c363"
+    },
+    {
+      "path": "studies/reader-capacity-gate/evaluation/evaluation-cases.json",
+      "git_blob_sha": "8425c09c72c619b3e6d3502b02950c60b44b5b87"
+    },
+    {
+      "path": "studies/reader-capacity-gate/evaluation/output-only-packet.json",
+      "git_blob_sha": "4f90a76f9efa2b1752577aac1c0913a68ce5aa4e"
+    },
+    {
+      "path": "studies/reader-capacity-gate/evaluation/question-crosswalk.json",
+      "git_blob_sha": "3543fe92608121364cf2f99198e64fab4f98ba6e"
+    },
+    {
+      "path": "studies/reader-capacity-gate/evaluation/rating-template.json",
+      "git_blob_sha": "9fdfa7ed00447ce79480ddc859730bd34cce19be"
+    },
+    {
+      "path": "studies/reader-capacity-gate/evaluation/rubric.md",
+      "git_blob_sha": "274f2762777ff2286442f84609bbaf5f004f31d8"
+    },
+    {
+      "path": "studies/reader-capacity-gate/evaluation/source-aware-packet.json",
+      "git_blob_sha": "75b8a3b9cfe1094f72c8d6e15e6acd02219d46dc"
+    },
+    {
+      "path": "studies/reader-capacity-gate/method/method.json",
+      "git_blob_sha": "ad815743eac56f6a6f765ee466820404f8190bfb"
+    },
+    {
+      "path": "studies/reader-capacity-gate/method/model-runtime-identities.json",
+      "git_blob_sha": "c7f1c9391844de3cde67b6ee79be65360736e44e"
+    },
+    {
+      "path": "studies/reader-capacity-gate/method/training-order.json",
+      "git_blob_sha": "7532ffc20d69d1ab2e616bcfa4cead43de029237"
+    },
+    {
+      "path": "studies/reader-capacity-gate/method-inspection/core.py",
+      "git_blob_sha": "46eff0a8bd86b2e5f5afc5a196d1de4fc571622b"
+    },
+    {
+      "path": "studies/reader-capacity-gate/method-inspection/decoder_public_derivative.py",
+      "git_blob_sha": "afd528a3c1c40d3794763e94b0b4138a18d3d3b7"
+    },
+    {
+      "path": "studies/reader-capacity-gate/method-inspection/run.py",
+      "git_blob_sha": "c1bedeebd616b477db3a48f43051685c2817fb0c"
+    },
+    {
+      "path": "studies/reader-capacity-gate/method-inspection/serialization.py",
+      "git_blob_sha": "2e7e53782cec809820258bfd8994a936852fbb75"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O001.json",
+      "git_blob_sha": "8b1b6de4ef8d990daeff644269fd71b27a921a3b"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O002.json",
+      "git_blob_sha": "8a095e8fba69f1bf2151c5218ea87093ef1a1649"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O003.json",
+      "git_blob_sha": "07c7d559ae3a7deb39ae0471ddd394c3836d50a0"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O004.json",
+      "git_blob_sha": "4646e4b1141ca9175e8a72305f89fd404ef80d95"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O005.json",
+      "git_blob_sha": "f4175cedf7be46c04b19834bfbb7eb266c166eeb"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O006.json",
+      "git_blob_sha": "820a8999c6ff3fcb0dbfeed233846a9d58919a46"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O007.json",
+      "git_blob_sha": "d2e1614b32ec4c8a38cb1344733314fe40eb75e3"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O008.json",
+      "git_blob_sha": "6e603fd0959506c25233e95f3c655097131b1cda"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O009.json",
+      "git_blob_sha": "fb4d8e9f490c87424ba44ce944494055cede1bbd"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O010.json",
+      "git_blob_sha": "9cb1303c7eb39fdd02c2748b41335e790f9bb9ed"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O011.json",
+      "git_blob_sha": "0c3d94d820213829d154b050c6efb88630dd7645"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O012.json",
+      "git_blob_sha": "e5a6ba2c56a62d04ac1e57e27fbb7f6a6ba5eece"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O013.json",
+      "git_blob_sha": "5e3ad4c18bc68df4d2be0e75fd202460697cb698"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O014.json",
+      "git_blob_sha": "38dca4848a09359abcc04b62dc8dd8d8b7637607"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O015.json",
+      "git_blob_sha": "96d908764187b79d828a25f14cd55785522934a3"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O016.json",
+      "git_blob_sha": "ab9e658b506571fbfccba3ae454ae7e73dc9bd45"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O017.json",
+      "git_blob_sha": "eef09364dec6b9a11ba3faa5df81b555122aa552"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O018.json",
+      "git_blob_sha": "823fc695e695f3c0c592a38c2d0aba596221118d"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O019.json",
+      "git_blob_sha": "51478708781a373b8bfa8a906137054157d19b5f"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O020.json",
+      "git_blob_sha": "94c81f38056cfb6e4c906a3e93996582d504794c"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O021.json",
+      "git_blob_sha": "4abadf9afab05795e47da366050a7b14b4899faa"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O022.json",
+      "git_blob_sha": "7d77b02d26af36a0dc06b9bbd4d263a6c4035b72"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O023.json",
+      "git_blob_sha": "4eb7cc724ff83327e05bb3656e6ccde701f5ea72"
+    },
+    {
+      "path": "studies/reader-capacity-gate/outputs/O024.json",
+      "git_blob_sha": "ee2a4278d1b5a116dbac55f3f0cd9b94eb9b6a2b"
+    },
+    {
+      "path": "studies/reader-capacity-gate/results/aggregate.json",
+      "git_blob_sha": "bfabf78dc96f9972ebf7cba2616273b90a0ae273"
+    },
+    {
+      "path": "studies/reader-capacity-gate/results/engineering-summary.json",
+      "git_blob_sha": "a11a2dea26a6588f59c23858da15ffe42ae76404"
+    },
+    {
+      "path": "studies/reader-capacity-gate/source/__init__.py",
+      "git_blob_sha": "cb2ab9a68dce11f7c4a4e55a00324002b22b0c35"
+    },
+    {
+      "path": "studies/reader-capacity-gate/source/custody.py",
+      "git_blob_sha": "f796f71044ef5fbdd1d23e0c3f35bd454977acf2"
+    },
+    {
+      "path": "studies/reader-capacity-gate/source/optimizer.py",
+      "git_blob_sha": "11a13e93afaddbf2b63d8c6a5da980068d52944e"
+    },
+    {
+      "path": "studies/reader-capacity-gate/source/schedule.py",
+      "git_blob_sha": "7ce816627c78bd7e8d6bce09fd64fe73779ed621"
+    },
+    {
+      "path": "studies/reader-capacity-gate/source/scoring.py",
+      "git_blob_sha": "f8d71f78c37cb0f60ce5a35d5df2f1c9b1007da1"
+    },
+    {
+      "path": "studies/reader-capacity-gate/verify_package.py",
+      "git_blob_sha": "fc36fd479247eefa4d5bdc73e6134422a433c058"
+    }
+  ]
+}

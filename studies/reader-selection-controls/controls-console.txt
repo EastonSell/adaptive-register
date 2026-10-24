@@ -1,0 +1,14 @@
+{
+  "kind": "synthetic_control_enumeration_not_model_performance",
+  "case_count": 576,
+  "source_scenario_count": 12,
+  "profiles_per_source": 2,
+  "candidate_permutations": 24,
+  "permutations_not_independent_evidence": true,
+  "response_ascii_chars": 3,
+  "token_budget_status": "Same maximum response budget required prospectively; actual model tokenizer not run. Fixed ASCII length is NOT a claim of equal token count.",
+  "oracle_exact_pairs": 576,
+  "fixed_candidate_01_recall": 0.5,
+  "swapped_oracle_recall": 0.0,
+  "scaffold_count": 24
+}

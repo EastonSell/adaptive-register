@@ -1,0 +1,19 @@
+{
+  "README.md": "9e815cf92eb0078a4e0c039cc9c4b32c50428019b1c3dd296fe11ffa19cd52a6",
+  "REVIEW.md": "7e3c165a66620a4d33524d1ce706273941e56e65af5fbe5c2fd8f858b5f5a118",
+  "SOURCE_IDENTITY.json": "3425439c9187f57934a63f9bf17f496209a4d50c2a091e3d5f62926ea49eee1e",
+  "analyze.py": "2aaa47dd8c0d5512ece45a27d10f4c342e40d9e285bf8ba1579dafdca9f2d4db",
+  "audit-console.txt": "03af28782de33d0e87b90486cfc90dbde2a01c7eb9fc2304d7b9901440b39f80",
+  "audit-results.json": "0db2a18e94a595679d4cc193e5bbea085b2a030541d50c224a40b4bc0ce62910",
+  "controls-console.txt": "eb6f98da87bf26a5e942be9b64f5d824eb3aa5ca9ab5b98b923f4216caab5ddb",
+  "controls.py": "f8dbc1b5d2f2bdcf00f6d00dc892f7675efb29ea7be6a608e3e60a8445cfd862",
+  "independent-verification.json": "94b1c9f086c061f0f0e051038e00e9002424d13358de58deb77e7ff05dd2f47b",
+  "independent_verify.py": "c783ef3d4fdd71138f2037a9116c3ef3b9687311e10e24769c16f6b32f8b0802",
+  "publication-source-check.json": "f07fe999768db2b1dde9ca933c5f681ab926472e5e9700e93bb73768f7c29b90",
+  "selector-gold.jsonl": "587a5fe15642143019c677ad5d12fbdda28b2ac35892327d1cb8388d0b5dd3b6",
+  "selector-inputs.jsonl": "05a59f0552ede7ab621530e93f3d28ecb8228b46966913014ded2724cef06c07",
+  "synthetic-results.json": "eb6f98da87bf26a5e942be9b64f5d824eb3aa5ca9ab5b98b923f4216caab5ddb",
+  "synthetic-scaffolds.jsonl": "95fedf5b777711f46f1c0a24d57236b6501b06b1e84cca6d6a513fca6f44dcad",
+  "test-results.txt": "f26102fb398ea10dece5056e3ebc9a4dd2ea0feec6bc06fc74c67f5c418aaba1",
+  "test_controls.py": "d59756ecfc9ba6b2d0ac14582e40cbf478fe67997d7ec423956e74ae798df2d6"
+}

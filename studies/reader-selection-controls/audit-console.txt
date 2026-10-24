@@ -1,0 +1,138 @@
+{
+  "kind": "retained_public_annotations_recount_and_synthetic_null",
+  "not_a_model_experiment": true,
+  "historical_gate": "failed; 14/24 fluent truth complete, 3/24 all unknown supported; no B/C/S/test admission",
+  "corrected005": "not run; original seals lost; gate NULL/unvalidated",
+  "source_identity": {
+    "repository": "EastonSell/language-for-the-reader",
+    "acquisition_commit": "66c97db6c78fb62ef42739acc2ff67ba6ae84b80",
+    "unchanged_at_commit": "6dd1c8fb2544f55058f5fb6b9ba2af8938d06145",
+    "latest_requested_commit_not_independently_verified": "79b745b5374293560ba9a0c546ce0403837ffb80"
+  },
+  "source_pair_truth_counts": {
+    "0_truth_complete": 3,
+    "1_truth_complete": 4,
+    "2_truth_complete": 5
+  },
+  "per_scenario": [
+    {
+      "source_id": "kite_dock-01",
+      "outputs": 2,
+      "truth_complete": 0,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "kite_dock-02",
+      "outputs": 2,
+      "truth_complete": 1,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "bubble_clock-01",
+      "outputs": 2,
+      "truth_complete": 0,
+      "all_unknown_supported": 1
+    },
+    {
+      "source_id": "bubble_clock-02",
+      "outputs": 2,
+      "truth_complete": 0,
+      "all_unknown_supported": 2
+    },
+    {
+      "source_id": "ink_terrace-01",
+      "outputs": 2,
+      "truth_complete": 1,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "ink_terrace-02",
+      "outputs": 2,
+      "truth_complete": 1,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "mask_automaton-01",
+      "outputs": 2,
+      "truth_complete": 1,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "mask_automaton-02",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "shell_forecast-01",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "shell_forecast-02",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "glass_maze-01",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "glass_maze-02",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    }
+  ],
+  "all_supported_outputs": [
+    "O006",
+    "O007",
+    "O008"
+  ],
+  "all_supported_and_truth_complete": 0,
+  "proposition_judgment_count": 74,
+  "preserved_proposition_judgments": 64,
+  "failed_proposition_judgments": 10,
+  "failed_propositions_answerability": {
+    "answerable": 5,
+    "uncertain": 3,
+    "unanswerable": 2
+  },
+  "failed_but_answerable_ids": [
+    {
+      "output_id": "O001",
+      "proposition_id": "kite_dock-01-p3",
+      "ledger_comparison": "partial_missing_required_scope"
+    },
+    {
+      "output_id": "O002",
+      "proposition_id": "kite_dock-01-p3",
+      "ledger_comparison": "partial_missing_required_scope"
+    },
+    {
+      "output_id": "O005",
+      "proposition_id": "bubble_clock-01-p3",
+      "ledger_comparison": "partial_missing_required_scope"
+    },
+    {
+      "output_id": "O006",
+      "proposition_id": "bubble_clock-01-p3",
+      "ledger_comparison": "partial_missing_required_scope"
+    },
+    {
+      "output_id": "O011",
+      "proposition_id": "ink_terrace-02-p1",
+      "ledger_comparison": "incorrect_or_wrong_entity"
+    }
+  ],
+  "synthetic_uniform_two_of_four_null": {
+    "enumerated_cells": 144,
+    "mean_unknown_recall": 0.5,
+    "mean_unknown_minus_known_selection": 0.0,
+    "exact_pair_rate": 0.16666666666666666
+  }
+}

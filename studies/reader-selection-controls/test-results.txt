@@ -1,0 +1,16 @@
+test_annotated_denominators (test_controls.Tests.test_annotated_denominators) ... ok
+test_bad_outputs_fail_closed (test_controls.Tests.test_bad_outputs_fail_closed) ... ok
+test_candidate_definitions_copied_between_profiles (test_controls.Tests.test_candidate_definitions_copied_between_profiles) ... ok
+test_counts (test_controls.Tests.test_counts) ... ok
+test_input_only_router (test_controls.Tests.test_input_only_router) ... ok
+test_invalid_is_not_negative_oracle (test_controls.Tests.test_invalid_is_not_negative_oracle) ... ok
+test_no_evaluation_answers_or_unknown_labels_in_input (test_controls.Tests.test_no_evaluation_answers_or_unknown_labels_in_input) ... ok
+test_oracle_and_blind_null (test_controls.Tests.test_oracle_and_blind_null) ... ok
+test_pair_causal_identity (test_controls.Tests.test_pair_causal_identity) ... ok
+test_pairs_by_source_not_row_order (test_controls.Tests.test_pairs_by_source_not_row_order) ... ok
+test_scaffold_source_is_exact (test_controls.Tests.test_scaffold_source_is_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.029s
+
+OK

@@ -1,0 +1,351 @@
+{
+  "review_scope": "Retained file identities and model-free controls only; no remote HEAD verification or comprehension test.",
+  "source_inventory_sha256": "3425439c9187f57934a63f9bf17f496209a4d50c2a091e3d5f62926ea49eee1e",
+  "source_files_checked": 59,
+  "source_checks": [
+    {
+      "path": "DERIVATION.json",
+      "sha256": "7e50f087d27903df308870e151c9835ea4824ee3cc568ab7f134f91a2f6acd43",
+      "matches": true
+    },
+    {
+      "path": "MANIFEST.json",
+      "sha256": "6ce738fc46e3fffdbfcff2be13be3354a8826f9c8d62e8136cc3bf2655921da5",
+      "matches": true
+    },
+    {
+      "path": "METHODS_AND_RESULTS.md",
+      "sha256": "be47752095f5253853b964ccc3727055ba9b4ecee9a097671bd9056b68578f3d",
+      "matches": true
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "1d04d93584ca291f9b74f9dd493035efaa05c5bc19c5a70f7607c15093acbd2f",
+      "matches": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "833c83993995a7fc79edcea9c167b7e74456d6ffdfb4498830d1d5caf441d91a",
+      "matches": true
+    },
+    {
+      "path": "REPRODUCE.md",
+      "sha256": "01214375323f5d6abf43eb4d63e5f67f3fe91dff3694c4f09abdaceecfd00185",
+      "matches": true
+    },
+    {
+      "path": "SOURCE_SCOPE.md",
+      "sha256": "943e24ec39157a1efcc3e7521b8b61c30e143dfd1c97a587106f1e10a92d0036",
+      "matches": true
+    },
+    {
+      "path": "adjudication/output-only-context.txt",
+      "sha256": "527be35bb5fdb7c54e5042f6a5a567949c82d4d92f0a1cffa8f90e777234d61b",
+      "matches": true
+    },
+    {
+      "path": "adjudication/output-only-ledger-comparison.json",
+      "sha256": "ce54f6cfc83efdc30020519b55edb621001ff86ba3a78b2b2844ab7482465c87",
+      "matches": true
+    },
+    {
+      "path": "adjudication/output-only-ratings.json",
+      "sha256": "eb0f12d74fae677c3f95944752cf1af4e7417aaca61c3526430ad3a3492c3599",
+      "matches": true
+    },
+    {
+      "path": "adjudication/reconciliation.json",
+      "sha256": "0459bfdc214369b0a0ea15412aa5fab1e5eb593dbab1b9c1a0a6fd029a3c139a",
+      "matches": true
+    },
+    {
+      "path": "adjudication/source-aware-final.json",
+      "sha256": "8d94cc38c60eb7f7223e223adcad8f5643deff7d308124fc7b7cdc8ccc1484bc",
+      "matches": true
+    },
+    {
+      "path": "adjudication/source-aware-initial-A.json",
+      "sha256": "58207731b57195a9ad81f0c374b4dbd48a6a551879292b8d33ee8a76c8df3002",
+      "matches": true
+    },
+    {
+      "path": "adjudication/source-aware-initial-B.json",
+      "sha256": "5847aba0a77c1a6dc078506671b063f410bf8be65fda61f4ad2f2f92a05497d7",
+      "matches": true
+    },
+    {
+      "path": "evaluation/evaluation-cases.json",
+      "sha256": "ed26aace11b2f549da099aaa97f08547dcce59846e01a2d93edb725dc7001a0c",
+      "matches": true
+    },
+    {
+      "path": "evaluation/output-only-packet.json",
+      "sha256": "6d6796c7ac9b18a5781840db424687c50796d825b6177db2dbe9b745bdc0d758",
+      "matches": true
+    },
+    {
+      "path": "evaluation/question-crosswalk.json",
+      "sha256": "8f15e7e05e4721670d9402257f4482c5f0403e395eec445c9b63af0d737047a2",
+      "matches": true
+    },
+    {
+      "path": "evaluation/rating-template.json",
+      "sha256": "0663a38683c577912e9d983ae27ccff0abd0f8eacf153832a03ca084aaf51051",
+      "matches": true
+    },
+    {
+      "path": "evaluation/rubric.md",
+      "sha256": "64bced330fb4f59d951ac4fb798eecc16cb2aa199200afb375069369c5e642e2",
+      "matches": true
+    },
+    {
+      "path": "evaluation/source-aware-packet.json",
+      "sha256": "89774c847c81830ba8654de4baeba7b79574f40fbfa2e134e32b2ad2176aafae",
+      "matches": true
+    },
+    {
+      "path": "method/method.json",
+      "sha256": "0f8df1b9d359704bb20585488e806ff6a130091c82131764633c1f23a07d1e41",
+      "matches": true
+    },
+    {
+      "path": "method/model-runtime-identities.json",
+      "sha256": "8e670f8b62f55051e88ead56243f94b48e2cbd2343e0b83d6318e942e7925d19",
+      "matches": true
+    },
+    {
+      "path": "method/training-order.json",
+      "sha256": "bf5a8803ae4e587b2c6c37a1de3935180c817ff487b82c1b5e22de3003cdcc94",
+      "matches": true
+    },
+    {
+      "path": "method-inspection/core.py",
+      "sha256": "f3c14857f05997e77336567c7edf91b00912067639e5481606f01ebf5f3c8fe5",
+      "matches": true
+    },
+    {
+      "path": "method-inspection/decoder_public_derivative.py",
+      "sha256": "c58692d3ddf75c95729de44b674e531183284de635d81d008fe7533dd22fe7fb",
+      "matches": true
+    },
+    {
+      "path": "method-inspection/run.py",
+      "sha256": "b5d6bef05cb612384718e59916474354c05c00dab3d0d2450ad5d9a53c6921c8",
+      "matches": true
+    },
+    {
+      "path": "method-inspection/serialization.py",
+      "sha256": "916997866abbb90a73703e4eca130d1475c76d01f2491938de2e885dad886242",
+      "matches": true
+    },
+    {
+      "path": "outputs/O001.json",
+      "sha256": "a9a5a736d87c243e93201f5d814d480344e8a73b0f6d5ae54720d00ed7fe115b",
+      "matches": true
+    },
+    {
+      "path": "outputs/O002.json",
+      "sha256": "04cda668d01dbb80c1261414a8ebe27e4dbff9b00feae91ef9f4db59e5a8222f",
+      "matches": true
+    },
+    {
+      "path": "outputs/O003.json",
+      "sha256": "63208ef51f6850e3f132d2c2a28d2d28ec15b8e4fa211fd523ae81b1c038cba3",
+      "matches": true
+    },
+    {
+      "path": "outputs/O004.json",
+      "sha256": "6077cc4003d079a26bfadf6e20feb6026806d4995b81c63ad6094b6126eb1259",
+      "matches": true
+    },
+    {
+      "path": "outputs/O005.json",
+      "sha256": "bc54dde5ac4e5ff5cb2fd3c6b486fd8b21ac410f939d40e2252f0db5ea1bba5f",
+      "matches": true
+    },
+    {
+      "path": "outputs/O006.json",
+      "sha256": "13af92fe741a990636aa71f004fa2b173df53c873337a375adcdc01f6cfbc09e",
+      "matches": true
+    },
+    {
+      "path": "outputs/O007.json",
+      "sha256": "ecaee35f57158509f89e7723075eba0dcc21edc3e2f27970cf154b50ba9ddbf1",
+      "matches": true
+    },
+    {
+      "path": "outputs/O008.json",
+      "sha256": "f91d71b5893be2022094c4942c389eeb9bdb58b3487cabd2890f47bd67e9e387",
+      "matches": true
+    },
+    {
+      "path": "outputs/O009.json",
+      "sha256": "335f326df274014209c9010c51079212044de2948047491fed068d2bd7c571b9",
+      "matches": true
+    },
+    {
+      "path": "outputs/O010.json",
+      "sha256": "4c17985c1a15c4a8fb9e1ca95f44b7394dcc23ee55af966324aa0664eaae2f0e",
+      "matches": true
+    },
+    {
+      "path": "outputs/O011.json",
+      "sha256": "70a142b89c2d11f83cb9ab0d394de6b02c8ced68b71266e7682e6756b05c650c",
+      "matches": true
+    },
+    {
+      "path": "outputs/O012.json",
+      "sha256": "7512ae7cd06e81c3c7688481b77222ca8e88ed952bf12c0f5981758aeeb20eeb",
+      "matches": true
+    },
+    {
+      "path": "outputs/O013.json",
+      "sha256": "74c8bf0eb83d299f95892c512366499893ebf23531e7c39a4fcba75f2897c262",
+      "matches": true
+    },
+    {
+      "path": "outputs/O014.json",
+      "sha256": "ae9768cdcbd4984331a665d090570545b0d1d4652c73af30ad069b729d805632",
+      "matches": true
+    },
+    {
+      "path": "outputs/O015.json",
+      "sha256": "fd8b9489e8bd5bb2ecb42434ad5cd63f7b9573448b05af78fe801a327a025ba7",
+      "matches": true
+    },
+    {
+      "path": "outputs/O016.json",
+      "sha256": "f57d3c8e970036a3420dd37e373f4ef5e5a22c5678a5848c7d35a2edcf696322",
+      "matches": true
+    },
+    {
+      "path": "outputs/O017.json",
+      "sha256": "28944ce66b9a3ac169f0261acb01560cc97849bf71dd82ae8c22c6cb3039f5b1",
+      "matches": true
+    },
+    {
+      "path": "outputs/O018.json",
+      "sha256": "0166f3fa7b9f43dfd2418aa580af96015a86309a3fcf5413e1446f3e45bf0e88",
+      "matches": true
+    },
+    {
+      "path": "outputs/O019.json",
+      "sha256": "302a1021f5d7d2ccf209ea30956b93b8b5bf3e8fdfbee8d8ac32dc6e27944cd8",
+      "matches": true
+    },
+    {
+      "path": "outputs/O020.json",
+      "sha256": "ff793a1bf7625a3fbf63b4d2334ffc0bc96cc9316cb1b65a06db608008dcdc27",
+      "matches": true
+    },
+    {
+      "path": "outputs/O021.json",
+      "sha256": "8f05ceab259f8d8c961e5f5fa97e6ebbd72331ed86d82941b14ad0023e6ec237",
+      "matches": true
+    },
+    {
+      "path": "outputs/O022.json",
+      "sha256": "964a7d407a6fd616546eea5c57687d7a81d9bac43e294d7bc5f7292866a04ac0",
+      "matches": true
+    },
+    {
+      "path": "outputs/O023.json",
+      "sha256": "f97e508d3a51f577b3df0ac92598fda45b356e3181a3d7f39aa51db159ea4e7a",
+      "matches": true
+    },
+    {
+      "path": "outputs/O024.json",
+      "sha256": "9d2ce49dab0d5ee141e35343c97ad3caa938d487c8eb1cb566cc9eac0108d842",
+      "matches": true
+    },
+    {
+      "path": "results/aggregate.json",
+      "sha256": "119283c808ba6a6ab9249d81f8314356fa1ef67727fbb627ab52faf0f954c2f2",
+      "matches": true
+    },
+    {
+      "path": "results/engineering-summary.json",
+      "sha256": "ddec9fc970c0401a1dc8ce638d4c1c81a9de9393f0482c3e0d609cca17737a78",
+      "matches": true
+    },
+    {
+      "path": "source/__init__.py",
+      "sha256": "96517f13182bf1af1122c56bf2fd51afe90c4af246630f8efd883dcb38b0d6e3",
+      "matches": true
+    },
+    {
+      "path": "source/custody.py",
+      "sha256": "9b0769bf969d9e34410e33bad88dd184678da578431dfe2ec447e6590d7336cc",
+      "matches": true
+    },
+    {
+      "path": "source/optimizer.py",
+      "sha256": "a8831d6d27f8719971ee9ef19e4a48764c97e2199db5743ccf947213b44253f0",
+      "matches": true
+    },
+    {
+      "path": "source/schedule.py",
+      "sha256": "231ed48b7b32cbf00dd14f78525fa03a680317edaec62919d6315447287aa22c",
+      "matches": true
+    },
+    {
+      "path": "source/scoring.py",
+      "sha256": "6709a41be12e5695645e7be371b6bdf1f0a32802a360ac5f3b529d3bc0cb2688",
+      "matches": true
+    },
+    {
+      "path": "verify_package.py",
+      "sha256": "999af822e30a062ccfd31dd298fc88db5c3eddf522e1b05baafd153789f28845",
+      "matches": true
+    }
+  ],
+  "annotation_denominator": 74,
+  "annotation_cross_tab": [
+    {
+      "truth_status": "contradicted",
+      "answerability": "answerable",
+      "count": 1
+    },
+    {
+      "truth_status": "contradicted",
+      "answerability": "uncertain",
+      "count": 1
+    },
+    {
+      "truth_status": "omitted",
+      "answerability": "answerable",
+      "count": 4
+    },
+    {
+      "truth_status": "omitted",
+      "answerability": "unanswerable",
+      "count": 2
+    },
+    {
+      "truth_status": "omitted",
+      "answerability": "uncertain",
+      "count": 1
+    },
+    {
+      "truth_status": "preserved",
+      "answerability": "answerable",
+      "count": 64
+    },
+    {
+      "truth_status": "uncertain",
+      "answerability": "uncertain",
+      "count": 1
+    }
+  ],
+  "failed_answerable": 5,
+  "failed_total": 10,
+  "input_only_oracle_correct": 576,
+  "oracle_total": 576,
+  "paired_permutation_cells": 288,
+  "blind_pair_checks": 1728,
+  "profile_blind_paired_recall": 0.5,
+  "profile_blind_paired_selectivity": 0,
+  "profile_blind_max_paired_exact": 0.5,
+  "uniform_random_exact_probability": 0.16666666666666666,
+  "source_clusters": 12
+}

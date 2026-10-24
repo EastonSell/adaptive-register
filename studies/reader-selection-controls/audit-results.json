@@ -1,0 +1,530 @@
+{
+  "kind": "retained_public_annotations_recount_and_synthetic_null",
+  "not_a_model_experiment": true,
+  "historical_gate": "failed; 14/24 fluent truth complete, 3/24 all unknown supported; no B/C/S/test admission",
+  "corrected005": "not run; original seals lost; gate NULL/unvalidated",
+  "source_identity": {
+    "repository": "EastonSell/language-for-the-reader",
+    "acquisition_commit": "66c97db6c78fb62ef42739acc2ff67ba6ae84b80",
+    "unchanged_at_commit": "6dd1c8fb2544f55058f5fb6b9ba2af8938d06145",
+    "latest_requested_commit_not_independently_verified": "79b745b5374293560ba9a0c546ce0403837ffb80"
+  },
+  "consumed_sha256": [
+    {
+      "path": "adjudication/source-aware-final.json",
+      "sha256": "8d94cc38c60eb7f7223e223adcad8f5643deff7d308124fc7b7cdc8ccc1484bc"
+    },
+    {
+      "path": "evaluation/source-aware-packet.json",
+      "sha256": "89774c847c81830ba8654de4baeba7b79574f40fbfa2e134e32b2ad2176aafae"
+    },
+    {
+      "path": "adjudication/output-only-ledger-comparison.json",
+      "sha256": "ce54f6cfc83efdc30020519b55edb621001ff86ba3a78b2b2844ab7482465c87"
+    },
+    {
+      "path": "outputs/O001.json",
+      "sha256": "a9a5a736d87c243e93201f5d814d480344e8a73b0f6d5ae54720d00ed7fe115b"
+    },
+    {
+      "path": "outputs/O002.json",
+      "sha256": "04cda668d01dbb80c1261414a8ebe27e4dbff9b00feae91ef9f4db59e5a8222f"
+    },
+    {
+      "path": "outputs/O003.json",
+      "sha256": "63208ef51f6850e3f132d2c2a28d2d28ec15b8e4fa211fd523ae81b1c038cba3"
+    },
+    {
+      "path": "outputs/O004.json",
+      "sha256": "6077cc4003d079a26bfadf6e20feb6026806d4995b81c63ad6094b6126eb1259"
+    },
+    {
+      "path": "outputs/O005.json",
+      "sha256": "bc54dde5ac4e5ff5cb2fd3c6b486fd8b21ac410f939d40e2252f0db5ea1bba5f"
+    },
+    {
+      "path": "outputs/O006.json",
+      "sha256": "13af92fe741a990636aa71f004fa2b173df53c873337a375adcdc01f6cfbc09e"
+    },
+    {
+      "path": "outputs/O007.json",
+      "sha256": "ecaee35f57158509f89e7723075eba0dcc21edc3e2f27970cf154b50ba9ddbf1"
+    },
+    {
+      "path": "outputs/O008.json",
+      "sha256": "f91d71b5893be2022094c4942c389eeb9bdb58b3487cabd2890f47bd67e9e387"
+    },
+    {
+      "path": "outputs/O009.json",
+      "sha256": "335f326df274014209c9010c51079212044de2948047491fed068d2bd7c571b9"
+    },
+    {
+      "path": "outputs/O010.json",
+      "sha256": "4c17985c1a15c4a8fb9e1ca95f44b7394dcc23ee55af966324aa0664eaae2f0e"
+    },
+    {
+      "path": "outputs/O011.json",
+      "sha256": "70a142b89c2d11f83cb9ab0d394de6b02c8ced68b71266e7682e6756b05c650c"
+    },
+    {
+      "path": "outputs/O012.json",
+      "sha256": "7512ae7cd06e81c3c7688481b77222ca8e88ed952bf12c0f5981758aeeb20eeb"
+    },
+    {
+      "path": "outputs/O013.json",
+      "sha256": "74c8bf0eb83d299f95892c512366499893ebf23531e7c39a4fcba75f2897c262"
+    },
+    {
+      "path": "outputs/O014.json",
+      "sha256": "ae9768cdcbd4984331a665d090570545b0d1d4652c73af30ad069b729d805632"
+    },
+    {
+      "path": "outputs/O015.json",
+      "sha256": "fd8b9489e8bd5bb2ecb42434ad5cd63f7b9573448b05af78fe801a327a025ba7"
+    },
+    {
+      "path": "outputs/O016.json",
+      "sha256": "f57d3c8e970036a3420dd37e373f4ef5e5a22c5678a5848c7d35a2edcf696322"
+    },
+    {
+      "path": "outputs/O017.json",
+      "sha256": "28944ce66b9a3ac169f0261acb01560cc97849bf71dd82ae8c22c6cb3039f5b1"
+    },
+    {
+      "path": "outputs/O018.json",
+      "sha256": "0166f3fa7b9f43dfd2418aa580af96015a86309a3fcf5413e1446f3e45bf0e88"
+    },
+    {
+      "path": "outputs/O019.json",
+      "sha256": "302a1021f5d7d2ccf209ea30956b93b8b5bf3e8fdfbee8d8ac32dc6e27944cd8"
+    },
+    {
+      "path": "outputs/O020.json",
+      "sha256": "ff793a1bf7625a3fbf63b4d2334ffc0bc96cc9316cb1b65a06db608008dcdc27"
+    },
+    {
+      "path": "outputs/O021.json",
+      "sha256": "8f05ceab259f8d8c961e5f5fa97e6ebbd72331ed86d82941b14ad0023e6ec237"
+    },
+    {
+      "path": "outputs/O022.json",
+      "sha256": "964a7d407a6fd616546eea5c57687d7a81d9bac43e294d7bc5f7292866a04ac0"
+    },
+    {
+      "path": "outputs/O023.json",
+      "sha256": "f97e508d3a51f577b3df0ac92598fda45b356e3181a3d7f39aa51db159ea4e7a"
+    },
+    {
+      "path": "outputs/O024.json",
+      "sha256": "9d2ce49dab0d5ee141e35343c97ad3caa938d487c8eb1cb566cc9eac0108d842"
+    }
+  ],
+  "outputs": [
+    {
+      "output_id": "O001",
+      "source_id": "kite_dock-01",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 46,
+      "unknown_statuses": {
+        "supported": 1,
+        "uncertain": 1
+      }
+    },
+    {
+      "output_id": "O002",
+      "source_id": "kite_dock-01",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 44,
+      "unknown_statuses": {
+        "uncertain": 1,
+        "absent_or_unglossed": 1
+      }
+    },
+    {
+      "output_id": "O003",
+      "source_id": "kite_dock-02",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 35,
+      "unknown_statuses": {
+        "absent_or_unglossed": 2
+      }
+    },
+    {
+      "output_id": "O004",
+      "source_id": "kite_dock-02",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 38,
+      "unknown_statuses": {
+        "supported": 1,
+        "absent_or_unglossed": 1
+      }
+    },
+    {
+      "output_id": "O005",
+      "source_id": "bubble_clock-01",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 38,
+      "unknown_statuses": {
+        "supported": 1,
+        "absent_or_unglossed": 1
+      }
+    },
+    {
+      "output_id": "O006",
+      "source_id": "bubble_clock-01",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": true,
+      "tokens_including_eos": 42,
+      "unknown_statuses": {
+        "supported": 2
+      }
+    },
+    {
+      "output_id": "O007",
+      "source_id": "bubble_clock-02",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": true,
+      "tokens_including_eos": 37,
+      "unknown_statuses": {
+        "supported": 2
+      }
+    },
+    {
+      "output_id": "O008",
+      "source_id": "bubble_clock-02",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": true,
+      "tokens_including_eos": 42,
+      "unknown_statuses": {
+        "supported": 2
+      }
+    },
+    {
+      "output_id": "O009",
+      "source_id": "ink_terrace-01",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 40,
+      "unknown_statuses": {
+        "absent_or_unglossed": 1,
+        "inaccurate": 1
+      }
+    },
+    {
+      "output_id": "O010",
+      "source_id": "ink_terrace-01",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 39,
+      "unknown_statuses": {
+        "absent_or_unglossed": 1,
+        "uncertain": 1
+      }
+    },
+    {
+      "output_id": "O011",
+      "source_id": "ink_terrace-02",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 42,
+      "unknown_statuses": {
+        "absent_or_unglossed": 1,
+        "inaccurate": 1
+      }
+    },
+    {
+      "output_id": "O012",
+      "source_id": "ink_terrace-02",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 37,
+      "unknown_statuses": {
+        "absent_or_unglossed": 2
+      }
+    },
+    {
+      "output_id": "O013",
+      "source_id": "mask_automaton-01",
+      "truth_complete": false,
+      "truth_safe": false,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 33,
+      "unknown_statuses": {
+        "uncertain": 2
+      }
+    },
+    {
+      "output_id": "O014",
+      "source_id": "mask_automaton-01",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 47,
+      "unknown_statuses": {
+        "uncertain": 1,
+        "supported": 1
+      }
+    },
+    {
+      "output_id": "O015",
+      "source_id": "mask_automaton-02",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 40,
+      "unknown_statuses": {
+        "absent_or_unglossed": 1,
+        "supported": 1
+      }
+    },
+    {
+      "output_id": "O016",
+      "source_id": "mask_automaton-02",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 41,
+      "unknown_statuses": {
+        "absent_or_unglossed": 1,
+        "supported": 1
+      }
+    },
+    {
+      "output_id": "O017",
+      "source_id": "shell_forecast-01",
+      "truth_complete": true,
+      "truth_safe": false,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 43,
+      "unknown_statuses": {
+        "absent_or_unglossed": 1,
+        "supported": 1
+      }
+    },
+    {
+      "output_id": "O018",
+      "source_id": "shell_forecast-01",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 40,
+      "unknown_statuses": {
+        "supported": 1,
+        "absent_or_unglossed": 1
+      }
+    },
+    {
+      "output_id": "O019",
+      "source_id": "shell_forecast-02",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 34,
+      "unknown_statuses": {
+        "absent_or_unglossed": 2
+      }
+    },
+    {
+      "output_id": "O020",
+      "source_id": "shell_forecast-02",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 37,
+      "unknown_statuses": {
+        "absent_or_unglossed": 1,
+        "supported": 1
+      }
+    },
+    {
+      "output_id": "O021",
+      "source_id": "glass_maze-01",
+      "truth_complete": true,
+      "truth_safe": false,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 51,
+      "unknown_statuses": {
+        "uncertain": 2
+      }
+    },
+    {
+      "output_id": "O022",
+      "source_id": "glass_maze-01",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 45,
+      "unknown_statuses": {
+        "supported": 1,
+        "uncertain": 1
+      }
+    },
+    {
+      "output_id": "O023",
+      "source_id": "glass_maze-02",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 50,
+      "unknown_statuses": {
+        "absent_or_unglossed": 1,
+        "uncertain": 1
+      }
+    },
+    {
+      "output_id": "O024",
+      "source_id": "glass_maze-02",
+      "truth_complete": true,
+      "truth_safe": true,
+      "all_unknown_supported": false,
+      "tokens_including_eos": 46,
+      "unknown_statuses": {
+        "supported": 1,
+        "uncertain": 1
+      }
+    }
+  ],
+  "source_pair_truth_counts": {
+    "0_truth_complete": 3,
+    "1_truth_complete": 4,
+    "2_truth_complete": 5
+  },
+  "per_scenario": [
+    {
+      "source_id": "kite_dock-01",
+      "outputs": 2,
+      "truth_complete": 0,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "kite_dock-02",
+      "outputs": 2,
+      "truth_complete": 1,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "bubble_clock-01",
+      "outputs": 2,
+      "truth_complete": 0,
+      "all_unknown_supported": 1
+    },
+    {
+      "source_id": "bubble_clock-02",
+      "outputs": 2,
+      "truth_complete": 0,
+      "all_unknown_supported": 2
+    },
+    {
+      "source_id": "ink_terrace-01",
+      "outputs": 2,
+      "truth_complete": 1,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "ink_terrace-02",
+      "outputs": 2,
+      "truth_complete": 1,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "mask_automaton-01",
+      "outputs": 2,
+      "truth_complete": 1,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "mask_automaton-02",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "shell_forecast-01",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "shell_forecast-02",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "glass_maze-01",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    },
+    {
+      "source_id": "glass_maze-02",
+      "outputs": 2,
+      "truth_complete": 2,
+      "all_unknown_supported": 0
+    }
+  ],
+  "all_supported_outputs": [
+    "O006",
+    "O007",
+    "O008"
+  ],
+  "all_supported_and_truth_complete": 0,
+  "proposition_judgment_count": 74,
+  "preserved_proposition_judgments": 64,
+  "failed_proposition_judgments": 10,
+  "failed_propositions_answerability": {
+    "answerable": 5,
+    "uncertain": 3,
+    "unanswerable": 2
+  },
+  "failed_but_answerable_ids": [
+    {
+      "output_id": "O001",
+      "proposition_id": "kite_dock-01-p3",
+      "ledger_comparison": "partial_missing_required_scope"
+    },
+    {
+      "output_id": "O002",
+      "proposition_id": "kite_dock-01-p3",
+      "ledger_comparison": "partial_missing_required_scope"
+    },
+    {
+      "output_id": "O005",
+      "proposition_id": "bubble_clock-01-p3",
+      "ledger_comparison": "partial_missing_required_scope"
+    },
+    {
+      "output_id": "O006",
+      "proposition_id": "bubble_clock-01-p3",
+      "ledger_comparison": "partial_missing_required_scope"
+    },
+    {
+      "output_id": "O011",
+      "proposition_id": "ink_terrace-02-p1",
+      "ledger_comparison": "incorrect_or_wrong_entity"
+    }
+  ],
+  "synthetic_uniform_two_of_four_null": {
+    "enumerated_cells": 144,
+    "mean_unknown_recall": 0.5,
+    "mean_unknown_minus_known_selection": 0.0,
+    "exact_pair_rate": 0.16666666666666666
+  }
+}
